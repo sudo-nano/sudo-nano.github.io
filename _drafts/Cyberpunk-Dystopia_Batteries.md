@@ -41,7 +41,7 @@ harmful to people and the environment than traditional garbage.
 > Electronic scrap components, such as CPUs, contain potentially harmful materials 
 > such as lead, cadmium, beryllium, or brominated flame retardants. Recycling and 
 > disposal of e-waste may involve significant risk to the health of workers and 
-> their communities.[^2] ([Wikipedia][https://en.wikipedia.org/wiki/Electronic_waste#Definition])
+> their communities.[^2] ([Wikipedia](https://en.wikipedia.org/wiki/Electronic_waste#Definition))
 
 Making batteries easily replaceable to mitigate these issues is quite easy. 
 All a manufacturer has to do is
