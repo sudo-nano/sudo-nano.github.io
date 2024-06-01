@@ -35,7 +35,7 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true # runs 'bundle install' and caches installed gems
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         run: bundle exec jekyll build
         env:
