@@ -97,6 +97,9 @@ the people that use them can step in to maintain them, preventing otherwise
 inevitable disruption of important infrastructure. It provides more reliable infrastructure
 and a check against the tightening grip of capitalism.
 
+<!-- Add section about medical hardware, including existing hardware and upcoming
+such as Neuralink https://youtu.be/4Qz7rPxOExo?si=m9EjTLgu-t_hJCkC -->
+
 
 ### Assisting Security Research
 <!--
