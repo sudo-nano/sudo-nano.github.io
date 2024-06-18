@@ -153,7 +153,7 @@ makes sense to you.
 **Mirroring** is when you repeat the last few words of someone's statement back
 to them, with upward inflection like a question. It's great for when someone is
 explaining something in way that doesn't quite make sense, and you want to coax
-them into elaborating.After you use a mirror, give it some space 
+them into elaborating. After you use a mirror, give it some space 
 and allow the other person to say something before you continue speaking. 
 
 Voss uses the following example from his own negotiation with a bank robber: 
@@ -170,9 +170,11 @@ what you're saying until they feel their viewpoint is understood. Anecdotally, t
 occurs more often with neurotypical individuals. 
 
 A label usually starts with something like 
+
 - It seems like...
 - It sounds like...
 - It looks like...
+
 Avoid using the word "I", as it signals that you're more interested in yourself than 
 them. As Voss says, keeping "I" out of this makes it a "neutral satement of understanding." 
 
