@@ -4,7 +4,7 @@ title: "My Coping Mechanisms"
 date: 2024-06-18 16:00:00 -0700
 tags: software neurodivergence opinion
 --- 
-
+<!-- Comment to get GitHub to re-render the site -->
 Recently I've become a big fan of the YouTube channel [No Boilerplate](https://youtu.be/XUZ9VATeF_4)
 run by Tris Oaten.
 This is likely because we have similar flavors of Spicy Brain (neurodivergence) and
