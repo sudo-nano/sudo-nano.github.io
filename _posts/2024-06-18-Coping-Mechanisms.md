@@ -1,13 +1,9 @@
 ---
 layout: post
 title: "My Coping Mechanisms"
-date: 2024-04-22 16:00:00 -0700
+date: 2024-06-18 16:00:00 -0700
 tags: software neurodivergence opinion
-category: drafts
-hidden: true
 --- 
-
-<!-- TO DO: Make 3 editing passes -->
 
 Recently I've become a big fan of the YouTube channel [No Boilerplate](https://youtu.be/XUZ9VATeF_4)
 run by Tris Oaten.
@@ -38,17 +34,6 @@ It's critical that they be methods that you like, otherwise you won't actually u
 Put them in places that are convenient to access whenever you need them. *Never* avoid
 writing something down for fear of it being unorganized. You can organize later, write 
 it down before you forget it.
-
-<!-- 
-I'm
-a big fan of [Logseq](https://github.com/logseq/logseq). It's an open source program 
-that uses [Markdown](https://commonmark.org/) (or [org mode](https://orgmode.org/), a less popular markup language) 
-to thoroughly manage and organize notes
-divided into bullet points called blocks. Most importantly, it supports linking 
-between pages of your notes, and lets you tag blocks so that it's easier to find them 
-later. Obsidian is a popular and more mature alternative, though it's closed source
-and doesn't support org mode.
--->
 
 Two popular note taking programs are Obsidian and Logseq. They share most of their
 core features.
