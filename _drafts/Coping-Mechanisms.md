@@ -39,13 +39,37 @@ Put them in places that are convenient to access whenever you need them. *Never*
 writing something down for fear of it being unorganized. You can organize later, write 
 it down before you forget it.
 
+<!-- 
 I'm
 a big fan of [Logseq](https://github.com/logseq/logseq). It's an open source program 
-that uses Markdown (or org mode, if you prefer) to thoroughly manage and organize notes
-divided into blocks (basically bullet points). Most importantly, it supports linking 
+that uses [Markdown](https://commonmark.org/) (or [org mode](https://orgmode.org/), a less popular markup language) 
+to thoroughly manage and organize notes
+divided into bullet points called blocks. Most importantly, it supports linking 
 between pages of your notes, and lets you tag blocks so that it's easier to find them 
 later. Obsidian is a popular and more mature alternative, though it's closed source
 and doesn't support org mode.
+-->
+
+Two popular note taking programs are Obsidian and Logseq. They share most of their
+core features.
+- Ability to link between pages of notes (the most useful feature!)
+- Configurable themes using CSS 
+- Notes written and stored in plain text using [Markdown](https://commonmark.org/) markup language
+- Supports user-made plugins
+
+There are a few places where they diverge. Logseq supports [org mode](https://orgmode.org/), 
+a less popular markup language, while Obsidian doesn't. Obsidian is older and more mature, 
+with well-developed community plugins. Logseq hasn't been around as long, so it's a little 
+rough around the edges with some of the smaller features and plugins. Obsidian is
+closed source, while Logseq is open source. 
+
+Some of the most popular Obsidian plugins have been integrated into Logseq's core toolset.
+This can be either a benefit or a detriment, depending on how complicated you
+want your workflow to be. Logseq tends to be more complicated and a little more
+free-form, while Obsidian focuses on having a cleanly implemented set of core features,
+and leaves the rest to community plugins. Logseq is my preferred app, but I'd say
+it's a stylistic difference from Obsidian rather than a competitor.
+
 
 ### Carry a notebook
 For paper notebooks, dot grid notebooks are fantastic. They provide the ruled function
@@ -86,12 +110,14 @@ Motion has some really cool features, such as automatically scheduling tasks int
 your available time between events. However, I hesitate to recommend it for a few reasons: 
 1. **It costs too much.** It's $30 per month. If you prepay for a year, you can cut it down to $19 per month. If you call and ask, there's a secret student discount that cuts the price in half, bringing it to a more reasonable $9.50/mo if you pay by the year.
 2. **Customer support is garbage.** The "dedicated support" they advertise is an AI chatbot. The chatbot is useless and only regurgitates help pages. Dealing with that piece of junk is mandatory (albeit brief) if you want to message a real person. They also don't have a help phone number, and will not give you one.
-3. **The desktop and mobile apps are electron apps.** For those who aren't programmers, Electron.JS is a framework for creating "web apps" that basically package your website into an application format. An electron app runs the website as an instance of chrome inside the app, which is much more resource intensive than programming a regular app. Developers choose it because it's faster to cram their website into an app than it is to program a lightweight app.
+3. **The desktop and mobile apps are Electron apps.** For those who aren't programmers, Electron.JS is a framework for creating "web apps" that basically package your website into an application format. An Electron app runs the website as an instance of chrome inside the app, which is much more resource intensive than programming a regular app. Developers choose it because it's faster to cram their website into an app than it is to program a lightweight app.
 
+It helps to know whether you prefer paper or digital calendars. Each has their 
+benefits, use the one you like most. 
 
 ### Carry Earplugs 
 Like Tris, I experience sensory overload, and thus carry earplugs on my keychain. 
-If you have over-hear headphones, or earbuds with sufficient passive or active
+If you have over-ear headphones, or earbuds with sufficient passive or active
 noise cancelling, those work too. Some think it's disrespectful to carry on 
 a conversation while wearing earbuds or over-ear headphones. Additionally, 
 I don't like the feeling of active noise cancelling. To solve these problems, 
@@ -111,7 +137,8 @@ the layperson doesn't receive enough education about. As a percussionist,
 I wasn't told to wear hearing protection until I had been playing for 6 years. 
 Now, I have mild hearing damage and tinnitus. If you're a percussionist, go to
 loud concerts, or routinely go anywhere loud enough that you must shout to be
-heard, you need hearing protection. 
+heard, you need hearing protection. If these conditions are occurring at your
+workplace, your employer should be providing hearing protection.
 
 ### In the face of ambiguity, refuse the temptation to guess
 <!-- Discuss methods from Never Split The Difference -->
