@@ -35,7 +35,7 @@ your accommodations. They may not refuse them in whole or even in part.
 Unfortunately, many teachers are poorly informed on the matter. Many are not
 adequately informed by their workplace on what they can and cannot do. Even
 those that are informed are often not instructed on how to best meet a 
-student's learning needs, only how to reach bare minimum compliance under the
+student's needs. Most are only told how to reach bare minimum compliance under the
 law. 
 
 ### Talk to the teacher 
