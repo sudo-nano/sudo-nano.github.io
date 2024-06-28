@@ -77,8 +77,9 @@ seconds after going to sleep, preventing it from sleeping.
 caused a secondary issue where the screen would black out for a second every time
 I moved my mouse. This secondary issue is no longer present on the clean Endeavour
 install.~~ 
-Edit 2024-04-14: This issue did actually reoccur, and seems to have been a monitor issue. 
-It was fixed by obtaining a better monitor.
+Edit 2024-04-14: The secondary issue was actually a monitor issue. It was caused
+by my ViewSonic portable monitor being a piece of garbage, and fixed by 
+obtaining a better monitor.
 
 3. My display refresh rate no longer reverts to 60 Hz every time I reboot. 
 This may be a nonissue for people who use 60 Hz monitors, but I enjoy video 
