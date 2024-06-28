@@ -26,7 +26,7 @@ you have system software that relies on those libraries being a specific version
 you risk breaking them and thus your OS. I've done this several times by making 
 the foolish mistake of trying to upgrade my system C libraries manually. 
 
-Quoth Tumblr user clitfisto on the infamous [battery acid spaghetti post](https://www.tumblr.com/babblingbranches/669570171962327040), "don't do this." 
+Quoth Tumblr user clitfisto on the infamous [battery acid spaghetti post](https://www.tumblr.com/babblingbranches/669570171962327040), "don't do this."[^2] 
 
 If you're not going to manually upgrade libraries, your only option is to wait months
 for newer versions to be pushed to official Debian repositories. Possibly longer
@@ -37,7 +37,7 @@ not included in the official repositories. "Safe", in this case, means unlikely
 to cause issues (present or future) or incur technical debt. This is because Debian 
 has no way to ensure that 3rd party packages don't conflict with official packages. 
 Arch avoids the outdated libraries issue by being a rolling release distribution, and
-handles the conflict issue by letting the `yay` package manager handle both official \
+handles the conflict issue by letting the `yay` package manager handle both official
 packages (via `pacman`) and unofficial packages (via AUR). 
 
 In short, I have fundamental disagreements with the Debian philosophy on how to 
@@ -98,3 +98,5 @@ have things you want to see in this series, send them my way.
 
 ## Footnotes
 [^1]: My previous setup was Mint 21.1 with KDE and with Linux kernel 6.1.0 kludged in as an attempted (unsuccessful) fix for the suspend issue before I had figured out the true root cause. 
+
+[^2]: This broke my operating system both times I tried it. Keep regular backups, or else. 
