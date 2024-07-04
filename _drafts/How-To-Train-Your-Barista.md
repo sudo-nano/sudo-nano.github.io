@@ -7,6 +7,8 @@ category: drafts
 hidden: true
 --- 
 
+> Content Warning: Mild tea snobbery. For extreme tea snobbery, see the upcoming sequel to this post. {: .prompt-danger }
+
 ## Someone just sent this to you
 If someone handed this to you, you probably work in a cafe that makes bad tea, 
 and that’s ok. **Someone handed this to you because they care enough that they 
