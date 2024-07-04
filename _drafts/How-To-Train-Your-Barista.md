@@ -7,7 +7,9 @@ category: drafts
 hidden: true
 --- 
 
-> Content Warning: Mild tea snobbery. For extreme tea snobbery, see the upcoming sequel to this post. {: .prompt-danger }
+> Content Warning: Mild tea snobbery. For extreme tea snobbery, see the upcoming 
+sequel to this post. 
+{: .prompt-warning }
 
 ## Someone just sent this to you
 If someone handed this to you, you probably work in a cafe that makes bad tea, 
@@ -59,22 +61,25 @@ yourself by using oat milk instead of dairy for your tea.
 It's more delicate, and makes it harder to obliterate the tea with too much milk. 
 
 ### Steep non-black tea in boiling water
-Non-black teas (green, oolong, white) will burn if steeped in water that’s too 
-hot, which will make them overly bitter. Their ideal temperature is about 68C. 
+Non-black teas (green, oolong, yellow, white) will burn if steeped in water 
+that’s too hot, which will make them overly bitter.[^2] Their ideal temperature is 
+about 68C. 
 Since this is the guide for people who don’t give a shit, you don’t have to 
-bother with a thermometer. If your water is fresh off the boil, throw 2 ice 
-cubes in it (based on standard commercial ice maker cube size) or just leave it 
-out for a minute.
+bother with a thermometer. If your water is fresh off the boil, throw 1-2 ice 
+cubes in it, or just leave it out for a few minutes.
 
 ### Steep tea for more than 5 minutes 
 With the exception of herbal teas, don’t. Literally just do not. Tea (as in 
-actual tea leaves from the Camellia Sinensis plant) should be steeped for 
+actual tea leaves from the tea plant) should be steeped for 
 a maximum of 4 minutes. Oversteeping will make it 
 extremely bitter. No, putting the teabag in the water and then immediately 
 pouring the steamed milk in and serving it does not count. As previously 
 mentioned, the steeping is effectively stopped as soon as you add the milk.
 
 
-
 ## Footnotes
 [^1]: 87.8C/190F is the ideal steeping temperature for black tea, 76.6C/170F is the ideal temperature for green tea. 
+
+[^2]: This is readily demonstrated by Starbucks' green tea. It tastes bitter 
+with no sweetener because they burn it, but if you add one pump of sweetener, 
+it cancels out the bitterness and tastes like a decent cup of tea. 
