@@ -163,13 +163,15 @@ making software open source.
 ### Accountability Auditing
 <!--
 Outline:
-- Auditing claims caused by 
+- Auditing claims about closed source software can only be done by reverse engineering 
+- Reverse engineering is potentially illegal under the service's EULA or the DMCA 
+- Are you starting to see a theme here with the DMCA
 -->
 
 ## Footnotes
 
 [^1]: [https://en.wikipedia.org/wiki/GNU_Manifesto](https://en.wikipedia.org/wiki/GNU_Manifesto)
-[^2]: Regardless of whether the lawsuits actually have merit, having to fend them off can completely exhaust the money and resources of an individual or small group. This is especially true when the plaintiff (person filing the lawsuit) has lots of money, like Apple. For more on this, read about [SLAPP lawsuits.](https://en.wikipedia.org/wiki/Strategic_lawsuit_against_public_participation)
+[^2]: Regardless of whether the lawsuits actually have merit, having to fend them off can completely exhaust the money and resources of an individual or small group. This is especially true when the plaintiff (person filing the lawsuit) has a lot more money than the defendant. For more on this, read about [SLAPP lawsuits.](https://en.wikipedia.org/wiki/Strategic_lawsuit_against_public_participation)
 [^3]: This statement applies primarily to the United States, which has fallen behind in antitrust enforcement and consumer protection laws since the Reagan administration.
 [^4]: [Garcia et al., “Dismantling MIFARE Classic.”](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
 [^5]: [https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#](https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#)
