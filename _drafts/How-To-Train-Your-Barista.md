@@ -12,8 +12,8 @@ sequel to this post.
 {: .prompt-warning }
 
 ## Someone just sent this to you
-If someone handed this to you, you probably work in a cafe that makes bad tea, 
-and that’s ok. **Someone handed this to you because they care enough that they 
+If someone sent this to you, you probably work in a cafe that makes bad tea, 
+and that’s ok. **Someone sent this to you because they care enough that they 
 want the cafe to do better.**
 
 It’s not a reflection on you personally, unless you own the cafe. Assuming 
