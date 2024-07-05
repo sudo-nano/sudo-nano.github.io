@@ -6,6 +6,7 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
+# Included examples
 cotes:
   name: Cotes Chung
   twitter: cotes2020
@@ -15,3 +16,12 @@ sille_bille:
   name: Dinesh Prasanth Moluguwan Krishnamoorthy
   twitter: dinesh_MKD
   url: https://github.com/SilleBille/
+
+# My authors
+TheMagicalC:
+  name: TheMagicalC
+  url: https://github.com/sudo-nano/
+
+TuckerTwomey:
+  name: Tucker R. Twomey 
+  url: https://tucker.the-twomeys.com/
