@@ -6,6 +6,7 @@ tags: politics right-to-repair cyberpunk
 category: drafts # Change this before publication
 #category: Cyberpunk Dystopia
 hidden: true # delete this before publication
+authors: [TheMagicalC, TuckerTwomey]
 ---
 This is post #01 <!-- Edit this AND THE TITLE before posting -->
 in a series about what we can do to make real life less
@@ -173,3 +174,5 @@ Outline:
 [^4]: [Garcia et al., “Dismantling MIFARE Classic.”](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
 [^5]: [https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#](https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#)
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
+
+## Credits
