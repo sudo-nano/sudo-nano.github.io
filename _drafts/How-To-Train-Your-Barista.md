@@ -16,7 +16,8 @@ If someone sent this to you, you probably work in a cafe that makes bad tea,
 and that’s ok. **Someone sent this to you because they care enough that they 
 want the cafe to do better.**
 
-It’s not a reflection on you personally, unless you own the cafe. Assuming 
+It’s not a reflection on you personally, unless you have personally decided that 
+training employees on proper tea preparation isn't worth it. Assuming 
 that’s not the case, whoever’s in charge didn’t think it worth teaching 
 employees anything about making tea. I’m here to tell you that it’s worth your 
 time. That’s because most coffee shops make shitty tea that’s not worth 
@@ -32,9 +33,13 @@ about 1.5 tablespoons (or 2 teabags) for black tea. If you're making a green tea
 latte, the optimal amount is about 3 tablespoons of loose leaf tea, or 2 teabags. 
 
 ### Use quality tea 
-It’s best if you use quality loose leaf, or at the very least quality teabags. 
+It’s best if you use loose leaf tea, or at the very least quality teabags. 
 There are plenty of decent teabags out there, like Mighty Leaf or Yama Moto Yama.
 Bigelow and Lipton are bottom of the barrel. 
+
+Loose leaf tea will be higher quality than all but the most expensive teabags. 
+All else being equal, it costs less[^1] is better for the environment[^2], and
+is more compact to store. 
 
 ### Ingredient order
 Order of ingredients when steeping is important. Steep the tea in the hot water 
@@ -43,43 +48,70 @@ next, because otherwise the milk solutes and lower temperature will make it take
 longer to dissolve. Milk last, so that it doesn’t affect the other steps of the 
 tea making process.
 
-## Things you should never do with tea 
-### Steep the tea directly in milk 
+## Avoiding common mistakes 
+### Don't steep the tea directly in milk 
 With the sole exception of making chai from scratch, steeping tea directly in 
 milk will make it sad and flavorless. I’m looking at you, every single coffee 
-shop that makes a ”london fog” by dropping a Bigelow earl gray teabag into a cup 
+shop that makes a ”London fog” by dropping a Bigelow earl gray teabag into a cup 
 of steamed milk. The milk has too much dissolved in it for the nice tea flavors 
-to get in. Additionally, the ideal milk steaming temperature (55-65C) is much 
-lower than the ideal tea steeping temperature[^1], so the extraction 
+to infuse. Additionally, the ideal milk steaming temperature (55-65C) is much 
+lower than the ideal tea steeping temperature[^3], so the extraction 
 will be very weak.
 
-### Add 50% or more milk 
+### Avoid adding too much milk 
 Tea is not coffee. Tea is more delicate than coffee. Less milk is required to make 
-a balanced drink, tea only needs 10-20% milk.[^Citation Needed] If you add too 
+a balanced drink, tea only needs 10-20% milk.[^Citation Needed] 
+<!-- TEST EMPIRICALLY AND FIX AMOUNT -->
+If you add too 
 much, you’ll get tinted milk instead of tea. You can even make things easier for 
 yourself by using oat milk instead of dairy for your tea. 
-It's more delicate, and makes it harder to obliterate the tea with too much milk. 
+It's more delicate, and makes it harder to obliterate the tea with too much milk.
+There are few, if any, circumstances under which we could ever recommend adding 
+half and half or heavy cream to your tea. If you work at a cafe that serves tea, 
+but only provide half and half or cream to your customers, your tea drinking
+customers suffer for it. Please provide them with whole milk, 2% milk, or better
+yet, various non-dairy milks. 
 
-### Steep non-black tea in boiling water
-Non-black teas (green, oolong, yellow, white) will burn if steeped in water 
-that’s too hot, which will make them overly bitter.[^2] Their ideal temperature is 
-about 68C. 
+### Use the correct water temperature
+Green, oolong, yellow, and white teas (anything except black tea or pu'erh) will 
+burn if steeped in freshly boiled (100C/212F) water, which will make them overly 
+bitter.[^4] Their ideal temperature is about 68C/170F. 
 Since this is the guide for people who don’t give a shit, you don’t have to 
 bother with a thermometer. If your water is fresh off the boil, throw 1-2 ice 
 cubes in it, or just leave it out for a few minutes.
 
-### Steep tea for more than 5 minutes 
-With the exception of herbal teas, don’t. Literally just do not. Tea (as in 
-actual tea leaves from the tea plant) should be steeped for 
-a maximum of 4 minutes. Oversteeping will make it 
+### Steep tea for the correct amount of time. 
+With the exception of herbal teas, tea should not be steeped for more than 5 
+minutes. Literally just do not. Tea (as in tea leaves from the tea plant)[^5]
+should be steeped for a maximum of 4 minutes. Oversteeping will make it 
 extremely bitter. No, putting the teabag in the water and then immediately 
 pouring the steamed milk in and serving it does not count. As previously 
 mentioned, the steeping is effectively stopped as soon as you add the milk.
 
+In contrast, herbal teas (infusions not containing tea leaves) should be steeped
+for a *minimum* of 5 minutes. They don't contain the bitter compounds present in
+tea, so they will not become bitter from longer steep times. 
+
 
 ## Footnotes
-[^1]: 87.8C/190F is the ideal steeping temperature for black tea, 76.6C/170F is the ideal temperature for green tea. 
+[^1]: Price comparison made with Twinings earl gray in an approx. 30-bag package vs 100g tin. 
 
-[^2]: This is readily demonstrated by Starbucks' green tea. It tastes bitter 
+[^2]: Avoiding individually packaged items is always better for the environment. 
+Additionally, while teabags are paper, "sachets" are made of a non-recyclable
+fine plastic mesh.
+
+[^3]: 87.8C/190F is the ideal steeping temperature for black tea, 76.6C/170F is 
+the ideal temperature for green tea. Bringing milk up to the necessary temperature
+for tea infusion will cook the milk, changing its taste and texture in a way 
+widely considered undesirable for lattes. 
+
+[^4]: This is readily demonstrated by Starbucks' green tea. It tastes bitter 
 with no sweetener because they burn it, but if you add one pump of sweetener, 
-it cancels out the bitterness and tastes like a decent cup of tea. 
+it cancels out the bitterness and tastes like unburned green tea. Curiously, 
+this effect makes it taste like it hasn't been sweetened unless you add more
+sweetener. 
+
+[^5]: "The tea plant" refers to *Camellia sinensis*. This covers black, 
+oolong, green, yellow, and white tea. Anything else, including things labeled 
+"herbal infusion" or "tisane", does not include *Camellia sinenis* leaves, and
+is thus exempt from this rule. 
