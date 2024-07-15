@@ -75,3 +75,4 @@ the law.
 ### References
 - [Department of Education Office of Civil Rights Section 504 FAQ](https://www2.ed.gov/about/offices/list/ocr/504faq.html)
 - [Rehabilitation Act of 1973, Wikipedia](https://en.wikipedia.org/wiki/Rehabilitation_Act_of_1973)
+- [Learn the Law - National Center for Learning Disabilities](https://www.ncld.org/join-the-movement/understand-the-issues/learn-the-law/)
