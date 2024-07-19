@@ -48,7 +48,37 @@ other Asian markets under the Cafe Du Monde brand.
 <!-- Insert image of Cafe du Monde -->
 
 ## Preparation
-At this point, you should have your phin and your robusta coffee. 
+At this point, you should have your phin and your robusta coffee. Using a gram
+scale is highly recommended, but not strictly necessary. Vietnamese coffee is 
+typically prepared with 30g coffee per 150-200 mL water.[^2] That's a much stronger
+dose than typical drip coffee. Preparation steps are as follows: 
+
+1. Heat water for your coffee to 96C/205F. Using boiling (100C/212F) water is 
+also acceptable. You can use as much or as little water as you desire, but the
+recommended amount is 150-200 mL. 
+
+2. Measure out 30g of your coffee. If using whole beans, measure 30g of beans
+and grind to approximately 46% of the size scale on your grinder. This will 
+require dialing in on your grinder for optimal results, as grinders vary in 
+their scales. 
+
+3. Put the bottom plate and the cup of your phin on top of your cup. Add your 
+ground coffee to the phin, but don't put the filter plate or lid on yet. 
+
+4. Bloom your coffee by slowly pouring a small amount of hot water over the 
+grounds. Distribute the water as evenly as you can. Let the grounds sit for 
+30 seconds, they should expand slightly. (If they don't, you may need to add 
+more water.)
+
+5. Place your filter piece on the grounds and lightly compress them. 
+
+6. Pour water into the phin, filling it to the top. Allow it to empty before
+filling with more water. This may take up to a minute. Refill and allow to drip
+repeatedly until you have the desired volume of coffee. 
+
+7. Add condensed milk until your coffee is a caramel color. The exact amount is
+not important, but 2 teaspoons is a good starting point. 
+
 
 
 ## Footnotes
@@ -56,3 +86,7 @@ At this point, you should have your phin and your robusta coffee.
 taste "rubbery" or "burnt". It is the opinion of this blog that anyone slandering
 robusta in this manner has entirely missed the nuance that robusta requires 
 different preparation than arabica.
+
+[^2]: This number was generated via empirical testing. No dose smaller than this
+was able to fully recreate Vietnamese coffee as tasted by the author, and this
+dose was later confirmed to be what their local Vietnamese cafe uses. 
