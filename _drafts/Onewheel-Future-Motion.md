@@ -33,15 +33,21 @@ dreamed up by transportation company shareholders.
 
 The primary reason for this is quite simple: walking is nice and costs less. 
 I attend college in the Pacific Northwest, so there's hospitable weather most 
-of the year. It's not like Las Vegas, where I regret every second I spend outside an air
+of the year. It's not like Las Vegas, where I regret every second I spend 
+outside an air
 conditioned building. When the weather is worse, and it's raining intensely, 
-a onewheel and its stock racing slick struggle to retain traction.[^3]
+a onewheel and its stock racing slick struggle to retain traction.[^3] Walking
+outside is nice, and having to stash my onewheel somewhere when I arrive at the
+destination is enough of a minor annoyance that I just won't bother most of the
+time. 
+
+Of course, you can't forget about your friends either. If you're going 
+somewhere with your friends, you'll be walking with them unless all of them
+also have a vehicle of some sort. Bike rides with friends are a treasure, but
+are not as common as I'd like them to be. 
 
 ## Future Motion is an awful company
-
-Unfortunately, the experience as a customer of Future Motion (the company that sells name brand Onewheels)
-has been nothing short of awful.
-
+<!--
 Outline:
 1. What is a onewheel and why do I like them?
 2. Detail Future Motion's ongoing anti-consumer shenanigans (long section)
@@ -52,6 +58,14 @@ Outline:
 3. Describe how the shenanigans have materially impacted me
 4. Tangent: Oregon right to repair law
 5. Conclusion: I'll just buy a floatwheel
+-->
+
+Unfortunately, the experience of patronizing Future Motion (the company that 
+sells name brand Onewheels) has been nothing short of awful. They're extremely
+anti-right to repair, and employ patents and technology to stop you from
+repairing your own Onewheel.
+
+
 
 ## Footnotes 
 [^1]: The lack of capitalization here is intentional. In writing this post, 
