@@ -46,6 +46,14 @@ somewhere with your friends, you'll be walking with them unless all of them
 also have a vehicle of some sort. Bike rides with friends are a treasure, but
 are not as common as I'd like them to be. 
 
+Finally, owning a PEV in the US may require financial privilege. The US is
+extremely car centric. If you're somewhere without reliable public transit, 
+a car might be necessary to commute to work and go shopping anywhere farther
+than you want to walk. Though battery prices have dropped precipitously
+within our lifetimes, PEVs are still a substantial purchase, and are not 
+always viable as primary transportation. This relegates them to being pleasure
+craft anywhere outside a large city. 
+
 ## Future Motion is an awful company
 <!--
 Outline:
@@ -65,6 +73,24 @@ sells name brand Onewheels) has been nothing short of awful. They're extremely
 anti-right to repair, and employ patents and technology to stop you from
 repairing your own Onewheel.
 
+First, their Onewheels are intentionally designed to impede third party repair
+and servicing. The XR and GT models use 6.5" tires, breaking compatibility with
+existing 6" tires. The chargers use XLR or mini XLR connectors for power, 
+preventing use of a standard DC power supply with a barrel jack. They even
+engage in **parts pairing**, the practice of digitially pairing each component
+to the main board bricking the board if a user swaps the parts on their own. 
+Not only does this block third party parts, but it even blocks OEM parts from
+other Onewheels that are the same model. This is, of course, so that you they
+can extort customers by charging exorbitant repair fees, since they're the only
+game in town.
+
+Second, Future Motion uses litigation to squash anyone attempting to make
+interoperable parts. JW Batteries made a chip called the JWFFM (short for JW 
+Fuck Future Motion) that was able to defeat pairing between the battery 
+management system and the main board, allowing users to install aftermarket
+batteries. Future Motion sued them, alleging infringement of the Digital 
+Millenium Copyright Act and the Computer Fraud and Abuse Act.[^4]
+
 
 
 ## Footnotes 
@@ -79,3 +105,5 @@ typically transports a single person, occasionally two.
 
 [^3]: In the last 100 miles, I've been using a lightly treaded [Float Life Enduro tire](https://thefloatlife.com/collections/pint-accessories/products/tfl-enduro-tire-pint-pint-x-compatible), 
 which has been fantastic. It works much better in the rain. 
+
+[^4]: <!-- Insert snarky comment deriding the laws in question here -->
