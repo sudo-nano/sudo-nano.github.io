@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making Vietnamese Coffee at Home"
-date: 2024-0718 16:00:00 -0700
+date: 2024-07-18 16:00:00 -0700
 tags: coffee
 category: drafts
 hidden: true
