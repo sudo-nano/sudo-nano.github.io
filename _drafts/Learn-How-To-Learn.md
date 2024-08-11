@@ -6,6 +6,7 @@ tags: politics right-to-repair cyberpunk electronics
 category: drafts
 hidden: true
 --- 
+<!-- Editing passes: 0 -->
 This post is intended for all audiences. 
 
 If you're someone that learns a lot of things, at some point you may have 
@@ -91,14 +92,17 @@ At this point, your mechanical skill must advance before you can master more
 advanced techniques. You *can* always attempt more advanced techniques before
 solidifying your basics, but your learning will suffer for it. That's not to say
 it's always a bad idea: If you find it difficult to intuitively understand the
-importance of drilling basics, as I do, attempting to learn something harder
-will often get it through your head. 
+importance of drilling basics, as I do, attempting to learn something more
+advanced will often get it through your head.
 
 ### Retain information, context, and skills. 
+<!-- Mention spaced repetition -->
 
 ## Set Realistic Goals
+<!-- Set goals that give you a little headroom even if there are mistakes. -->
 
 ## Be Intentional 
+<!-- Have a target skill to improve when practicing -->
 
 ## Allocate separate time for each part of the process
 Total time spent learning is not as important as spending the adequate amount
