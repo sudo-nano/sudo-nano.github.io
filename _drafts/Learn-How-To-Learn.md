@@ -27,26 +27,37 @@ technique known as a paradiddle.
 Ingesting information is effectively reading a fact. Our example here: 
 > A **paradiddle** is a sequence of four notes with a sticking pattern RLRR or LRLL. 
 
-This is quite possibly the first time this information has reached your brain, 
-which is expected. It will be mostly devoid of context. You might know what
+This is likely the first time this information has reached your brain, 
+which is expected. It may have little context for you. That's also expected. 
+You might know what
 percussion is, but you probably don't know what sticking is, or what a pattern 
 like "RLRR" means. 
 
 While ingesting information, take note of unfamiliar terms. It will help with
-revisiting them in the next step. 
+revisiting them in the next step. The unfamiliar terms introduced in this 
+section are: 
+- paradiddle
+- sticking pattern 
 
 ### Understand and Contextualize 
 To transform words into understanding, we must unpack the definitions involved 
 and learn the context in which these concepts exist. 
 
 In the above definition for **paradiddle**, we mention **sticking patterns** and
-give some examples. A sticking pattern is a string that denotes which hand you 
-should be using to play a note. They're typically used for percussion instruments
-that are played with sticks, like drums. Sticking patterns are denoted with 
+give some examples.
+
+Sticking Pattern 
+: A string that denotes which hand you should use to play a note. 
+
+Sticking patterns are typically used for percussion instruments
+that are played with two sticks, like drums. They are formatted as
 strings of "L"s and "R"s to indicate playing a note with your left or right hand
 respectively. A pattern of "RLRR" indicates that the first note should be played
 with your right hand, the second note with your left, and the third and fourth
 with your right. 
+
+![Sticking Example](/assets/learn_to_learn/sticking_example.png)
+_Example of sticking notation_
 
 Sticking notation is only necessary for percussion, as other instruments either 
 engage both hands in playing a note, or denote it in other ways. Valved 
@@ -56,10 +67,32 @@ matter (and is usually not written in those cases), sometimes composers assign
 a recommended sticking or note the sticking that they found most comfortable for
 complex sequences. 
 
-
-
+With this context, you know what sticking patterns are for, and when you would
+or wouldn't use them. 
 
 ### Build Mechanical Skill (when applicable)
+At this point, you can play a paradiddle. A simple LRLL or RLRR is well within
+your grasp. However, integrating a paradiddle into a piece of music requires
+more flexibility. To do that, you'll need to practice a few skills: 
+
+- Play a paradiddle in time with a metronome
+- Play multiple paradiddles one after another, both alternating (RLRR LRLL) and
+not (RLRR RLRR)[^1]
+- Keep both hands playing notes at the same volume during your paradiddle
+- Play a paradiddle at a faster tempo 
+
+While these sound relatively simple, if you haven't done them before, they are
+quite challenging. These are basic skills, but don't mistake basic for easy. 
+Basic means they are foundational. Everything else relies on them. It's 
+important that your basics are solid. Contrary to most people's expectations, 
+this makes them the hardest part of the learning process. 
+
+At this point, your mechanical skill must advance before you can master more
+advanced techniques. You *can* always attempt more advanced techniques before
+solidifying your basics, but your learning will suffer for it. That's not to say
+it's always a bad idea: If you find it difficult to intuitively understand the
+importance of drilling basics, as I do, attempting to learn something harder
+will often get it through your head. 
 
 ### Retain information, context, and skills. 
 
@@ -67,6 +100,14 @@ complex sequences.
 
 ## Be Intentional 
 
-## Time matters less
+## Allocate separate time for each part of the process
+Total time spent learning is not as important as spending the adequate amount
+of time on each part of the process. There is no formula for how much time this
+should be. Each individual experiences the learning process differently. 
 
 ## Footnotes
+[^1]: These instructions are not exact. There is no particular reason to start 
+with a right hand paradiddle in either of these exercises, start with the hand
+that feels most comfortable to you. I wrote this starting with right hand 
+paradiddles because it's statistically most likely to be the dominant hand of 
+any given reader. 
