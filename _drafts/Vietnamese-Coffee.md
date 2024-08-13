@@ -53,7 +53,8 @@ scale is highly recommended, but not strictly necessary. Vietnamese coffee is
 typically prepared with 30g coffee per 150-200 mL water.[^2] That's a much stronger
 dose than typical drip coffee. Preparation steps are as follows: 
 
-1. Heat water for your coffee to 96C/205F. Using boiling (100C/212F) water is 
+1. Heat water for your coffee to 96C/205F. If you don't have a thermometer or 
+temperature controlled kettle, boiling (100C/212F) water is 
 also acceptable. You can use as much or as little water as you desire, but the
 recommended amount is 150-200 mL. 
 
