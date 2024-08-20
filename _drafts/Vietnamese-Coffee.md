@@ -80,6 +80,8 @@ repeatedly until you have the desired volume of coffee.
 7. Add condensed milk until your coffee is a caramel color. The exact amount is
 not important, but 2 teaspoons is a good starting point. 
 
+<!-- Insert photo of making vietnamese coffee in a glass cup -->
+
 
 
 ## Footnotes
