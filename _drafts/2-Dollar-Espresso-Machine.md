@@ -34,7 +34,9 @@ acidic.
 
 Having failed to make use of the stock portafilter and basket, I set out to
 find an aftermarket one. This machine uses a 51mm portafilter, which is 
-extremely nonstandard. The only search results were
+nonstandard. Nobody except DeLonghi uses this size. Most other machines use 54mm.
+<!-- Citation Needed -->
+The only search results were
 [a few](https://www.amazon.com/portafilter-Delonghi-bottomless-Stainless-Replacement/dp/B09W5QY63R)
 [bottomless](https://www.normcorewares.com/products/normcore-naked-bottomless-portafilter)
 [portafilter baskets.](https://ikapestore.com/products/ikape-coffee-products-51mm-bottomless-naked-portafilter-compatible-with-51mm-delonghi-ec0680-ec0685-smeg-eupa-coffee-machines-included-14g-capacity-filter-basket)
@@ -48,9 +50,10 @@ was the only one not found duplicated on Aliexpress. Unfortunately, I only
 realized while writing up this blog post, by which point I had already cut out
 the middleman and purchased a portafilter directly from Aliexpress. While I 
 truly appreciate Normcore's ray of hope amidst the slave labor mass production
-garbage, their efforts are not much help, as there are no third party 51mm
-baskets except the ones that come with these portafilters. In fact, the 
-selection of any standard espresso equipment is extremely limited for 51mm
-portafilters, since nobody except DeLonghi uses them.
+garbage, there are still no precision baskets for 51mm portafilters. The only 
+3rd party baskets available are the stock ones that come with these portafilters.
+
+## Making Espresso
+
 
 ## Footnotes
