@@ -157,7 +157,8 @@ Coverage of this sort of issue often paints a dichotomy between the evil "black 
 hacker" and the virtuous "white hat hacker". As with most dichotomies, reality
 is more complicated. Some paint the image that white hat hackers stay entirely within
 the law, but this is becoming much more difficult as companies employ aggressive 
-intellectual protection laws and End User License Agreements (EULAs) that make established 
+intellectual property protection laws and End User License Agreements (EULAs) 
+that make established 
 research practices illegal. Any law that bans reverse-engineering is guilty of this, 
 but the most egregious is the Digital Millenium Copyright Act (DMCA).[^6] It bans 
 reverse engineering and bypassing of Digital Rights Management (DRM) software and
@@ -171,6 +172,17 @@ Outline:
 - Auditing claims about closed source software can only be done by reverse engineering 
 - Reverse engineering is potentially illegal under the service's EULA or the DMCA 
 - Are you starting to see a theme here with the DMCA
+-->
+
+## What can you do about it? 
+<!-- 
+Outline: 
+- Call your federal *and* state legislators about it 
+- Mention Oregon right to repair bill as a success story 
+- If you're a corporate decision maker, don't patronize companies with bad repair policies. 
+- Buy more repairable personal hardware 
+  - You don't have to buy unstable bleeding edge hardware
+  - At least express interest in the repairable hardware 
 -->
 
 ## Footnotes
