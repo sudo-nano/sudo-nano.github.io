@@ -23,8 +23,8 @@ clarification.](https://sudo-nano.github.io/about/)
 > I always write out acronyms the first time they're used on any given page, like this:
 > `Problem Exists Between Chair and Keyboard (PEBCAK)` \\
 > However, this article has *a lot* of acronyms, so I've added a new feature.
-> Acronyms will now have alt text that can be viewed by putting your mouse over
-> them, like so: <span data-bs-toggle="tooltip" data-bs-placement="top" title="Problem Exists Between Chair And Keyboard">**PEBCAK**</span>
+> Acronyms also have their names written out in the alt-text, which can be 
+> viewed by putting your mouse over them: <span data-bs-toggle="tooltip" data-bs-placement="top" title="Problem Exists Between Chair And Keyboard">**PEBCAK**</span>
 {: .prompt-tip }
 
 ## Introduction
@@ -49,7 +49,7 @@ Closed source (sometimes called proprietary) devices, have several problems:
 (They become abandonware.)
 2. Security research is severely hampered.
 3. Accountability auditing, i.e. checking that a device works how the manufacturer
-says it does, is much harder.
+says it does, is much harder and potentially illegal.
 
 ### Eliminating Abandonware
 **Abandonware** is hardware or software that is no longer being supported by the
@@ -96,10 +96,18 @@ Companies love the idea of forcing maintainers to prematurely purchase new syste
 because it means maintainers have to give them more money.
 Understandably, people who like their systems to work hate this. Corporations
 have historically hesitated to break compatibility, because intentionally sandbagging
-their own products generates bad PR. However, recent conglomeration
-of companies due to weak antitrust enforcement means that their customers often
-have nowhere else to turn, so those companies are free to screw their customers
-as hard as they want.[^3]
+their own products generates bad PR. 
+However, weak antitrust enforcement has allowed massive corporate mergers, 
+creating market sectors governed by an **oligopoly.**
+
+> **oligopoly** *(noun)* \\
+> An economic condition in which a small number of sellers exert control over 
+> the market of a commodity. ([Wiktionary](https://en.wiktionary.org/wiki/oligopoly]))
+
+Under these conditions, customers have nowhere else to turn, and those companies 
+are free to screw their customers
+as hard as they want.[^3] There are no longer consequences for enacting planned
+obsolescence to the extreme. 
 
 Requiring critical systems to be open source means that if those systems are abandoned,
 the people that use them can step in to maintain them, preventing otherwise
@@ -193,6 +201,16 @@ Even if you have the skills to verify this claim, there's a catch: Reverse
 engineering can run afoul of the Terms of Service (ToS), End User License
 Agreement (EULA), 
 <span data-bs-toggle="tooltip" data-bs-placement="top" title="Digital Millenium Copyright Act">__DMCA__</span>, or Electronic Communication Privacy Act.
+At this point, forbidding reverse engineering is standard boilerplate for any 
+service. Here are some high profile examples: 
+
+> You also may not reverse engineer or decompile our software or services, 
+> attempt to do so, or assist anyone in doing so, unless you have our written 
+> consent or applicable law permits it. ([Discord](https://discord.com/terms))
+
+> You can’t modify, translate, create derivative works of, or reverse engineer 
+> our products or their components. ([Instagram](https://help.instagram.com/581066165581870/))
+
 
 ## What can you do about it? 
 <!-- 
@@ -215,5 +233,3 @@ Outline:
 [^5]: [https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#](https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#)
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
 [^7]: Lead testing is a notable example because at-home test kits are usable by the layperson, in contrast to more complicated lab tests.
-
-## Credits
