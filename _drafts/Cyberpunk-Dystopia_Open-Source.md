@@ -20,6 +20,13 @@ This post is targeted towards a general audience. No prior knowledge is required
 If something is unclear, please refer to the footnotes or [contact me to ask for
 clarification.](https://sudo-nano.github.io/about/)
 
+> I always write out acronyms the first time they're used on any given page, like this:
+> `Problem Exists Between Chair and Keyboard (PEBCAK)` \\
+> However, this article has *a lot* of acronyms, so I've added a new feature.
+> Acronyms will now have alt text that can be viewed by putting your mouse over
+> them, like so: <span data-bs-toggle="tooltip" data-bs-placement="top" title="Problem Exists Between Chair And Keyboard">**PEBCAK**</span>
+{: .prompt-tip }
+
 ## Introduction
 **Open source** is the idea of an object's design plans or software's source code
 being publicly available. While there are many ideological reasons[^1] for supporting
@@ -173,6 +180,19 @@ Outline:
 - Reverse engineering is potentially illegal under the service's EULA or the DMCA 
 - Are you starting to see a theme here with the DMCA
 -->
+When a product is advertised to contain some substance or meet some specification,
+it's usually pretty easy to verify that it does. Lab tests can ensure that your
+food isn't full of lead,[^7] emissions tests can verify that your car meets 
+environmental requirements, etc. When the product involves software, it becomes 
+harder to verify, especially if the software isn't run on your personal computer.
+Amazon can claim that their smart home devices don't spy on you, but unless you
+have the personal expertise to inspect the electronics and software of the
+device, you have no way to actually verify this claim. 
+
+Even if you have the skills to verify this claim, there's a catch: Reverse 
+engineering can run afoul of the Terms of Service (ToS), End User License
+Agreement (EULA), 
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Digital Millenium Copyright Act">__DMCA__</span>, or Electronic Communication Privacy Act.
 
 ## What can you do about it? 
 <!-- 
@@ -194,4 +214,6 @@ Outline:
 [^4]: [Garcia et al., “Dismantling MIFARE Classic.”](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
 [^5]: [https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#](https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#)
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
+[^7]: Lead testing is a notable example because at-home test kits are usable by the layperson, in contrast to more complicated lab tests.
+
 ## Credits
