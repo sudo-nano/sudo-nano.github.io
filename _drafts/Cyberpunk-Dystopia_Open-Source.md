@@ -23,8 +23,8 @@ clarification.](https://sudo-nano.github.io/about/)
 > I always write out acronyms the first time they're used on any given page, like this:
 > `Problem Exists Between Chair and Keyboard (PEBCAK)` \\
 > However, this article has *a lot* of acronyms, so I've added a new feature.
-> Acronyms also have their names written out in the alt-text, which can be 
-> viewed by putting your mouse over them: <span data-bs-toggle="tooltip" data-bs-placement="top" title="Problem Exists Between Chair And Keyboard">**PEBCAK**</span>
+> Acronyms will now have alt text that can be viewed by putting your mouse over
+> them, like so: <span data-bs-toggle="tooltip" data-bs-placement="top" title="Problem Exists Between Chair And Keyboard">**PEBCAK**</span>
 {: .prompt-tip }
 
 ## Introduction
@@ -49,7 +49,7 @@ Closed source (sometimes called proprietary) devices, have several problems:
 (They become abandonware.)
 2. Security research is severely hampered.
 3. Accountability auditing, i.e. checking that a device works how the manufacturer
-says it does, is much harder and potentially illegal.
+says it does, is much harder.
 
 ### Eliminating Abandonware
 **Abandonware** is hardware or software that is no longer being supported by the
@@ -80,7 +80,7 @@ has reverse engineered the software and built a new version that runs on your co
 you have no way to use that device anymore. Reverse engineering by consumers is not something
 that happens often, as it's time intensive and highly skilled work that few are willing
 to do for free. In many cases, the EULA (End User License Agreement) or Terms of
-Service completely outlaw reverse engineering, allowing companies to sue people
+Service (ToS) completely outlaw reverse engineering, allowing companies to sue people
 who reverse engineer their equipment.[^2][^apple]
 
 It's quite easy to see where this leads if these devices are controlling critical infrastructure.
@@ -211,6 +211,9 @@ service. Here are some high profile examples:
 > You can’t modify, translate, create derivative works of, or reverse engineer 
 > our products or their components. ([Instagram](https://help.instagram.com/581066165581870/))
 
+If you reverse engineer something
+when the ToS or EULA say you can't, you're guilty of breach of contract, 
+allowing the manufacturer to sue you for everything you own.
 
 ## What can you do about it? 
 <!-- 
@@ -233,3 +236,5 @@ Outline:
 [^5]: [https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#](https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#)
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
 [^7]: Lead testing is a notable example because at-home test kits are usable by the layperson, in contrast to more complicated lab tests.
+
+## Credits
