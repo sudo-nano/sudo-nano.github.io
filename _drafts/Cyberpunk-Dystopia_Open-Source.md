@@ -160,7 +160,7 @@ weakness might have been spotted before it was widely adopted. Better yet, their
 of the scrutiny might have compelled them to design a more secure algorithm. 
 MIFARE Classic was so popular at the time that it remains the most widely used 
 RFID credential by pure inertia, despite having been broken repeatedly over the
-past 14 years. <!-- Add a frankly ridiculous number of citations here -->
+past 14 years.[^mfc1] <!-- Add a frankly ridiculous number of citations here -->
 In fact, the original draft of this post mentioned a 3rd party "static encrypted nonce"
 variant that researchers had not yet cracked. During the editing of this post, 
 researchers discovered a manufacturer backdoor hidden in the new variant. 
@@ -232,9 +232,10 @@ Outline:
 [^2]: Regardless of whether the lawsuits actually have merit, having to fend them off can completely exhaust the money and resources of an individual or small group. This is especially true when the plaintiff (person filing the lawsuit) has a lot more money than the defendant. For more on this, read about [SLAPP lawsuits.](https://en.wikipedia.org/wiki/Strategic_lawsuit_against_public_participation) Some states have Anti-SLAPP laws, but the US has no federal anti-SLAPP laws. 
 [^apple]: Apple has even leveraged intellectual property law to [make customs seize genuine parts](https://www.vice.com/en/article/dhs-seized-aftermarket-apple-laptop-batteries-from-independent-repair-expert-louis-rossman/) that were resold 3rd party, in order to prevent 3rd party repair. (This remains a footnote because intellectual property law is outside the scope of this post. It will be covered in a subsequent post.)
 [^3]: This statement applies primarily to the United States, which has fallen behind in antitrust enforcement and consumer protection laws since the Reagan administration.
-[^4]: [Garcia et al., “Dismantling MIFARE Classic.”](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
+[^4]: [Nohl et. al., "Reverse Engineering a Cryptographic RFID Tag."](https://www.cs.virginia.edu/~evans/pubs/usenix08/usenix08.pdf) USENIX Security Symposium. San Jose, CA. 31 July 2008.
 [^5]: [https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#](https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#)
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
+[^mfc1]: [Garcia et. al., "Dismantling MIFARE Classic."](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
+[^mfc2]: [Garcia et. al., "Wirelessly Pickpocketing a Mifare Classic Card."](https://www.cs.umd.edu/~jkatz/security/downloads/Mifare3.pdf) 30th IEEE Symposium on Security and Privacy, 2009.
 [^7]: Lead testing is a notable example because at-home test kits are usable by the layperson, in contrast to more complicated lab tests.
 
-## Credits
