@@ -160,10 +160,10 @@ weakness might have been spotted before it was widely adopted. Better yet, their
 of the scrutiny might have compelled them to design a more secure algorithm. 
 MIFARE Classic was so popular at the time that it remains the most widely used 
 RFID credential by pure inertia, despite having been broken repeatedly over the
-past 14 years.[^mfc1] <!-- Add a frankly ridiculous number of citations here -->
+past 14 years.[^mfc1][^mfc2] <!-- Add a frankly ridiculous number of citations here -->
 In fact, the original draft of this post mentioned a 3rd party "static encrypted nonce"
 variant that researchers had not yet cracked. During the editing of this post, 
-researchers discovered a manufacturer backdoor hidden in the new variant. 
+researchers discovered a manufacturer backdoor hidden in the new variant.[^mfc_sen] 
 Worse still, RFID credentials implement their cryptographic algorithms in
 hardware, so these vulnerabilities cannot be patched except by replacing every
 vulnerable credential in circulation. 
@@ -237,5 +237,6 @@ Outline:
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
 [^mfc1]: [Garcia et. al., "Dismantling MIFARE Classic."](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
 [^mfc2]: [Garcia et. al., "Wirelessly Pickpocketing a Mifare Classic Card."](https://www.cs.umd.edu/~jkatz/security/downloads/Mifare3.pdf) 30th IEEE Symposium on Security and Privacy, 2009.
-[^7]: Lead testing is a notable example because at-home test kits are usable by the layperson, in contrast to more complicated lab tests.
+[^mfc_sen]: [Teuwen, Philippe. “MIFARE Classic: Exposing the Static Encrypted Nonce Variant,”](https://blog.quarkslab.com/mifare-classic-static-encrypted-nonce-and-backdoors.html) Quarkslab's Blog, 20 August 2024.
+[^7]: Lead testing is a notable example because at-home test kits are usable by the layperson.
 
