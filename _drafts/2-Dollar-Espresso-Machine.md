@@ -10,8 +10,7 @@ hidden: true
 <!-- Insert target audience statement -->
 
 My partner and I have been considering purchasing an espresso machine for some
-time. We both love coffee, and find the science of its production extremely
-interesting. 
+time. We both love coffee, and find its production fascinating.
 <!-- Insert link to Vietnamese Coffee post here -->
 The main thing stopping us was the cost. We're college students with an
 appreciation for quality, which is a perilous place for our wallets. Espresso
@@ -27,7 +26,7 @@ comes with three baskets: a single shot basket, double shot basket, and single
 shot pod basket for use with Easy Serve Espresso pods. All three are 
 pressurized baskets. The machine has internal
 storage for the extra baskets, which the previous owner clearly did not use. 
-The only basket that came with the machine was the pod basket, which was 
+The only basket that came with our used machine was the pod basket, which was 
 slotted into the portafilter. Against better judgement, I attempted to pull
 some single shots with this basket, but all of them turned out undrinkably
 acidic. 
@@ -46,7 +45,7 @@ suspicion crept up on me. A quick search revealed that indeed, nearly all of
 them are 
 [resold from Aliexpress.](https://www.aliexpress.us/w/wholesale-51mm-portafilter-2-ear.html?g=y&SearchText=51mm+portafilter+2+ear) 
 To their credit, [Normcore's 51mm portafilter and basket](https://www.normcorewares.com/products/normcore-naked-bottomless-portafilter) 
-was the only one not found duplicated on Aliexpress. Unfortunately, I only
+was the only one made in-house. Unfortunately, I only
 realized while writing up this blog post, by which point I had already cut out
 the middleman and purchased a portafilter directly from Aliexpress. While I 
 truly appreciate Normcore's ray of hope amidst the slave labor mass production
@@ -54,6 +53,8 @@ garbage, there are still no precision baskets for 51mm portafilters. The only
 3rd party baskets available are the stock ones that come with these portafilters.
 
 ## Making Espresso
-
+In the production of our espresso, we used a Baratza Encore 485 grinder, a
+star anise bottle as an improvised tamper, and an Aliexpress bottomless 
+portafilter with its included double shot basket. 
 
 ## Footnotes
