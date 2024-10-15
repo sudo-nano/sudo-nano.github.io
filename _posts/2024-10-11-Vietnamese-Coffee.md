@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Making Vietnamese Coffee at Home"
-date: 2024-07-18 16:00:00 -0700
+date: 2024-10-11 00:12:00 -0700
 tags: coffee
-category: drafts
-hidden: true
 --- 
 
-<!-- Insert target audience statement -->
+> **Audience Statement:** This post is intended for all audiences. No prior knowledge
+> of coffee is required, but basic understanding of roast levels and coffee
+> cultivars is recommended. 
+{: .prompt-info }
 
 ## Introduction 
 Vietnamese coffee is uniquely strong and flavorful, usually moderated with a 
@@ -45,7 +46,8 @@ you can buy robusta online (whole or ground), also [from Nguyen Coffee Supply](h
 Pre-ground robusta is usually available at brick and mortar H-mart stores or
 other Asian markets under the Cafe Du Monde brand. 
 
-<!-- Insert image of Cafe du Monde -->
+![Cafe du Monde Coffee]({{site.url}}/assets/vietnamese_coffee/cafe_du_monde.JPG)
+*Figure 1: A can of Cafe du Monde.*
 
 ## Preparation
 At this point, you should have your phin and your robusta coffee. Using a gram
@@ -80,16 +82,19 @@ repeatedly until you have the desired volume of coffee.
 7. Add condensed milk until your coffee is a caramel color. The exact amount is
 not important, but 2 teaspoons is a good starting point. 
 
-<!-- Insert photo of making vietnamese coffee in a glass cup -->
+![Vietnamese coffee with condensed milk, side view]({{site.url}}/assets/vietnamese_coffee/coffee_side.JPG){: width="500"}
+*Figure 2: A glass beaker mug with 250 mL of Vietnamese coffee with condensed milk. It's a dark caramel color.*
 
+The above image is approximately the color you should aim for. That coffee was
+made with Cafe du Monde, with 200 mL of coffee before adding milk, and about 
+50 mL condensed milk. Your color may vary depending on the coffee you use. 
+Cafe du Monde is dark roast, whole bean robusta may be lighter. 
+
+Thanks for reading. If you have questions, or want to see the data from my
+trials, feel free to [contact me.]({{site.url}}/about/)
 
 
 ## Footnotes
-[^1]: The specialty coffee world has historically slandered robusta, calling its
-taste "rubbery" or "burnt". It is the opinion of this blog that anyone slandering
-robusta in this manner has entirely missed the nuance that robusta requires 
-different preparation than arabica.
+[^1]: The specialty coffee world has historically slandered robusta, calling its taste "rubbery" or "burnt". It is the opinion of this blog that anyone slandering robusta in this manner has entirely missed the nuance that robusta requires different preparation than arabica.
 
-[^2]: This number was generated via empirical testing. No dose smaller than this
-was able to fully recreate Vietnamese coffee as tasted by the author, and this
-dose was later confirmed to be what their local Vietnamese cafe uses. 
+[^2]: This number was generated via empirical testing. No dose smaller than this was able to fully recreate Vietnamese coffee as tasted by the author, and this dose was later confirmed to be what their local Vietnamese cafe uses. 

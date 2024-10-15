@@ -25,4 +25,4 @@ Notably, this ability doesn't specify that the modifier must be positive, or tha
 As with flash of genius, sometimes you have to come up with solutions under pressure. Sometimes those solutions are terrible, but hilarious, like the above strategy. Hence, flash of stupid. 
 
 # Contact
-Please send correspondence to **themagicalc** on Discord. 
+Please send correspondence to **themagicalc** on Discord or **@cwg1231@defcon.social** on Mastodon.
