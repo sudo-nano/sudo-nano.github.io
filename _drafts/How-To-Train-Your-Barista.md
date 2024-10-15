@@ -16,8 +16,8 @@ If someone sent this to you, you probably work in a cafe that makes bad tea,
 and that’s ok. **Someone sent this to you because they care enough that they 
 want the cafe to do better.**
 
-It’s not a reflection on you personally, unless you have personally decided that 
-training employees on proper tea preparation isn't worth it. Assuming 
+It’s not a reflection on you personally, unless you have somehow single-handedly
+prevented the employees from receiving proper training on tea. Assuming 
 that’s not the case, whoever’s in charge didn’t think it worth teaching 
 employees anything about making tea. I’m here to tell you that it’s worth your 
 time. That’s because most coffee shops make shitty tea that’s not worth 
@@ -34,8 +34,8 @@ latte, the optimal amount is about 3 tablespoons of loose leaf tea, or 2 teabags
 
 ### Use quality tea 
 It’s best if you use loose leaf tea, or at the very least quality teabags. 
-There are plenty of decent teabags out there, like Mighty Leaf or Yama Moto Yama.
-Bigelow and Lipton are bottom of the barrel. 
+There are plenty of decent teabags out there, like Mighty Leaf , Smith, or 
+Yama Moto Yama. Bigelow and Lipton are bottom of the barrel. 
 
 Loose leaf tea will be higher quality than all but the most expensive teabags. 
 All else being equal, it costs less[^1] is better for the environment[^2], and
