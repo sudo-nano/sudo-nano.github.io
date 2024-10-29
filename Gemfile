@@ -24,3 +24,10 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8"
 gem "json"
+
+# Re-add libraries being removed from default gems
+gem "logger"
+gem "csv"
+gem "ostruct"
+gem "base64"
+gem "bigdecimal"
