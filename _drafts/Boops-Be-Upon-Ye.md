@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Boops Be Upon Ye: Automating Tumblr Booping"
-date: 2024-04-22 16:00:00 -0700
+date: 2024-11-01 11:00:00 -0700
 tags: tumblr http-requests
 category: drafts
-hidden: true
 --- 
 
 ## Introduction
@@ -92,6 +91,7 @@ all the noise. Inspecting the headers of a boop request will show you something
 like this: 
 
 ```json
+{
     "Host": "www.tumblr.com",
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0",
     "Accept": "application/json;format=camelcase",
@@ -100,17 +100,18 @@ like this:
     "Authorization": "Bearer aIcXSOoTtqrzR8L8YEIOmBeW94c3FmbSNSWAUbxsny9KKx5VFh",
     "X-Ad-Blocker-Enabled": "0",
     "X-Version": "redpop/3/0//redpop/",
-    "X-CSRF": "REDACTED", <-- important
+    "X-CSRF": "REDACTED", <--important
     "Origin": "https://www.tumblr.com", 
     "DNT": "1",
     "Alt-Used": "www.tumblr.com",
     "Connection": "keep-alive",
-    "Cookie": "REDACTED", <-- important
+    "Cookie": "REDACTED", <--important
     "Sec-Fetch-Dest": "empty",
     "Sec-Fetch-Mode": "cors",
     "Sec-Fetch-Site": "same-origin",
     "Sec-GPC": "1",
     "TE": "trailers"
+}
 ```
 
 Out of all this information, only the "X-CSRF" and "Cookie" fields need to be
@@ -143,9 +144,7 @@ authenticate our automated boop requests. When you copy the headers from the req
 token will be valid at first, but will eventually expire. 
 
 
-
 ## Footnotes
 [^1]: The most common type of request is a GET request, where your browser requests something from the server. 
 
-[^2]:I'm putting together this write up at 00:34, so it's no longer Halloween. That means the boop API has closed down, so I can't actually test which of these
-will happen. 
+[^2]:I'm putting together this write up at 00:34, so it's no longer Halloween. That means the boop API has closed down, so I can't actually test which of these will happen. 
