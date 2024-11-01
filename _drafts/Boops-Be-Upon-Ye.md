@@ -29,13 +29,105 @@ is pretty easy to do in Python using the `requests` library.
 
 ```python
 import requests 
+
+# Initialize a new session
 session = requests.Session()
-request = session.post("https://tumblr.com/api/v2/boop")
+
+# Send a boop request
+boop = session.post("https://tumblr.com/api/v2/boop")
 ```
 
 If you do this, you'll receive either a 400 response, meaning bad request, or 
-a 401 response, meaning unauthorized.[^2] That's because a simple POST request
+a 401 response, meaning unauthorized.[^2] That's because this POST request
 has no information about who you are or who you want to boop.
+
+## Request Body
+The request's information is carried in its headers and body. Inspecting boop
+requests shows that the body is pretty simple. 
+
+```json
+{"receiver": "blog-name-here", "context": "blog_view", "type": "normal"}
+```
+
+The blog name in the receiver field has been redacted, but the rest were left
+as found when inspecting requests. 
+
+- `receiver`: The name of the blog receiving the boop
+- `context`: The page from which you're booping. This value is not actually
+validated in any way. I set it to "lmao" in my code and the requests still went 
+through. 
+- `type`: The type of boop. "normal" will send a normal boop, and "abnormal"
+will send an evil boop. I didn't check what the code is for a super boop before
+the API closed for the day. 
+
+Adding these fields to the body of the request is also pretty simple. According
+to the `requests` syntax, we add a `data` field containing the body formatted
+as a JSON object. 
+
+```python
+import requests
+
+# Initialize a new session
+session = requests.Session()
+
+# Send a boop request with body information
+boop = session.post(
+	"https://tumblr.com/api/v2/boop", 
+	data={
+		"receiver": "blog-name-here", 
+		"context": "whatever you want",
+		"type": "normal" # can also be 'abnormal' for evil boop
+	}
+)
+
+```
+
+Sending this request will get you a `401 Unauthorized` response, since we still
+haven't provided any authentication information. Auth information will be 
+provided in the headers. 
+
+## Request Headers
+While the request headers look scary, they aren't so bad once you filter out
+all the noise. Inspecting the headers of a boop request will show you something
+like this: 
+
+```json
+    "Host": "www.tumblr.com",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0",
+    "Accept": "application/json;format=camelcase",
+    "Accept-Language": "en-us",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Authorization": "Bearer aIcXSOoTtqrzR8L8YEIOmBeW94c3FmbSNSWAUbxsny9KKx5VFh",
+    "X-Ad-Blocker-Enabled": "0",
+    "X-Version": "redpop/3/0//redpop/",
+    "X-CSRF": "REDACTED", <-- important
+    "Origin": "https://www.tumblr.com", 
+    "DNT": "1",
+    "Alt-Used": "www.tumblr.com",
+    "Connection": "keep-alive",
+    "Cookie": "REDACTED", <-- important
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-GPC": "1",
+    "TE": "trailers"
+```
+
+Out of all this information, only the "X-CSRF" and "Cookie" fields need to be
+periodically updated. The rest of these fields stay the same. Confusingly, 
+the "Authorization" field is not involved in user authentication, and actually
+stayed the same since the last time the booping API was opened for April 1. 
+The cookie field contains, among other things, your authentication token. This
+is a unique string that Tumblr assigns to your session. (If you log in on 
+another device, that session will get a different login token.) The token 
+provides proof of identity after logging in with your password, and should not
+be shared. Anyone with your login token can send requests to Tumblr as if they
+were in your session, because for all intents and purposes, they are. 
+
+We're going to steal our own login token and use it to authenticate our
+automated boop requests. 
+
+
 
 ## Footnotes
 [^1]: The most common type of request is a GET request, where your browser requests something from the server. 
