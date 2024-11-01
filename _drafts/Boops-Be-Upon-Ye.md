@@ -124,8 +124,23 @@ provides proof of identity after logging in with your password, and should not
 be shared. Anyone with your login token can send requests to Tumblr as if they
 were in your session, because for all intents and purposes, they are. 
 
-We're going to steal our own login token and use it to authenticate our
-automated boop requests. 
+X-CSRF is the *anti cross-site request forgery* token. It's an authentication
+token issued to you in order to prevent *cross-site request forgery* (CSRF)
+attacks. These happen when an attacker tricks you into taking an unwanted
+action on a site where you're already logged in. For example, an attacker
+could have a link with malicious URL parameters, such as 
+`https://tumblr.com?delete-account=true`. (This is only an example, not how
+Tumblr actually works.) Auth tokens are usually stored as a cookie, and cookies 
+are automatically included in all requests, clicking this link would send a
+legitimate-seeming request. X-CSRF tokens are managed by the JavaScript in
+your browser, so the site can make sure they're only sent when you click
+a button designed by the site. (It's much harder for attackers to inject 
+JavaScript than a simple URL, and any competent site will have protection 
+against it.)
+
+We're going to steal our own authentication and X-CSRF tokens and use them to
+authenticate our automated boop requests. When you copy the headers from the request in your browser, the cookie containing the auth token and the X-CSRF
+token will be valid at first, but will eventually expire. 
 
 
 
