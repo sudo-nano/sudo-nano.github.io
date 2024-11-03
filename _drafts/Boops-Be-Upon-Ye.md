@@ -7,8 +7,8 @@ category: drafts
 --- 
 
 ## Introduction
-Yesterday, Tumblr reactivated its booping system, originally pioneered as an
-April fool's joke, as a Halloween event. Users that opt into the booping system
+On Halloween, Tumblr reactivated its booping system--originally pioneered as an
+April fool's joke--as a Halloween event. Users that opt into the booping system
 have a button on their profile that allows others to boop them with a cat paw. 
 Tumblr being the PvP website that it is, people immediately took to bombarding
 each other with vast quantities of boops. 
@@ -115,7 +115,8 @@ like this:
 ```
 
 Out of all this information, only the "X-CSRF" and "Cookie" fields need to be
-periodically updated. The rest of these fields stay the same. Confusingly, 
+periodically updated. The rest of these fields stay the same, and can be
+ hardcoded. Confusingly, 
 the "Authorization" field is not involved in user authentication, and actually
 stayed the same since the last time the booping API was opened for April 1. 
 The cookie field contains, among other things, your authentication token. This
@@ -133,18 +134,27 @@ could have a link with malicious URL parameters, such as
 `https://tumblr.com?delete-account=true`. (This is only an example, not how
 Tumblr actually works.) Auth tokens are usually stored as a cookie, and cookies 
 are automatically included in all requests, clicking this link would send a
-legitimate-seeming request. X-CSRF tokens are managed by the JavaScript in
+legitimate-seeming request. 
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span> tokens are managed by the JavaScript in
 your browser, so the site can make sure they're only sent when you click
 a button designed by the site. (It's much harder for attackers to inject 
 JavaScript than a simple URL, and any competent site will have protection 
 against it.)
 
-We're going to steal our own authentication and X-CSRF tokens and use them to
-authenticate our automated boop requests. When you copy the headers from the request in your browser, the cookie containing the auth token and the X-CSRF
-token will be valid at first, but will eventually expire. 
+We're going to steal our own authentication and 
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span> 
+tokens and use them to
+authenticate our automated boop requests. When you copy the headers from the request in your browser, the cookie containing the auth token and the 
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span>
+token will be valid at first, but will eventually expire. For ease of use, we
+can use our valid auth token to fetch a valid 
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span>
+ token, that way there are fewer things that require manual updates. 
+
+## Acquiring an X-CSRF Token
 
 
 ## Footnotes
 [^1]: The most common type of request is a GET request, where your browser requests something from the server. 
 
-[^2]:I'm putting together this write up at 00:34, so it's no longer Halloween. That means the boop API has closed down, so I can't actually test which of these will happen. 
+[^2]:I'm putting together this write up at 00:34, so it's no longer Halloween. That means the boop API has closed, so I can't actually test which of these will happen. 
