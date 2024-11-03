@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Boops Be Upon Ye: Automating Tumblr Booping"
-date: 2024-11-01 11:00:00 -0700
-tags: tumblr http-requests
+date: 2024-11-02 20:27:00 -0700
+tags: tumblr http-requests python
 category: drafts
 --- 
 
@@ -113,8 +113,8 @@ like this:
     "TE": "trailers"
 }
 ```
-
-Out of all this information, only the "X-CSRF" and "Cookie" fields need to be
+When we send our boop request, we need to include these headers. 
+Only the "X-CSRF" and "Cookie" fields need to be
 periodically updated. The rest of these fields stay the same, and can be
  hardcoded. Confusingly, 
 the "Authorization" field is not involved in user authentication, and actually
@@ -152,7 +152,139 @@ can use our valid auth token to fetch a valid
  token, that way there are fewer things that require manual updates. 
 
 ## Acquiring an X-CSRF Token
+Further examination of network requests shows that your Tumblr tab periodically
+makes a GET request to 
+fetch counts for your unread messages and blog notifications. These requests
+are sent to `https://tumblr.com/api/v2/user/counts?unread=true&inbox=true&unread_messages=true&blog_notification_counts=true&`. They send your login token in the cookie with each request, and the server
+response contains a newly issued
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span>
+token. This token is used the next time you send a boop request, so we know that
+given the login token, we can fetch a valid 
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span>
+token. 
 
+This works similarly to sending the boop request. We copy the headers from a
+real request, then update the cookie (and thus the auth token it contains)
+whenever it expires. It can be done in a short python function like this:
+
+```python
+# Returns a response to the HTTP request, containing the X-CSRF token
+def get_x_csrf(cookie, session):
+    request = session.get(
+        "https://tumblr.com/api/v2/user/counts?unread=true&inbox=true&unread_messages=true&blog_notification_counts=true&", 
+        headers={
+            "Host": "www.tumblr.com",
+            # User agent can be whatever
+            "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0",
+            "Accept": "application/json;format=camelcase",
+            "Accept-Language": "en-us",
+            "Accept-Encoding": "gzip, deflate, br, zstd",
+            "Referer": "https://www.tumblr.com/the-lucky-coin",
+            "X-Ad-Blocker-Enabled": "0",
+            "X-Version": "redpop/3/0//redpop/",
+            "DNT": "1",
+            "Cookie": cookie, # Cookie w/ auth token gets filled in here
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-origin",
+            "Authorization": "Bearer aIcXSOoTtqrzR8L8YEIOmBeW94c3FmbSNSWAUbxsny9KKx5VFh",
+            "Connection": "keep-alive",
+            "Sec-GPC": "1",
+            "Priority": "u=4",
+            "TE": "trailers",
+        }
+    )
+    return request # Returns the Response object from the request
+```
+
+This function gives us a Response object with a valid 
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span>
+token in its headers. Now, it's time to put it all together. 
+
+## Putting it all together 
+Thus far, we've covered the steps in reverse order to make it easier for 
+readers not familiar with HTTP requests. In order, the steps we undertake to 
+send an authenticated boop request are: 
+
+1. Obtain a valid cookie containing an auth token from an inspected network request
+2. Use the auth token to obtain a valid <span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span> token
+3. Send a boop request with the following information: 
+	- Recipient 
+	- Boop type
+	- Valid auth token
+	- Valid <span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span> token
+
+We can store the cookie in a file `cookie.txt` so that we don't have to touch 
+the code. Now, we put together all the code: 
+
+```python
+import requests 
+
+# Define our boop_user function that passes the headers and data discussed
+def boop_user(user, x_csrf, session):
+    
+    request = s.post(
+        "https://www.tumblr.com/api/v2/boop",
+        headers={
+            "Host": "www.tumblr.com",
+            "User-Agent": "car explosion with hammers", # get bent matt
+            "Accept": "application/json;format=camelcase",
+            "Accept-Language": "en-us",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Authorization": "Bearer aIcXSOoTtqrzR8L8YEIOmBeW94c3FmbSNSWAUbxsny9KKx5VFh",
+            "X-Ad-Blocker-Enabled": "0",
+            "X-Version": "redpop/3/0//redpop/",
+            "X-CSRF": x_csrf,
+            "Origin": "https://www.tumblr.com",
+            "DNT": "1",
+            "Alt-Used": "www.tumblr.com",
+            "Connection": "keep-alive",
+            "Cookie": cookie,
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-GPC": "1",
+            "TE": "trailers",
+        },
+        data={"receiver": user,"context":"lmao","type":"abnormal"},
+    )
+
+    return request
+# Read cookie from file 
+cookie = open("cookie.txt").readline()
+
+# Initialize session for requests 
+session = requests.Session()
+
+# Send request to fetch X-CSRF token
+x_csrf_req = get_x_csrf(cookie, s)
+
+# Extract X-CSRF token from the response 
+x_csrf = x_csrf_req.headers["X-Csrf"]
+
+# Make the request and save the response
+boop = boop_user(user, session, cookie, x_csrf)
+
+```
+
+Saving the response from the request is not strictly necessary, but it's useful
+for implementing a more advanced booping machine. My full booping script 
+includes checking the response code for several relevant responses: 
+- `400` (bad request) indicates that either your request parameters are messed up, or the recipient has not enabled booping. Often appears if you provide an invalid blog name. 
+- `401` (unauthorized) indicates that your auth token or <span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span> token are no longer valid. They expire after a certain amount of time. My script boops users continuously, so it's nice to detect this code so that the script knows when to stop. 
+- `404` (not found) indicates that the booping API is closed. 
+- `429` (too many requests) indicates that the API is rate limiting you because you've sent too many requests in the last few minutes. It's useful to wait a second or two when this code is received before sending the next request. 
+
+One more thing of interest: Attentive readers may have noticed that this code
+doesn't refresh the
+<span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span>
+token at all. Even though your Tumblr tab will request a new <span data-bs-toggle="tooltip" data-bs-placement="top" title="Anti-Cross Site Request Forgery">__X-CSRF__</span> 
+token after every boop, for some reason the old ones are not invalidated. 
+Refreshing it is not actually necessary, which I discovered by accident when I
+forgot to refresh the token, and my code still worked. 
+
+## Conclusion 
+Boop your mutuals to your heart's content. Hack the planet! [My full booping script is available here](https://github.com/sudo-nano/tumblr-booper).
 
 ## Footnotes
 [^1]: The most common type of request is a GET request, where your browser requests something from the server. 
