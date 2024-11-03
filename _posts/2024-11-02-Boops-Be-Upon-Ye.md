@@ -3,7 +3,6 @@ layout: post
 title: "Boops Be Upon Ye: Automating Tumblr Booping"
 date: 2024-11-02 20:27:00 -0700
 tags: tumblr http-requests python
-category: drafts
 --- 
 
 ## Introduction
