@@ -10,8 +10,8 @@ hidden: true
 <!-- Insert target audience statement -->
 
 My partner and I have been considering purchasing an espresso machine for some
-time. We both love coffee, and find its production fascinating.
-<!-- Insert link to Vietnamese Coffee post here -->
+time. We both love coffee, and find its production fascinating. (See my 
+[post on making Vietnamese coffee](https://sudo-nano.github.io/posts/Vietnamese-Coffee/))
 The main thing stopping us was the cost. We're college students with an
 appreciation for quality, which is a perilous place for our wallets. Espresso
 is a prominent part of the coffee world, despite being one of the least
@@ -34,7 +34,7 @@ acidic.
 Having failed to make use of the stock portafilter and basket, I set out to
 find an aftermarket one. This machine uses a 51mm portafilter, which is 
 nonstandard. Nobody except DeLonghi uses this size. Most other machines use 54mm.
-<!-- Citation Needed -->
+<!-- Insert example brands using 54mm portafilters -->
 The only search results were
 [a few](https://www.amazon.com/portafilter-Delonghi-bottomless-Stainless-Replacement/dp/B09W5QY63R)
 [bottomless](https://www.normcorewares.com/products/normcore-naked-bottomless-portafilter)
@@ -55,6 +55,30 @@ garbage, there are still no precision baskets for 51mm portafilters. The only
 ## Making Espresso
 In the production of our espresso, we used a Baratza Encore 485 grinder, a
 star anise bottle as an improvised tamper, and an Aliexpress bottomless 
-portafilter with its included double shot basket. 
+portafilter with its included double shot basket. Not exactly a professional
+setup, but adequate for our purposes.
+
+We dialed in four coffees, most from local roasteries:
+- *Lotus* from Ca Phe: medium-light roast
+- *Holy Roller* from Heretic Coffee: medium-light roast, complex, grain notes 
+- *Puerto Rico* from Radiant Coffee Roasters: medium roast 
+- Trader Joe's French Roast: very dark roast
+
+Ca Phe *Lotus*, while promising for french press, was undrinkably sour no 
+matter what we tried. Doses as high as we could cram in the basket, grinds as
+fine as the grinder went, pull times as long as 30 seconds. I suspect the 
+pressure of this machine is not enough to get good extraction on lighter and
+more acidic coffees. Unfortunately, we lack the facilities to properly test
+this hypothesis.[1]
+
+Heretic Coffee's *Holy Roller* provides a nice complex and grain-forward flavor. 
+The Heretic owner explained to us that they had designed the roast to make good
+lattes, and it sure did. After the complete failure pulling the *Lotus*, we
+were pleasantly surprised by how well it worked given the lightness of the
+roast. This one will remain a household favorite for lattes, 
+and we made a fantastic pumpkin spice latte using 
+[Morgan Eckroth's 2024 pumkpin spice latte recipe](https://morgandrinkscoffee.com/blogs/recipes-1/how-to-make-a-pumpkin-spice-latte).
+
 
 ## Footnotes
+[^1]: Though portafilters with pressure gauges exist, this machine is a nonstandard basket size. It would likely require custom machining a portafilter for use with a pressure gauge. We would be interested in undertaking this project had we the time or funds. 
