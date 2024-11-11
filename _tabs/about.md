@@ -17,6 +17,11 @@ while meeting their varied dietary restrictions. Quartermaster uses the
 [digitized recipe format](https://github.com/sudo-nano/digitized-recipe-format), 
 another project of mine.
 
+Making drinks (coffee and tea) makes me happy. Making them for other people,
+and getting it down to a science, makes me happier. See the 
+[coffee tag](https://sudo-nano.github.io/tags/coffee/) for my coffee science. 
+(At present, no posts have been published under tea or alcohol.)
+
 This site is hosted with GitHub Pages, using the Jekyll static site generator and the Chirpy theme. 
 
 
