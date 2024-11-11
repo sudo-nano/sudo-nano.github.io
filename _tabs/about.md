@@ -4,9 +4,18 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-You may know me as TheMagicalC or cwg1231 on most platforms, or sudo-nano on github. This is where I organize my thoughts, experiments, and projects, in the hope that it will improve the internet just a little bit. 
+I'm TheMagicalC or cwg1231 on most platforms, and sudo-nano on github. 
 
-I like electronics, amateur radio, physical and digital security and penetration testing, video games, law, and computer science. 
+I like electronics, amateur radio, physical and digital security and penetration testing, video games, intellectual property and civil rights law, and programming.
+
+I'm a college student and work at a nuclear research reactor.
+
+My current programming hobby project is 
+[quartermaster](https://github.com/sudo-nano/quartermaster), 
+a logistical calculator designed to help you cook for a large number of people
+while meeting their varied dietary restrictions. Quartermaster uses the 
+[digitized recipe format](https://github.com/sudo-nano/digitized-recipe-format), 
+another project of mine.
 
 This site is hosted with GitHub Pages, using the Jekyll static site generator and the Chirpy theme. 
 
