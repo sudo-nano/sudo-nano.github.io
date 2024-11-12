@@ -197,3 +197,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+feed: 
+  icon: /assets/oegh_favicon.png
+  logo: /assets/oegh_favicon.png
+  tags: true 
+  excerpt_only: false
