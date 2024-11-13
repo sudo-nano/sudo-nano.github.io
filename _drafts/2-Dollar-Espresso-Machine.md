@@ -76,9 +76,11 @@ The Heretic owner explained to us that they had designed the roast to make good
 lattes, and it sure did. After the complete failure pulling the *Lotus*, we
 were pleasantly surprised by how well it worked given the lightness of the
 roast. This one will remain a household favorite for lattes, 
-and we made a fantastic pumpkin spice latte using 
+and we made many fantastic pumpkin spice lattes using 
 [Morgan Eckroth's 2024 pumkpin spice latte recipe](https://morgandrinkscoffee.com/blogs/recipes-1/how-to-make-a-pumpkin-spice-latte).
 
+## Steaming Milk
+<!-- Insert review of steaming wand here -->
 
 ## Footnotes
 [^1]: Though portafilters with pressure gauges exist, this machine is a nonstandard basket size. It would likely require custom machining a portafilter for use with a pressure gauge. We would be interested in undertaking this project had we the time or funds. 
