@@ -109,14 +109,26 @@ are free to screw their customers
 as hard as they want.[^3] There are no longer consequences for enacting planned
 obsolescence to the extreme. 
 
+<!-- Relocate this section to end after writing medical hardware section
 Requiring critical systems to be open source means that if those systems are abandoned,
 the people that use them can step in to maintain them, preventing otherwise
 inevitable disruption of important infrastructure. It provides more reliable infrastructure
 and a check against shareholder-driven planned obsolescence. 
+-->
 
 <!-- Add section about medical hardware, including existing hardware and upcoming
 such as Neuralink https://youtu.be/4Qz7rPxOExo?si=m9EjTLgu-t_hJCkC -->
 
+Abandonware is not just a business problem. More and more people are receiving
+cutting-edge medical technology. 
+Bionic eyes enable blinded people to see again, pacemakers keep people's hearts 
+pumping, and brain implants vastly improve quality of life for epileptic 
+patients. 
+All of that can, at present, lose support completely at the whim of a
+corporation, or when it becomes insolvent. 
+In fact, [this has already happened]
+(https://futurism.com/neoscope/brain-implant-removed-consent) to the 
+aforementioned epileptic patient. 
 
 ### Assisting Security Research
 <!--
