@@ -120,7 +120,8 @@ and a check against shareholder-driven planned obsolescence.
 such as Neuralink https://youtu.be/4Qz7rPxOExo?si=m9EjTLgu-t_hJCkC -->
 
 Abandonware is not just a business problem. More and more people are receiving
-cutting-edge medical technology. 
+cutting-edge medical technology, the functioning of which is a matter of life
+and death.
 Bionic eyes enable blinded people to see again, pacemakers keep people's hearts 
 pumping, and brain implants vastly improve quality of life for epileptic 
 patients. 
@@ -128,7 +129,8 @@ All of that can, at present, lose support completely at the whim of a
 corporation, or when it becomes insolvent. 
 In fact, [this has already happened]
 (https://futurism.com/neoscope/brain-implant-removed-consent) to the 
-aforementioned epileptic patient. 
+aforementioned epileptic patient, whose implant was removed *without her consent*
+due to the company's financial failure. 
 
 ### Assisting Security Research
 <!--
