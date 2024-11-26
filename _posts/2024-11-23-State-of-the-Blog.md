@@ -9,7 +9,8 @@ pin: true
 
 ## 2024-11-23
 ### Eventual domain change 
-As some of you may know, the .io Top Level Domain (TLD) is going away eventually.
+As some of you may know, the 
+[.io Top Level Domain (TLD) is going away eventually.](https://every.to/p/the-disappearance-of-an-internet-domain)
 It doesn't stand for Input/Output, it stands for Indian Ocean. This TLD is 
 assigned to the British Indian Ocean territories, which are about to stop
 existing, since Britain has promised to cede them to Mauritius. You may notice
