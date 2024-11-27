@@ -4,3 +4,29 @@
 @import 'main';
 
 /* append your custom style below */
+
+/* abbr stylesheet stolen from https://izzys.casa */
+abbr:hover::after {
+    padding: 5px;
+    background-color: #111111;
+    box-shadow: 4px 4px #50FF62; /* hehe greer */
+    border: 3px solid #444444;
+    border-radius: 3px;
+    text-align: center;
+    content: attr(title);
+    position: absolute;
+    transform: translate(-25%, -100%);
+}
+
+/*
+Hide abbr pop up from screen readers.
+This is commented out because I want to accessibly shitpost using alt text, but
+left here in case I need it later.
+*/
+/*
+@media reader, screen {
+    abbr:hover::after {
+        visibility: hidden;
+    }
+}
+*/
