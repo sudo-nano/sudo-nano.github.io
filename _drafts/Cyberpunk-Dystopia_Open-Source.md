@@ -3,8 +3,8 @@ layout: post
 title: "Critical Systems Must Be Open Source - How to Not Live in a Cyberpunk Dystopia #01"
 date: 2024-01-24 16:00:00 -0700
 tags: politics right-to-repair cyberpunk
-category: drafts # Change this before publication
-#category: Cyberpunk Dystopia
+category: drafts # Remove this before publication
+category: Cyberpunk Dystopia
 hidden: true # delete this before publication
 authors: [TheMagicalC, TuckerTwomey]
 ---
@@ -24,7 +24,7 @@ clarification.](https://sudo-nano.github.io/about/)
 > `Problem Exists Between Chair and Keyboard (PEBCAK)` \\
 > However, this article has *a lot* of acronyms, so I've added a new feature.
 > Acronyms will now have alt text that can be viewed by putting your mouse over
-> them, like so: <span data-bs-toggle="tooltip" data-bs-placement="top" title="Problem Exists Between Chair And Keyboard">**PEBCAK**</span>
+> them, like so: <abbr title="Problem Exists Between Chair And Keyboard">PEBCAK</abbr>
 {: .prompt-tip }
 
 ## Introduction
@@ -162,11 +162,14 @@ the MIFARE Classic RFID credential[^4], which was at the time used for London's 
 public transit cards. This revealed serious vulnerabilities in its cryptographic 
 algorithm, demonstrating attacks that allow attackers to easily recover secret keys 
 from the reader. NXP Semiconductors, the manufacturer of MIFARE Classic credentials, was sent an 
-early copy so that they could patch the vulnerabilities.[^5] Instead of doing so, NXP 
-attempted to sue the university to prevent the researchers from publishing their 
-paper. The courts did not grant their injuction, and the research was published. 
-However, this response shows a concerning prioritization of business interests over 
-security, an attitude that any for-profit corporation has monetary incentive to take.
+early notice so they could patch the vulnerabilities before publication of the
+paper.[^5] Instead of fixing the
+problem, NXP sued the university to prevent the researchers from publishing 
+their paper. They requested an *injuction*, a court order that would
+prevent publication of the research. 
+The courts did not grant their injuction, and the research was published. 
+This response shows an irresponsible prioritization of business interests over 
+security, an attitude that any for-profit corporation has monetary incentive to take.[^shareholders]
 
 The flaws in MIFARE Classic's cryptographic algorithm would have been glaringly
 obvious upon mathematical examination. Had NXP open-sourced their algorithm, its
@@ -214,7 +217,7 @@ device, you have no way to actually verify this claim.
 Even if you have the skills to verify this claim, there's a catch: Reverse 
 engineering can run afoul of the Terms of Service (ToS), End User License
 Agreement (EULA), 
-<span data-bs-toggle="tooltip" data-bs-placement="top" title="Digital Millenium Copyright Act">__DMCA__</span>, or Electronic Communication Privacy Act.
+<abbr title="Digital Millenium Copyright Act">DMCA</abbr>, or Electronic Communication Privacy Act.
 At this point, forbidding reverse engineering is standard boilerplate for any 
 service. Here are some high profile examples: 
 
@@ -226,7 +229,7 @@ service. Here are some high profile examples:
 > our products or their components. ([Instagram](https://help.instagram.com/581066165581870/))
 
 If you reverse engineer something
-when the ToS or EULA say you can't, you're guilty of breach of contract, 
+when the ToS or <abbr title="End User License Agreement">EULA</abbr> say you can't, you're guilty of breach of contract, 
 allowing the manufacturer to sue you for everything you own.
 
 ## What can you do about it? 
@@ -239,6 +242,12 @@ Outline:
   - You don't have to buy unstable bleeding edge hardware
   - At least express interest in the repairable hardware 
 -->
+### Contact your federal *and* state legislators 
+
+### If you're a decision maker, factor in right to repair
+
+### Buy repairable hardware 
+
 
 ## Footnotes
 
@@ -248,9 +257,13 @@ Outline:
 [^3]: This statement applies primarily to the United States, which has fallen behind in antitrust enforcement and consumer protection laws since the Reagan administration.
 [^4]: [Nohl et. al., "Reverse Engineering a Cryptographic RFID Tag."](https://www.cs.virginia.edu/~evans/pubs/usenix08/usenix08.pdf) USENIX Security Symposium. San Jose, CA. 31 July 2008.
 [^5]: [https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#](https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#)
+
+[^shareholders]: This is part of a broader trend of companies attempting to smite anything that could so much as touch their shareholders. It's a symptom of late stage capitalism, which I intend to cover at an introductory level later in this series. 
+
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
 [^mfc1]: [Garcia et. al., "Dismantling MIFARE Classic."](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
 [^mfc2]: [Garcia et. al., "Wirelessly Pickpocketing a Mifare Classic Card."](https://www.cs.umd.edu/~jkatz/security/downloads/Mifare3.pdf) 30th IEEE Symposium on Security and Privacy, 2009.
 [^mfc_sen]: [Teuwen, Philippe. “MIFARE Classic: Exposing the Static Encrypted Nonce Variant,”](https://blog.quarkslab.com/mifare-classic-static-encrypted-nonce-and-backdoors.html) Quarkslab's Blog, 20 August 2024.
 [^7]: Lead testing is a notable example because at-home test kits are usable by the layperson.
+
 
