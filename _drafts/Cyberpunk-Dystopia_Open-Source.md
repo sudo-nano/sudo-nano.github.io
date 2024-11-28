@@ -157,7 +157,8 @@ and disclose exploits will shrink exploit stockpiles and make their sale less pr
 
 Unfortunately, not every company acts responsibly when a researcher
 discloses a vulnerability to them. In 2008, security researchers reverse engineered 
-the MIFARE Classic RFID credential[^4], which was at the time used for London's Oyster 
+the MIFARE Classic <abbr title="Radio Frequency IDentification">RFID</abbr>
+  credential[^4], which was at the time used for London's Oyster 
 public transit cards. This revealed serious vulnerabilities in its cryptographic 
 algorithm, demonstrating attacks that allow attackers to easily recover secret keys 
 from the reader. NXP Semiconductors, the manufacturer of MIFARE Classic credentials, was sent an 
@@ -176,7 +177,8 @@ weakness might have been spotted before it was widely adopted. Better yet, their
 of the scrutiny might have compelled them to design a more secure algorithm. 
 MIFARE Classic was so popular at the time that it remains the most widely used 
 RFID credential by pure inertia, despite having been broken repeatedly over the
-past 14 years.[^mfc1][^mfc2] <!-- Add a frankly ridiculous number of citations here -->
+past 14 years.[^mfc1][^mfc2] 
+<!-- Add a frankly ridiculous number of citations here -->
 In fact, the original draft of this post mentioned a 3rd party "static encrypted nonce"
 variant that researchers had not yet cracked. During the editing of this post, 
 researchers discovered a manufacturer backdoor hidden in the new variant.[^mfc_sen] 
@@ -184,9 +186,10 @@ Worse still, RFID credentials implement their cryptographic algorithms in
 hardware, so these vulnerabilities cannot be patched except by replacing every
 vulnerable credential in circulation. 
 
-Coverage of this sort of issue often paints a dichotomy between the evil "black hat
+Coverage of this issue often paints a dichotomy between the evil "black hat
 hacker" and the virtuous "white hat hacker". As with most dichotomies, reality
-is more complicated. Some paint the image that white hat hackers stay entirely within
+is more complicated. Some paint the image that white hat hackers stay entirely 
+within
 the law, but this is becoming much more difficult as companies employ aggressive 
 intellectual property protection laws and End User License Agreements (EULAs) 
 that make established 
