@@ -9,7 +9,7 @@ hidden: true # delete this before publication
 authors: [TheMagicalC, TuckerTwomey]
 ---
 <!-- 
-Editing Passes before completion: 1
+Editing Passes before completion: 2
 Editing passes after completion:  0
 -->
 This is post #01 <!-- Edit this AND THE TITLE before posting -->
@@ -36,9 +36,9 @@ and software.
 
 "Critical systems" here means any systems whose failure is more likely than not
 to cause serious injury (physical or otherwise) and/or loss of life. This definition
-encompasses systems that would cause direct harm, such as killing a person via
-failure of a medical device or autonomous vehicle. It also encompasses systems that
-would cause indirect harm, such as the failure of a banking system preventing people
+encompasses systems that would directly cause harm, such as killing a person via
+failure of a medical device or autonomous vehicle. It also encompasses systems 
+that would indirectly cause harm, such as the failure of a banking system preventing people
 from purchasing necessities, or supply chain failures preventing delivery of 
 those necessities.
 
@@ -119,14 +119,13 @@ and a check against shareholder-driven planned obsolescence.
 <!-- Add section about medical hardware, including existing hardware and upcoming
 such as Neuralink https://youtu.be/4Qz7rPxOExo?si=m9EjTLgu-t_hJCkC -->
 
-Abandonware is not just a business problem. More and more people are receiving
-cutting-edge medical technology, the functioning of which is a matter of life
-and death.
+Abandonware is not just a business problem. An increasing number of people are
+being uplifted by cutting edge medical technology.
 Bionic eyes enable blinded people to see again, pacemakers keep people's hearts 
 pumping, and brain implants vastly improve quality of life for epileptic 
 patients. 
-All of that can, at present, lose support completely at the whim of a
-corporation, or when it becomes insolvent. 
+All of that can lose support at the whim of a corporation. It doesn't even need
+to be intentional. Corporate insolvency can lead to inadvertent loss of support.
 In fact, [this has already happened]
 (https://futurism.com/neoscope/brain-implant-removed-consent) to the 
 aforementioned epileptic patient, whose implant was removed *without her consent*
@@ -195,8 +194,7 @@ research practices illegal. Any law that bans reverse-engineering is guilty of t
 but the most egregious is the Digital Millenium Copyright Act (DMCA).[^6] It bans 
 reverse engineering and bypassing of Digital Rights Management (DRM) software and
 other software used to encrypt copyrighted media. Because of this, security research 
-on proprietary software carries greater legal risks than ever, something mitigated by
-making software open source. 
+on proprietary software carries greater legal risks than ever, something mitigated by making software open source. 
 
 ### Accountability Auditing
 <!--
@@ -215,9 +213,10 @@ have the personal expertise to inspect the electronics and software of the
 device, you have no way to actually verify this claim. 
 
 Even if you have the skills to verify this claim, there's a catch: Reverse 
-engineering can run afoul of the Terms of Service (ToS), End User License
-Agreement (EULA), 
-<abbr title="Digital Millenium Copyright Act">DMCA</abbr>, or Electronic Communication Privacy Act.
+engineering can run afoul of the Terms of Service (ToS), 
+<abbr title="End User License Agreement">EULA</abbr>, 
+<abbr title="Digital Millenium Copyright Act">DMCA</abbr>, 
+or Electronic Communication Privacy Act.
 At this point, forbidding reverse engineering is standard boilerplate for any 
 service. Here are some high profile examples: 
 
@@ -228,26 +227,49 @@ service. Here are some high profile examples:
 > You can’t modify, translate, create derivative works of, or reverse engineer 
 > our products or their components. ([Instagram](https://help.instagram.com/581066165581870/))
 
-If you reverse engineer something
-when the ToS or <abbr title="End User License Agreement">EULA</abbr> say you can't, you're guilty of breach of contract, 
-allowing the manufacturer to sue you for everything you own.
+If you want to verify that these services actually abide by their own privacy
+policies, you legally can't! If you reverse engineer something
+when the <abbr title="Terms of Service">ToS</abbr> or 
+<abbr title="End User License Agreement">EULA</abbr> prohibit it, you may be 
+civilly liable. (That's legal speak for "the company can sue the living 
+daylights out of you.")
+
+When fully contextualized, it becomes obvious how ridiculous this is. Often, 
+these services send code to your browser. The code exists on your computer, and
+yet is illegal to read. How ridiculous would it be for a car dealership to tell
+you that it's illegal to do maintenance work on your own car? What if I sold you
+a painting, but said it was illegal to get it verified as genuine rather than a
+forgery? This is where we are in the tech space. The internet, in its infancy,
+is not yet well regulated. 
+<!-- Is there a better way to end this paragraph? -->
 
 ## What can you do about it? 
 <!-- 
 Outline: 
-- Call your federal *and* state legislators about it 
-- Mention Oregon right to repair bill as a success story 
-- If you're a corporate decision maker, don't patronize companies with bad repair policies. 
 - Buy more repairable personal hardware 
   - You don't have to buy unstable bleeding edge hardware
   - At least express interest in the repairable hardware 
 -->
-### Contact your federal *and* state legislators 
+### Policy Reform
+<!-- Briefly cover DMCA anti-circumvention measures  (in-depth coverage of 
+specific legal language will come in a subsequent post) -->
+<!-- Mention Oregon right to repair bill -->
+<!-- Tell people to call their legislators. It's impactful, since very few
+  people ever do it. -->
 
-### If you're a decision maker, factor in right to repair
+### Convince Decision Makers
+Right to repair is good for businesses as well. Decision makers in corporate and
+government positions should be aware that repairable equipment reduces their
+long-term operating costs.
+<!-- Refrain from making a snarky remark about how most "cost reduction"
+  involves paying people non-livable wages -->
 
-### Buy repairable hardware 
 
+### Buy Repairable Hardware 
+<!-- If you're willing and able, try out new repairable hardware like a 
+  fairphone or a framework laptop. -->
+<!-- If current repairable hardware is not stable enough for you, express 
+  interest in repairable hardware to both companies that do and don't make it. -->
 
 ## Footnotes
 
