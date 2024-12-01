@@ -20,7 +20,7 @@ This post is targeted towards a general audience. No prior knowledge is required
 If something is unclear, please refer to the footnotes or [contact me to ask for
 clarification.](https://sudo-nano.github.io/about/)
 
-> I always write out acronyms the first time they're used on any given page, like this:
+> I always write out acronyms the first time they're used on each page, like this: \\
 > `Problem Exists Between Chair and Keyboard (PEBCAK)` \\
 > However, this article has *a lot* of acronyms, so I've added a new feature.
 > Acronyms will now have alt text that can be viewed by putting your mouse over
