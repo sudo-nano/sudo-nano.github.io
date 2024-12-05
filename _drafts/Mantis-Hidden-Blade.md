@@ -122,12 +122,13 @@ fishing line. Woven cord causes too much friction, so the mechanism will not
 operate properly. Line with a strength greater than or equal to 10 lbs (4.5 kg)
 should be used to prevent breakage. 
 
-### Initial Assembly 
+## Initial Assembly
 > Tapping screw holes is optional, since many 3D printed plastics are soft 
 > enough to allow self-tapping as the screw is driven in. Tapping is recommended
 > for plastics harder than PLA. 
 {: .prompt-tip }
 
+### Prepare Axles
 The arms and blade are connected to each other and the case using 4 axle 
 assemblies. Each axle assembly is composed of two sleeve bearings and one dowel
 pin. 
@@ -136,7 +137,7 @@ pin.
 
 Prepare 4 axles by gluing a dowel pin into each of 4 sleeve bearings. 
 
-
+### Attach the gear rack
 
 ## Footnotes
 [^1]: I actually finished this design several years ago, but wanted to make an instructional video on assembly before publishing. I suddenly got very busy with college, so that never happened. Now that I have a blog, I can make the instructions a living document so that I can gradually upload images, diagrams, and videos. 
