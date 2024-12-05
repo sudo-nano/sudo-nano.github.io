@@ -18,7 +18,8 @@ process over my 20 years of life so far.
 Learning can be described as a 4 step process:
 1. Ingest information
 2. Understand and contextualize
-3. Build mechanical skill when applicable
+3. Build mechanical or informational skill
+<!-- Informational skill example: Quickly recognizing chords or cadences without having to count half-steps -->
 4. Retain information, context, and skills
 
 As an example, you'll learn about a rudimentary piece of percussion instrument 
@@ -68,10 +69,10 @@ matter (and is usually not written in those cases), sometimes composers assign
 a recommended sticking or note the sticking that they found most comfortable for
 complex sequences. 
 
-With this context, you know what sticking patterns are for, and when you would
+With this context, you know what sticking patterns are for, or when you would
 or wouldn't use them. 
 
-### Build Mechanical Skill (when applicable)
+### Build Mechanical or Informational Skill
 At this point, you can play a paradiddle. A simple LRLL or RLRR is well within
 your grasp. However, integrating a paradiddle into a piece of music requires
 more flexibility. To do that, you'll need to practice a few skills: 
@@ -89,11 +90,23 @@ important that your basics are solid. Contrary to most people's expectations,
 this makes them the hardest part of the learning process. 
 
 At this point, your mechanical skill must advance before you can master more
-advanced techniques. You *can* always attempt more advanced techniques before
+advanced techniques. Playing paradiddles at faster tempos requires strengthening
+your hands through regular practice. Eventually, the tempo is too fast for 
+you to articulate each individual stroke, so you have to learn how to play a 
+diddle. 
+
+Diddle
+: The technique of playing more than one note per downwards hand movement, usually done by bouncing the stick between your hand and the drum head.[^2]
+
+You *can* always attempt more advanced techniques before
 solidifying your basics, but your learning will suffer for it. That's not to say
-it's always a bad idea: If you find it difficult to intuitively understand the
-importance of drilling basics, as I do, attempting to learn something more
-advanced will often get it through your head.
+it's always a bad idea: If you remain unconvinced that practicing basics is
+necessary, or have a hard time motivating yourself to practice them,
+as I do, attempting to learn something more advanced will often produce an 
+intuitive understanding of which basics require further practice. 
+<!-- Talk more about percussion mechanical skills, "chops", playing faster -->
+
+Not all types of learning require advancement of mechanical skill. 
 
 ### Retain information, context, and skills. 
 <!-- Mention spaced repetition -->
@@ -101,13 +114,19 @@ advanced will often get it through your head.
 ## Set Realistic Goals
 <!-- Set goals that give you a little headroom even if there are mistakes. -->
 
-## Be Intentional 
+## Practice With Intention
 <!-- Have a target skill to improve when practicing -->
 
 ## Allocate separate time for each part of the process
+You may have experienced a time where your teacher said you needed to spend a
+certain amount of time working on something, and you spent that time but still
+didn't feel confident on the topic. 
+
 Total time spent learning is not as important as spending the adequate amount
 of time on each part of the process. There is no formula for how much time this
 should be. Each individual experiences the learning process differently. 
+
+
 
 ## Footnotes
 [^1]: These instructions are not exact. There is no particular reason to start 
@@ -115,3 +134,6 @@ with a right hand paradiddle in either of these exercises, start with the hand
 that feels most comfortable to you. I wrote this starting with right hand 
 paradiddles because it's statistically most likely to be the dominant hand of 
 any given reader. 
+
+[^2]: It's fine if you have trouble visualizing this. Diddles are a critical
+but difficult skill that's best taught in person, not in text. 
