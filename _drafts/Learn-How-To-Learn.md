@@ -44,7 +44,7 @@ section are:
 
 ### Understand and Contextualize 
 To transform words into understanding, we must unpack the definitions involved 
-and learn the context in which these concepts exist. 
+and learn the context surrounding these concepts.
 
 In the above definition for **paradiddle**, we mention **sticking patterns** and
 give some examples.
@@ -102,6 +102,7 @@ diddle.
 > usually done by bouncing the stick between your hand and the drum head.[^2]
 {: prompt-info }
 
+<!-- Consider moving this paragraph to the end of the section -->
 You *can* always attempt more advanced techniques before
 solidifying your basics, but your learning will suffer for it. That's not to say
 it's always a bad idea: If you remain unconvinced that practicing basics is
@@ -110,7 +111,9 @@ as I do, attempting to learn something more advanced will often produce an
 intuitive understanding of which basics require further practice. 
 <!-- Talk more about percussion mechanical skills, "chops", playing faster -->
 
-Not all types of learning require advancement of mechanical skill. 
+Not all types of learning require advancement of mechanical skill. Sometimes, 
+advancement requires **informational skill:** the ability to quickly recognize
+the importance of a piece of information, and use it in context. 
 
 ### Retain information, context, and skills. 
 <!-- Mention spaced repetition -->
