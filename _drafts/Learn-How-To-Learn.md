@@ -7,7 +7,8 @@ category: drafts
 hidden: true
 --- 
 <!-- Editing passes: 0 -->
-This post is intended for all audiences. 
+> This post is intended for all audiences. 
+{: .prompt-info }
 
 If you're someone that learns a lot of things, at some point you may have 
 wondered how to learn faster and better. (We'll talk about what "better" means
@@ -48,8 +49,9 @@ and learn the context in which these concepts exist.
 In the above definition for **paradiddle**, we mention **sticking patterns** and
 give some examples.
 
-Sticking Pattern 
-: A string that denotes which hand you should use to play a note. 
+> **Sticking Pattern:** Annotations that show which hand should be used to play
+each note.
+{: .prompt-info }
 
 Sticking patterns are typically used for percussion instruments
 that are played with two sticks, like drums. They are formatted as
@@ -95,8 +97,10 @@ your hands through regular practice. Eventually, the tempo is too fast for
 you to articulate each individual stroke, so you have to learn how to play a 
 diddle. 
 
-Diddle
-: The technique of playing more than one note per downwards hand movement, usually done by bouncing the stick between your hand and the drum head.[^2]
+> **Diddle:**
+> The technique of playing more than one note per downwards hand movement,
+> usually done by bouncing the stick between your hand and the drum head.[^2]
+{: prompt-info }
 
 You *can* always attempt more advanced techniques before
 solidifying your basics, but your learning will suffer for it. That's not to say
@@ -129,11 +133,6 @@ should be. Each individual experiences the learning process differently.
 
 
 ## Footnotes
-[^1]: These instructions are not exact. There is no particular reason to start 
-with a right hand paradiddle in either of these exercises, start with the hand
-that feels most comfortable to you. I wrote this starting with right hand 
-paradiddles because it's statistically most likely to be the dominant hand of 
-any given reader. 
+[^1]: These instructions are not exact. There is no particular reason to start with a right hand paradiddle in either of these exercises, start with the hand that feels most comfortable to you. I wrote this starting with right hand paradiddles because it's statistically most likely to be the dominant hand of any given reader. 
 
-[^2]: It's fine if you have trouble visualizing this. Diddles are a critical
-but difficult skill that's best taught in person, not in text. 
+[^2]: It's fine if you have trouble visualizing this. Diddles are a critical but difficult skill that's best taught in person, not in text. 
