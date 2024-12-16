@@ -122,10 +122,11 @@ such as Neuralink https://youtu.be/4Qz7rPxOExo?si=m9EjTLgu-t_hJCkC -->
 Abandonware is not just a business problem. An increasing number of people are
 being uplifted by cutting edge medical technology.
 Bionic eyes enable blinded people to see again, pacemakers keep people's hearts 
-pumping, and brain implants vastly improve quality of life for epileptic 
+pumping, and brain implants prevent dangerous seizures in epileptic 
 patients. 
 All of that can lose support at the whim of a corporation. It doesn't even need
-to be intentional. Corporate insolvency can lead to inadvertent loss of support.
+to be intentional. 
+Corporate insolvency can lead to inadvertent loss of support.
 In fact, [this has already happened]
 (https://futurism.com/neoscope/brain-implant-removed-consent) to the 
 aforementioned epileptic patient, whose implant was removed *without her consent*
@@ -243,8 +244,8 @@ yet is illegal to read. How ridiculous would it be for a car dealership to tell
 you that it's illegal to do maintenance work on your own car? What if I sold you
 a painting, but said it was illegal to get it verified as genuine rather than a
 forgery? This is where we are in the tech space. The internet, in its infancy,
-is not yet well regulated. 
-<!-- Is there a better way to end this paragraph? -->
+is not yet well regulated, and tech companies will take advantage of it until
+we fix it.
 
 ## What can you do about it? 
 <!-- 
@@ -263,7 +264,17 @@ specific legal language will come in a subsequent post) -->
 ### Convince Decision Makers
 Right to repair is good for businesses as well. Decision makers in corporate and
 government positions should be aware that repairable equipment reduces their
-long-term operating costs.
+long-term operating costs. In an age where shareholders pressure companies to
+tear the wiring out of the walls in the name of increasing quarterly profits,
+and then 
+[cut costs by laying off 15% of the workforce](https://www.theverge.com/2024/8/1/24210656/intel-is-laying-off-over-10000-employees-and-will-cut-10-billion-in-costs),
+Investing in equipment that will be maintained instead of thrown out keeps you 
+ahead of the game. 
+
+Decision makers negotiating for massive contracts have the leverage to ask
+manufacturers for more durable and repairable hardware. Even if the manufacturer
+can't improve the hardware for you during this contract cycle, expressing 
+interest shows them they should be prioritizing it for the next cycle.
 <!-- Refrain from making a snarky remark about how most "cost reduction"
   involves paying people non-livable wages -->
 
@@ -273,7 +284,8 @@ long-term operating costs.
   fairphone or a framework laptop. -->
 <!-- If current repairable hardware is not stable enough for you, express 
   interest in repairable hardware to both companies that do and don't make it. -->
-
+Experimental hardware becomes mainstream when it's popularized by *enthusiasts*:
+hobbyists with the time to help developers work out the kinks. 
 ## Footnotes
 
 [^1]: [https://en.wikipedia.org/wiki/GNU_Manifesto](https://en.wikipedia.org/wiki/GNU_Manifesto)
