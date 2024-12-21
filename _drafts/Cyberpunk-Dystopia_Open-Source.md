@@ -321,8 +321,8 @@ effective, very few people do it, so it makes your opinion stand out.
 
 ### Convince Decision Makers
 Right to repair is good for businesses as well. Decision makers in corporate and
-government positions should be aware that repairable equipment reduces their
-long-term operating costs. In an age where shareholders pressure companies to
+government positions should be made aware that repairable equipment reduces their long-term operating costs. 
+In an age where shareholders pressure companies to
 tear the wiring out of the walls in the name of increasing quarterly profits,
 and then 
 [cut costs by laying off 15% of the workforce](https://www.theverge.com/2024/8/1/24210656/intel-is-laying-off-over-10000-employees-and-will-cut-10-billion-in-costs),
@@ -344,6 +344,9 @@ interest shows them they should be prioritizing it for the next cycle.
   interest in repairable hardware to both companies that do and don't make it. -->
 Experimental hardware becomes mainstream when it's popularized by *enthusiasts*:
 hobbyists with the time to help developers work out the kinks. 
+If you have the time, money, and expertise to try out experimental hardware 
+like the Fairphone, or a Framework laptop, please do! 
+
 ## Footnotes
 
 [^1]: [https://en.wikipedia.org/wiki/GNU_Manifesto](https://en.wikipedia.org/wiki/GNU_Manifesto)
