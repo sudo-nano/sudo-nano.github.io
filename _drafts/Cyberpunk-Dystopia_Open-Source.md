@@ -39,7 +39,7 @@ alternate version (often called a "fork") where you remove Recall, the spyware
 feature that nobody asked for. 
 While there are many ideological reasons[^1] for supporting
 open source hardware and software, this post will primarily cover the practical
-reasons. While open source most often refers to software, we will discuss both 
+reasons. Open source most often refers to software, but we will discuss both 
 hardware and software.
 
 "Critical systems" here means any systems whose failure is more likely than not
