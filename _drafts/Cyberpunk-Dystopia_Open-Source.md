@@ -14,8 +14,9 @@ Editing passes after completion:  0
 -->
 This is post #01 <!-- Edit this AND THE TITLE before posting -->
 in a series about taking real, actionable steps to make real life less
-of a cyberpunk dystopia. The first post is
-[here.](https://sudo-nano.github.io/posts/Cyberpunk-Dystopia-00/)
+of a cyberpunk dystopia. The premise of this series and the meaning of cyberpunk
+dystopia are discussed
+[in the first post.](https://sudo-nano.github.io/posts/Cyberpunk-Dystopia-00/)
 This post is targeted towards a general audience. No prior knowledge is required.
 If something is unclear, please refer to the footnotes or [contact me to ask for
 clarification.](https://sudo-nano.github.io/about/)
@@ -28,19 +29,26 @@ clarification.](https://sudo-nano.github.io/about/)
 {: .prompt-tip }
 
 ## Introduction
-**Open source** is the idea of an object's design plans or software's source code
-being publicly available. While there are many ideological reasons[^1] for supporting
+**Open source** is the idea of an object's design plans or software's source 
+code being publicly available.
+The terms for its use should also allow creation of derivative works, so that
+people can improve upon it.
+While there are many ideological reasons[^1] for supporting
 open source hardware and software, this post will primarily cover the practical
-reasons. While open source most often refers to software, we will discuss both hardware
-and software.
+reasons. While open source most often refers to software, we will discuss both 
+hardware and software.
 
 "Critical systems" here means any systems whose failure is more likely than not
 to cause serious injury (physical or otherwise) and/or loss of life. This definition
 encompasses systems that would directly cause harm, such as killing a person via
-failure of a medical device or autonomous vehicle. It also encompasses systems 
-that would indirectly cause harm, such as the failure of a banking system preventing people
-from purchasing necessities, or supply chain failures preventing delivery of 
-those necessities.
+failure of a medical device or autonomous vehicle. 
+It also encompasses systems that would indirectly cause harm, such as the 
+failure of a banking system preventing people from purchasing necessities, or 
+supply chain failures preventing delivery of those necessities.
+
+In my opinion, critical systems should be open source in order to promote
+transparency and allow systems abandoned by the manufacturer to be maintained
+by third parties. 
 
 ## Why Open Source?
 
@@ -289,6 +297,38 @@ forgery? This is where we are in the tech space. The internet, in its infancy,
 is not yet well regulated, and tech companies will take advantage of it until
 we fix it.
 
+### Aside: Algorithmic Decision Making
+**Algorithmic decision making** is the use of a computer algorithm to make
+decisions. 
+These range from the algorithms that control which social media posts you see
+to automated employment screening programs that can accept or reject you for a 
+job. 
+Use of algorithmic decision making has exploded in popularity, especially with
+the recent Large Language Model (LLM) craze. 
+Between the aforementioned automated employment screening and things like 
+United Health Care's automatic denial algorithm, 
+<!-- Citation Needed -->
+computers are already making major decisions in people's lives. 
+Most of these algorithms are completely opaque. 
+Companies are not required to disclose how they work, since it's a "trade 
+secret". 
+It's difficult to know whether this algorithm is acting maliciously or 
+discriminating against protected groups. 
+Researchers can always use "black box analysis", where they treat the algorithm
+as a "black box" with invisible insides, and only analyze the relationship
+between the input and output. 
+However, in the event of undesirable algorithmic behavior (which, I would like
+to remind the reader, could involve someone losing their job or being killed by
+an autonomous vehicle), black box analysis provides little insight into the root
+cause. 
+This is another extremely complex topic that requires its own article, which I
+will write at a later date.
+For now, my position is the following: 
+- Computers cannot be held accountable, and thus must not make decisions. They should only serve to assist humans in making decisions. 
+- Use of algorithmic decision making should require a huge, brightly colored disclosure banner. 
+- Companies should be required to undergo annual testing to ensure that their algorithm is free of discrimination. 
+- Companies found to be willfully using discriminatory algorithms should receive a legal injunction barring them from using algorithmic decision making.
+
 ## What can you do about it? 
 <!-- 
 Outline: 
@@ -308,7 +348,8 @@ A few reforms must be made to existing policy:
 
 Some new policies must be passed as well: 
 - Right to repair bills that require parts to be made available 
-- Changes to intellectual property law that allow IP for critical infrastructure to become public domain if abandoned
+- We need intellectual property law that allows IP for critical infrastructure to become public domain before the normal expiration period if abandoned
+- Federal Anti-SLAPP laws need to be passed to prevent legal harassment by big corporations.
 
 The gold standard would be a federal right to repair bill. I suspect that's a
 long way off, but individual states are passing right to repair bills, so
@@ -317,6 +358,9 @@ If you want it to happen faster, *call your representatives!* Call your senator
 and representative, and call your state assembly members to get state right to
 repair bills passed in as many states as possible. While calling may not seem
 effective, very few people do it, so it makes your opinion stand out. 
+
+Right to repair bills have already been passed in a few states: 
+- Oregon <!-- Insert description of bill -->
 
 
 ### Convince Decision Makers
@@ -344,19 +388,22 @@ interest shows them they should be prioritizing it for the next cycle.
   interest in repairable hardware to both companies that do and don't make it. -->
 Experimental hardware becomes mainstream when it's popularized by *enthusiasts*:
 hobbyists with the time to help developers work out the kinks. 
-If you have the time, money, and expertise to try out experimental hardware 
-like the Fairphone, or a Framework laptop, please do! 
+If you have the time, money, and expertise to try out experimental hardware, 
+please do! 
+<!-- Insert links to fairphone and framework -->
+- Fairphone makes a modular repairable phone. The entire phone is composed of user-replaceable modules, including the battery. 
+- Framework makes a laptop composed of user-replaceable modules. Each of the ports on the side is also a module that can be swapped and customized. 
 
 ## Footnotes
 
 [^1]: [https://en.wikipedia.org/wiki/GNU_Manifesto](https://en.wikipedia.org/wiki/GNU_Manifesto)
 [^2]: Regardless of whether the lawsuits actually have merit, having to fend them off can completely exhaust the money and resources of an individual or small group. This is especially true when the plaintiff (person filing the lawsuit) has a lot more money than the defendant. For more on this, read about [SLAPP lawsuits.](https://en.wikipedia.org/wiki/Strategic_lawsuit_against_public_participation) Some states have Anti-SLAPP laws, but the US has no federal anti-SLAPP laws. 
-[^apple]: Apple has even leveraged intellectual property law to [make customs seize genuine parts](https://www.vice.com/en/article/dhs-seized-aftermarket-apple-laptop-batteries-from-independent-repair-expert-louis-rossman/) that were resold 3rd party, in order to prevent 3rd party repair. (This remains a footnote because intellectual property law is outside the scope of this post. It will be covered in a subsequent post.)
+[^apple]: Apple has even leveraged intellectual property law to [make customs seize genuine parts](https://www.vice.com/en/article/dhs-seized-aftermarket-apple-laptop-batteries-from-independent-repair-expert-louis-rossman/) that were resold 3rd party, in order to prevent 3rd party repair. (This remains a footnote because thorough coverage of intellectual property law is outside the scope of this post. It will be covered in a subsequent post.)
 [^3]: This statement applies primarily to the United States, which has fallen behind in antitrust enforcement and consumer protection laws since the Reagan administration.
 [^4]: [Nohl et. al., "Reverse Engineering a Cryptographic RFID Tag."](https://www.cs.virginia.edu/~evans/pubs/usenix08/usenix08.pdf) USENIX Security Symposium. San Jose, CA. 31 July 2008.
 [^5]: [https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#](https://www.secureidnews.com/news-item/nohl-nxp-making-terrible-decision/#)
 
-[^shareholders]: This is part of a broader trend of companies attempting to smite anything that could so much as touch their shareholders. It's a symptom of late stage capitalism, which I intend to cover at an introductory level later in this series. 
+[^shareholders]: This is part of a broader trend of companies attempting to smite anything that has the smallest chance of displeasing shareholders. It's a symptom of late stage capitalism, which I intend to cover at an introductory level later in this series. 
 
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
 [^mfc1]: [Garcia et. al., "Dismantling MIFARE Classic."](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
