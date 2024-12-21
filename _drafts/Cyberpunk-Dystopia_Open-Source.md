@@ -48,19 +48,23 @@ Closed source (sometimes called proprietary) devices, have several problems:
 1. They're nearly impossible to maintain if abandoned by the original developers.
 (They become abandonware.)
 2. Security research is severely hampered.
-3. Accountability auditing, i.e. checking that a device works how the manufacturer
-says it does, is much harder.
+3. Accountability auditing, i.e. checking that a device works how the manufacturer says it does, is much harder.
 
-### Eliminating Abandonware
+Open source hardware and softare solves these problems in a variety of ways.
+
+## Eliminating Abandonware
+### What is abandonware?
 **Abandonware** is hardware or software that is no longer being supported by the
 manufacturer. For example, Windows XP's extended support by Microsoft was ended
 on April 8, 2014. It no longer receives updates, with only a few rare exceptions
 to patch the most serious security vulnerabilities.
-Because Windows XP is no longer supported, most security vulnerabilities stay unpatched,
-so connecting Windows XP computers to the internet is not safe anymore.
+Because Windows XP is no longer supported, most security vulnerabilities stay 
+unpatched, so connecting Windows XP computers to the internet is not safe 
+anymore.
 
-
-Another major consequence of abandonware is losing compatibility with current equipment.
+### Losing compatibility with modern equipment
+Another major consequence of abandonware is losing compatibility with current 
+equipment.
 As new hardware and software come out, existing devices must be updated to include
 support for the new stuff. This happens on both the hardware and software level,
 but tends to require more upkeep on the software level. For example,
@@ -68,35 +72,43 @@ older devices that only have dated interfaces like [FireWire](https://en.wikiped
 or a [serial port](https://en.wikipedia.org/wiki/Serial_port) would
 be difficult to connect to a modern device that only has USB. It could be done,
 but would require an adapter that few places carry. These adapters are only available
-because USB, most common serial interfaces, and FireWire are open standards: Their
-specifications are publicly available for free, so anyone can design a compatible device.
+because USB, most common serial interfaces, and FireWire are open standards: 
+Their specifications are publicly available for free, so anyone can design a 
+compatible device.
 
 If your device uses
 proprietary software, but the software is only compatible with an older OS like
-Windows XP, then you're likely out of luck. There isn't anything as easy as a hardware
-adapter.
+Windows XP, then you're likely out of luck. There isn't anything as easy as a 
+hardware adapter.
 Unless you have an old machine running XP, or someone
-has reverse engineered the software and built a new version that runs on your computer,
+has reverse engineered the software and built a new version that runs on your 
+computer,
 you have no way to use that device anymore. Reverse engineering by consumers is not something
 that happens often, as it's time intensive and highly skilled work that few are willing
 to do for free. In many cases, the EULA (End User License Agreement) or Terms of
 Service (ToS) completely outlaw reverse engineering, allowing companies to sue people
 who reverse engineer their equipment.[^2][^apple]
 
-It's quite easy to see where this leads if these devices are controlling critical infrastructure.
+It's quite easy to see where this leads if these devices are controlling 
+critical infrastructure.
 If a piece of an old system dies, replacements are no longer available, and new
-equipment isn't compatible, then you have to rip out the whole system and replace
-it at great expense. This will either lead to the intentional shutdown of critical
-systems while they are painstakingly rebuilt, or a dangerous condition where they
-are inoperable but users are not informed. The damage is multiplied if the system
-maintainer in question is a municipal government or similar body that provides great
-benefit to citizens but operates on extremely thin margins.
+equipment isn't compatible, then you have to rip out the whole system and replace it at great expense. This will either lead to the intentional shutdown 
+of critical systems while they are painstakingly rebuilt, or a dangerous 
+condition where they continue running at reduced capacity.
+The damage is multiplied if the system
+maintainer in question is a municipal government or similar body that provides great benefit to citizens but operates on extremely thin margins.
 
-Companies love the idea of forcing maintainers to prematurely purchase new systems,
-because it means maintainers have to give them more money.
-Understandably, people who like their systems to work hate this. Corporations
-have historically hesitated to break compatibility, because intentionally sandbagging
-their own products generates bad PR. 
+When open source systems become unsupported, 3rd party maintainers step
+in to make compatible replacement parts or continue development of the software.
+Even if unofficial support is unacceptable to the company or government, it
+provides a way to keep current systems running while an alternative is found.
+
+### Planned obsolescence drives faster abandonment
+Companies love the idea of forcing maintainers to prematurely purchase new 
+systems, because it means maintainers have to give them more money.
+Understandably, people who like their systems to work hate this. 
+Corporations have historically hesitated to break compatibility, because 
+intentionally sandbagging their own products generates bad PR. 
 However, weak antitrust enforcement has allowed massive corporate mergers, 
 creating market sectors governed by an **oligopoly.**
 
@@ -104,8 +116,8 @@ creating market sectors governed by an **oligopoly.**
 > An economic condition in which a small number of sellers exert control over 
 > the market of a commodity. ([Wiktionary](https://en.wiktionary.org/wiki/oligopoly]))
 
-Under these conditions, customers have nowhere else to turn, and those companies 
-are free to screw their customers
+Under these conditions, customers have nowhere else to turn, and those 
+companies are free to screw their customers
 as hard as they want.[^3] There are no longer consequences for enacting planned
 obsolescence to the extreme. 
 
@@ -119,8 +131,10 @@ and a check against shareholder-driven planned obsolescence.
 <!-- Add section about medical hardware, including existing hardware and upcoming
 such as Neuralink https://youtu.be/4Qz7rPxOExo?si=m9EjTLgu-t_hJCkC -->
 
-Abandonware is not just a business problem. An increasing number of people are
-being uplifted by cutting edge medical technology.
+### Example: Medical Hardware
+Abandonware is not just a business problem. 
+An increasing number of people are being uplifted by cutting edge medical
+technology.
 Bionic eyes enable blinded people to see again, pacemakers keep people's hearts 
 pumping, and brain implants prevent dangerous seizures in epileptic 
 patients. 
@@ -131,8 +145,24 @@ In fact, [this has already happened]
 (https://futurism.com/neoscope/brain-implant-removed-consent) to the 
 aforementioned epileptic patient, whose implant was removed *without her consent*
 due to the company's financial failure. 
+This is *unconscionably vile.*
+Improving people's quality of life is, in my opinion, the ultimate end.
+No amount of money or claim to intellectual property could ever justify taking
+that away from someone. 
+<!-- Consider removing the above commentary since it doesn't really support
+  the open source argument -->
+<!-- Insert example of bionic eyes losing support because the company is gone -->
+The aforementioned bionic eyes are now going blind because the company that
+supported them went under. <!-- Citation Needed -->
+If the hardware and software for these devices was published, patients using
+them would be able to maintain the devices themselves in order to keep their
+vision. 
+Critical medical equipment such as this should have its designs immediately
+released into the public domain as part of bankruptcy proceedings.
+Further, its intellectual property should be non-transferable when the company
+is purchased, unless the purchasing company commits to maintaining its support.
 
-### Assisting Security Research
+## Assisting Security Research
 <!--
 Outline:
 - Everyone benefits from security research
@@ -200,7 +230,7 @@ reverse engineering and bypassing of Digital Rights Management (DRM) software an
 other software used to encrypt copyrighted media. Because of this, security research 
 on proprietary software carries greater legal risks than ever, something mitigated by making software open source. 
 
-### Accountability Auditing
+## Accountability Auditing
 <!--
 Outline:
 - Auditing claims about closed source software can only be done by reverse engineering 
