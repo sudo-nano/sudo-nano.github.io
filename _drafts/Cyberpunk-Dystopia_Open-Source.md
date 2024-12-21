@@ -10,7 +10,7 @@ authors: [TheMagicalC, TuckerTwomey]
 ---
 <!-- 
 Editing Passes before completion: 2
-Editing passes after completion:  0
+Editing passes after completion:  1
 -->
 This is post #01 <!-- Edit this AND THE TITLE before posting -->
 in a series about taking real, actionable steps to make real life less
@@ -32,7 +32,11 @@ clarification.](https://sudo-nano.github.io/about/)
 **Open source** is the idea of an object's design plans or software's source 
 code being publicly available.
 The terms for its use should also allow creation of derivative works, so that
-people can improve upon it.
+people can improve upon it. 
+For example, if Windows were open source, you would be able to create and
+distribute an
+alternate version (often called a "fork") where you remove Recall, the spyware
+feature that nobody asked for. 
 While there are many ideological reasons[^1] for supporting
 open source hardware and software, this post will primarily cover the practical
 reasons. While open source most often refers to software, we will discuss both 
