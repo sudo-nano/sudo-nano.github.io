@@ -176,59 +176,68 @@ Outline:
 Security research involves discovering vulnerabilities in hardware or software,
 informing the manufacturer, and allowing them to patch it before the researcher
 discloses the details to the public.
-Those not familiar with the process may wonder why one would
-*want* researchers to discover and publish vulnerabilities. The reason is that someone
-will discover it eventually, and we would rather have a researcher discover and
-disclose it responsibly before a malicious party can discover and exploit it. 
-Well-resourced malicious parties, like intelligence services or organized criminal 
-groups, stockpile exploits for use against their targets. 
-Between these groups, there's a market for undisclosed vulnerabilities, referred to as 
+Those not familiar with the process may wonder why you'd
+*want* researchers to discover and publish vulnerabilities. 
+The reason is that someone will discover it eventually, and we would rather 
+have a researcher discover and disclose it responsibly before a malicious party 
+can discover and exploit it. 
+Well-resourced malicious parties, like intelligence services or organized 
+criminal groups, stockpile exploits for use against their targets. 
+Between these groups, there's a market for undisclosed vulnerabilities, 
+referred to as 
 zero-day vulnerabilities. Making it easier for legitimate security researchers to discover 
 and disclose exploits will shrink exploit stockpiles and make their sale less profitable.
 
 Unfortunately, not every company acts responsibly when a researcher
 discloses a vulnerability to them. In 2008, security researchers reverse engineered 
 the MIFARE Classic <abbr title="Radio Frequency IDentification">RFID</abbr>
-  credential[^4], which was at the time used for London's Oyster 
+credential[^4], which was at the time used for London's Oyster 
 public transit cards. This revealed serious vulnerabilities in its cryptographic 
 algorithm, demonstrating attacks that allow attackers to easily recover secret keys 
 from the reader. NXP Semiconductors, the manufacturer of MIFARE Classic credentials, was sent an 
 early notice so they could patch the vulnerabilities before publication of the
 paper.[^5] Instead of fixing the
 problem, NXP sued the university to prevent the researchers from publishing 
-their paper. They requested an *injuction*, a court order that would
+their paper. They requested an **injuction**, a court order that would
 prevent publication of the research. 
 The courts did not grant their injuction, and the research was published. 
-This response shows an irresponsible prioritization of business interests over 
+This was an irresponsible prioritization of business interests over 
 security, an attitude that any for-profit corporation has monetary incentive to take.[^shareholders]
 
 The flaws in MIFARE Classic's cryptographic algorithm would have been glaringly
-obvious upon mathematical examination. Had NXP open-sourced their algorithm, its
-weakness might have been spotted before it was widely adopted. Better yet, their anticipation 
+obvious upon mathematical examination. 
+Had NXP open-sourced their algorithm, its weakness might have been spotted 
+before it was widely adopted. 
+Better yet, their anticipation 
 of the scrutiny might have compelled them to design a more secure algorithm. 
 MIFARE Classic was so popular at the time that it remains the most widely used 
 RFID credential by pure inertia, despite having been broken repeatedly over the
 past 14 years.[^mfc1][^mfc2] 
 <!-- Add a frankly ridiculous number of citations here -->
-In fact, the original draft of this post mentioned a 3rd party "static encrypted nonce"
-variant that researchers had not yet cracked. During the editing of this post, 
+In fact, the original draft of this post mentioned a 3rd party "static 
+encrypted nonce"
+variant that researchers had not yet cracked. During the writing of this post, 
 researchers discovered a manufacturer backdoor hidden in the new variant.[^mfc_sen] 
 Worse still, RFID credentials implement their cryptographic algorithms in
 hardware, so these vulnerabilities cannot be patched except by replacing every
 vulnerable credential in circulation. 
 
-Coverage of this issue often paints a dichotomy between the evil "black hat
-hacker" and the virtuous "white hat hacker". As with most dichotomies, reality
-is more complicated. Some paint the image that white hat hackers stay entirely 
-within
-the law, but this is becoming much more difficult as companies employ aggressive 
-intellectual property protection laws and End User License Agreements (EULAs) 
-that make established 
-research practices illegal. Any law that bans reverse-engineering is guilty of this, 
-but the most egregious is the Digital Millenium Copyright Act (DMCA).[^6] It bans 
-reverse engineering and bypassing of Digital Rights Management (DRM) software and
-other software used to encrypt copyrighted media. Because of this, security research 
-on proprietary software carries greater legal risks than ever, something mitigated by making software open source. 
+Coverage of security research often paints a dichotomy between the evil "black 
+hat hacker" and the virtuous "white hat hacker". As with most dichotomies, 
+reality is more complicated. 
+Some paint the image that white hat hackers stay entirely 
+within the law, but this is becoming much more difficult as companies employ 
+aggressive 
+intellectual property protection laws and 
+<abbr title="End User License Agreements">EULAs</abbr> 
+that make established research practices illegal. 
+Any law that bans reverse-engineering is guilty of this, 
+but the most egregious is the Digital Millenium Copyright Act (DMCA).[^6] 
+It bans reverse engineering and bypassing of Digital Rights Management (DRM)
+software and other software used to encrypt copyrighted media. 
+Because of this, security research on proprietary software carries greater 
+legal risks than ever, which would be a complete nonissue if the software
+was open source.
 
 ## Accountability Auditing
 <!--
@@ -237,17 +246,20 @@ Outline:
 - Reverse engineering is potentially illegal under the service's EULA or the DMCA 
 - Are you starting to see a theme here with the DMCA
 -->
-When a product is advertised to contain some substance or meet some specification,
-it's usually pretty easy to verify that it does. Lab tests can ensure that your
+When a product is advertised to contain some substance or meet some 
+specification, it's usually pretty easy to verify that it does. 
+Lab tests can ensure that your
 food isn't full of lead,[^7] emissions tests can verify that your car meets 
 environmental requirements, etc. When the product involves software, it becomes 
-harder to verify, especially if the software isn't run on your personal computer.
+harder to verify, especially if the software isn't run on your personal 
+computer.
 Amazon can claim that their smart home devices don't spy on you, but unless you
 have the personal expertise to inspect the electronics and software of the
 device, you have no way to actually verify this claim. 
 
 Even if you have the skills to verify this claim, there's a catch: Reverse 
-engineering can run afoul of the Terms of Service (ToS), 
+engineering can run afoul of the 
+<abbr title="Terms of Service">ToS</abbr>, 
 <abbr title="End User License Agreement">EULA</abbr>, 
 <abbr title="Digital Millenium Copyright Act">DMCA</abbr>, 
 or Electronic Communication Privacy Act.
@@ -290,6 +302,22 @@ specific legal language will come in a subsequent post) -->
 <!-- Mention Oregon right to repair bill -->
 <!-- Tell people to call their legislators. It's impactful, since very few
   people ever do it. -->
+A few reforms must be made to existing policy: 
+- Anti-circumvention language must be removed from the <abbr title="Digital Millennium Copyright Act">DMCA</abbr>
+- Ideally, anti-reverse engineering clauses should be made legally unenforceable. This is unlikely to happen, so it might work better to provide a specific exception for right to repair. 
+
+Some new policies must be passed as well: 
+- Right to repair bills that require parts to be made available 
+- Changes to intellectual property law that allow IP for critical infrastructure to become public domain if abandoned
+
+The gold standard would be a federal right to repair bill. I suspect that's a
+long way off, but individual states are passing right to repair bills, so
+there's hope. 
+If you want it to happen faster, *call your representatives!* Call your senator
+and representative, and call your state assembly members to get state right to
+repair bills passed in as many states as possible. While calling may not seem
+effective, very few people do it, so it makes your opinion stand out. 
+
 
 ### Convince Decision Makers
 Right to repair is good for businesses as well. Decision makers in corporate and
