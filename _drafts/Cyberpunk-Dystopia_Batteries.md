@@ -17,14 +17,19 @@ This post is targeted towards a general audience. No prior knowledge is required
 If something is unclear, please refer to the footnotes or [contact me to ask for 
 clarification.](https://sudo-nano.github.io/about/)
 
-Portable electronics, because of their newness, exist in a sort of cultural limbo: 
-They are completely pervasive in everyday life, yet we have little to no generational 
-knowledge about their care and maintenance. 
-This is in part because they've only existed for about one generation, but in equal 
-part by the intention of manufacturers through planned obsolescence.[^1] 
-In contrast to something like cars, where maintenance practices are well-known and 
-parts are intended to be replaced by a user or mechanic, many portable electronics 
-are designed so that the battery is unserviceable. 
+Portable electronics, because of their newness, exist in a sort of cultural 
+limbo: 
+They are completely pervasive in everyday life, yet we have little to no 
+generational knowledge about their care and maintenance. 
+This is in part because they've only existed for about one generation, but in 
+equal part by the intention of manufacturers through planned obsolescence.
+
+> **planned obsolescence** (noun)
+> (also called built-in obsolescence or premature obsolescence) a policy of planning or designing a product with an artificially limited useful life or a purposely frail design, so that it becomes obsolete after a certain pre-determined period of time upon which it decrementally functions or suddenly ceases to function, or might be perceived as unfashionable. ([Wikipedia](https://en.wikipedia.org/wiki/Planned_obsolescence))
+
+In contrast to something like cars, where maintenance practices are well-known 
+and parts are intended to be replaced by a user or mechanic, many portable 
+electronics are designed so that the battery is unserviceable. 
 Most often seen in phones, e-readers, wireless headphones, and thin laptops, it's 
 usually the case that either the device is not meant to be opened for any maintenance 
 at all, and/or the battery is installed in such a way that removing it could be unsafe.
@@ -65,8 +70,8 @@ What this reaction is, as well as whether it's reversible, depend on the type of
 Nearly all electronics with rechargeable batteries use lithium-ion batteries, which
 utilize dissolved lithium to perform a reversible reaction to store or release charge. 
 
-Lithium batteries are notable for their high power density, meaning smaller batteries can 
-store lots of energy, and high discharge rate, meaning they can release their power 
+Lithium batteries are notable for their high power density, meaning smaller 
+batteries can store lots of energy, and high discharge rate, meaning they can release their power 
 quickly. Usually, a battery is optimized for one of the above, not both. 
 Lithium batteries can also be dangerous because their electrolyte, the solution
 in which the metal is dissolved, is flammable. This means damaged lithium batteries
@@ -76,7 +81,7 @@ disposable alkaline AA batteries or lead-acid car batteries) don't do.
 
 
 
-Footnotes:
+## Footnotes
 
 [^1]: **Planned obsolescence** (also called built-in obsolescence or premature obsolescence) is a policy of planning or designing a product with an artificially limited useful life or a purposely frail design, so that it becomes obsolete after a certain pre-determined period of time upon which it decrementally functions or suddenly ceases to function, or might be perceived as unfashionable. ([Wikipedia](https://en.wikipedia.org/wiki/Planned_obsolescence))
 
