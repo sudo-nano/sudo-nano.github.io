@@ -133,13 +133,6 @@ companies are free to screw their customers
 as hard as they want.[^3] There are no longer consequences for enacting planned
 obsolescence to the extreme. 
 
-<!-- Relocate this section to end after writing medical hardware section
-Requiring critical systems to be open source means that if those systems are abandoned,
-the people that use them can step in to maintain them, preventing otherwise
-inevitable disruption of important infrastructure. It provides more reliable infrastructure
-and a check against shareholder-driven planned obsolescence. 
--->
-
 <!-- Add section about medical hardware, including existing hardware and upcoming
 such as Neuralink https://youtu.be/4Qz7rPxOExo?si=m9EjTLgu-t_hJCkC -->
 
@@ -164,8 +157,9 @@ that away from someone.
 <!-- Consider removing the above commentary since it doesn't really support
   the open source argument -->
 <!-- Insert example of bionic eyes losing support because the company is gone -->
-The aforementioned bionic eyes are now going blind because the company that
-supported them went under. <!-- Citation Needed -->
+The aforementioned bionic eyes 
+[are now going blind](https://spectrum.ieee.org/bionic-eye-obsolete) 
+because the company that supported them went under. <!-- Citation Needed -->
 If the hardware and software for these devices was published, patients using
 them would be able to maintain the devices themselves in order to keep their
 vision. 
@@ -248,7 +242,7 @@ but the most egregious is the Digital Millenium Copyright Act (DMCA).[^6]
 It bans reverse engineering and bypassing of Digital Rights Management (DRM)
 software and other software used to encrypt copyrighted media. 
 Because of this, security research on proprietary software carries greater 
-legal risks than ever, which would be a complete nonissue if the software
+legal risks than ever, which wouldn't be an issue if the software
 was open source.
 
 ## Accountability Auditing
@@ -310,7 +304,7 @@ job.
 Use of algorithmic decision making has exploded in popularity, especially with
 the recent Large Language Model (LLM) craze. 
 Between the aforementioned automated employment screening and things like 
-United Health Care's automatic denial algorithm, 
+[United Health Care's alleged automatic denial algorithm](https://arstechnica.com/health/2023/11/ai-with-90-error-rate-forces-elderly-out-of-rehab-nursing-homes-suit-claims/), 
 <!-- Citation Needed -->
 computers are already making major decisions in people's lives. 
 Most of these algorithms are completely opaque. 
@@ -334,15 +328,8 @@ For now, my position is the following:
 - Companies found to be willfully using discriminatory algorithms should receive a legal injunction barring them from using algorithmic decision making.
 
 ## What can you do about it? 
-<!-- 
-Outline: 
-- Buy more repairable personal hardware 
-  - You don't have to buy unstable bleeding edge hardware
-  - At least express interest in the repairable hardware 
--->
+
 ### Policy Reform
-<!-- Briefly cover DMCA anti-circumvention measures  (in-depth coverage of 
-specific legal language will come in a subsequent post) -->
 A few reforms must be made to existing policy: 
 - Anti-circumvention language must be removed from the <abbr title="Digital Millennium Copyright Act">DMCA</abbr>, since they prevent accountability auditing and right to repair.
 - Ideally, anti-reverse engineering clauses should be made legally unenforceable. This is likely to face strong opposition, so it might work better to provide a specific exception for right to repair. 
@@ -371,6 +358,19 @@ software, and documentation to be made available for 7 years for products priced
 $100 or more.
 Similar laws are in place in New York, Colorado, and Minnesota, according to
 the above article from The Verge. 
+Unfortunately, some of these laws have exceptions for some industries with 
+strong anti-repair lobbies. 
+[Oregon's bill has exceptions](https://www.ifixit.com/News/92144/oregon-just-struck-a-blow-to-parts-pairing-and-won-a-decade-of-repair-support)
+for medical devices, farm equipment, anything that runs on an internal
+combustion engine (ICE), and video game consoles. 
+There's no logic involved in these carve-outs. 
+If the goal was to exclude devices perceived as more frivolous, like game
+consoles, then medical devices and farm equipment have no place on the list.
+If the goal was to exclude devices that could injure someone if improperly 
+repaired, such as medical equipment, farm equipment, and ICE vehicles, then
+game consoles have no reason to be an exception. 
+Still, Oregon's right to repair bill is the first to ban parts pairing, which
+is a massive victory.
 
 
 ### Convince Decision Makers
@@ -404,6 +404,15 @@ please do!
 - [Fairphone makes a modular repairable phone.](https://www.fairphone.com/) The entire phone is composed of user-replaceable modules, including the battery. 
 - Fairphone also makes [earbuds with replaceable batteries!](https://shop.fairphone.com/fairbuds) These are especially exciting, because [AirPods are notoriously unrepairable.](https://www.ifixit.com/News/66194/apples-new-airpods-are-telling-users-to-replace-the-batteries-already-too-bad-thats-impossible)
 - Framework makes a laptop composed of user-replaceable modules. Each of the ports on the side is also a module that can be swapped and customized. 
+
+## Conclusion 
+To live in a world that's person-first instead of profits-first, systems that
+lives depend on must be open source in order to provide true accountability
+and prevent quality of life regressions. 
+These problems are not hypothetical, they're already here, and people are
+already working towards fixing them. 
+
+
 
 ## Footnotes
 
