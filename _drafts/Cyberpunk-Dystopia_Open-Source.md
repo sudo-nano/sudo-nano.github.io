@@ -146,17 +146,16 @@ patients.
 All of that can lose support at the whim of a corporation. It doesn't even need
 to be intentional. 
 Corporate insolvency can lead to inadvertent loss of support.
+<!--
 In fact, [this has already happened]
 (https://futurism.com/neoscope/brain-implant-removed-consent) to the 
 aforementioned epileptic patient, whose implant was removed *without her consent*
 due to the company's financial failure. 
 This is *unconscionably vile.*
+-->
 Improving people's quality of life is, in my opinion, the ultimate end.
 No amount of money or claim to intellectual property could ever justify taking
 that away from someone. 
-<!-- Consider removing the above commentary since it doesn't really support
-  the open source argument -->
-<!-- Insert example of bionic eyes losing support because the company is gone -->
 The aforementioned bionic eyes 
 [are now going blind](https://spectrum.ieee.org/bionic-eye-obsolete) 
 because the company that supported them went under. <!-- Citation Needed -->
@@ -218,8 +217,7 @@ Better yet, their anticipation
 of the scrutiny might have compelled them to design a more secure algorithm. 
 MIFARE Classic was so popular at the time that it remains the most widely used 
 RFID credential by pure inertia, despite having been broken repeatedly over the
-past 14 years.[^mfc1][^mfc2] 
-<!-- Add a frankly ridiculous number of citations here -->
+past 14 years.[^mfc1][^mfc2][^mfc3][^mfc4]
 In fact, the original draft of this post mentioned a 3rd party "static 
 encrypted nonce"
 variant that researchers had not yet cracked. During the writing of this post, 
@@ -263,8 +261,8 @@ Amazon can claim that their smart home devices don't spy on you, but unless you
 have the personal expertise to inspect the electronics and software of the
 device, you have no way to actually verify this claim. 
 
-Even if you have the skills to verify this claim, there's a catch: Reverse 
-engineering can run afoul of the 
+Even if you have the skills to verify this claim, there's a catch: 
+Reverse engineering can run afoul of the 
 <abbr title="Terms of Service">ToS</abbr>, 
 <abbr title="End User License Agreement">EULA</abbr>, 
 <abbr title="Digital Millenium Copyright Act">DMCA</abbr>, 
@@ -428,6 +426,9 @@ already working towards fixing them.
 [^6]: In-depth coverage of the DMCA is a complicated topic and deserving of its own article. It is the opinion of this blog that the DMCA allows for overly-aggressive policing of intellectual property in a way that is detrimental to the general public, however it does provide the essential function of protecting website hosters from liability for their users uploading copyrighted content.
 [^mfc1]: [Garcia et. al., "Dismantling MIFARE Classic."](https://www.sos.cs.ru.nl/applications/rfid/2008-esorics.pdf)
 [^mfc2]: [Garcia et. al., "Wirelessly Pickpocketing a Mifare Classic Card."](https://www.cs.umd.edu/~jkatz/security/downloads/Mifare3.pdf) 30th IEEE Symposium on Security and Privacy, 2009.
+[^mfc3]: Koning Gans, Gerhard de. Outsmarting Smart Cards. [S.l., Nijmegen: s.n.]; UB Nijmegen [host], 2013.
+[^mfc4]: Meijer, Carlo, and Roel Verdult. “Ciphertext-Only Cryptanalysis on Hardened Mifare Classic Cards.” In Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security, 18–30. Denver Colorado USA: ACM, 2015. https://doi.org/10.1145/2810103.2813641.
+
 [^mfc_sen]: [Teuwen, Philippe. “MIFARE Classic: Exposing the Static Encrypted Nonce Variant,”](https://blog.quarkslab.com/mifare-classic-static-encrypted-nonce-and-backdoors.html) Quarkslab's Blog, 20 August 2024.
 [^7]: Lead testing is a notable example because at-home test kits are usable by the layperson.
 
