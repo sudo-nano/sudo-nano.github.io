@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Critical Systems Must Be Open Source - How to Not Live in a Cyberpunk Dystopia #01"
-date: 2024-01-24 16:00:00 -0700
+date: 2024-12-24 20:40:00 -0000
 tags: politics right-to-repair cyberpunk
-category: drafts # Remove this before publication
 category: Cyberpunk Dystopia
-hidden: true # delete this before publication
 authors: [TheMagicalC, TuckerTwomey]
 ---
 <!-- 
