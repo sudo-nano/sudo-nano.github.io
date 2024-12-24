@@ -343,12 +343,9 @@ Outline:
 ### Policy Reform
 <!-- Briefly cover DMCA anti-circumvention measures  (in-depth coverage of 
 specific legal language will come in a subsequent post) -->
-<!-- Mention Oregon right to repair bill -->
-<!-- Tell people to call their legislators. It's impactful, since very few
-  people ever do it. -->
 A few reforms must be made to existing policy: 
-- Anti-circumvention language must be removed from the <abbr title="Digital Millennium Copyright Act">DMCA</abbr>
-- Ideally, anti-reverse engineering clauses should be made legally unenforceable. This is unlikely to happen, so it might work better to provide a specific exception for right to repair. 
+- Anti-circumvention language must be removed from the <abbr title="Digital Millennium Copyright Act">DMCA</abbr>, since they prevent accountability auditing and right to repair.
+- Ideally, anti-reverse engineering clauses should be made legally unenforceable. This is likely to face strong opposition, so it might work better to provide a specific exception for right to repair. 
 
 Some new policies must be passed as well: 
 - Right to repair bills that require parts to be made available 
@@ -363,8 +360,17 @@ and representative, and call your state assembly members to get state right to
 repair bills passed in as many states as possible. While calling may not seem
 effective, very few people do it, so it makes your opinion stand out. 
 
-Right to repair bills have already been passed in a few states: 
-- Oregon <!-- Insert description of bill -->
+Right to repair bills have already been passed in a few states. 
+In March 2024, [Oregon passed a right to repair bill](https://www.theverge.com/2024/3/27/24097042/right-to-repair-law-oregon-sb1596-parts-pairing-tina-kotek-signed)
+banning parts pairing, the practice of putting computers in parts so that a 
+device can refuse to function when third party parts are installed. 
+([Link to text of the law](https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1596/Enrolled))
+In October 2023, [California passed a law](https://www.theverge.com/23910066/right-to-repair-law-newsom-california-sb-244)
+ requiring repair parts, tools, 
+software, and documentation to be made available for 7 years for products priced
+$100 or more.
+Similar laws are in place in New York, Colorado, and Minnesota, according to
+the above article from The Verge. 
 
 
 ### Convince Decision Makers
@@ -395,7 +401,8 @@ hobbyists with the time to help developers work out the kinks.
 If you have the time, money, and expertise to try out experimental hardware, 
 please do! 
 <!-- Insert links to fairphone and framework -->
-- Fairphone makes a modular repairable phone. The entire phone is composed of user-replaceable modules, including the battery. 
+- [Fairphone makes a modular repairable phone.](https://www.fairphone.com/) The entire phone is composed of user-replaceable modules, including the battery. 
+- Fairphone also makes [earbuds with replaceable batteries!](https://shop.fairphone.com/fairbuds) These are especially exciting, because [AirPods are notoriously unrepairable.](https://www.ifixit.com/News/66194/apples-new-airpods-are-telling-users-to-replace-the-batteries-already-too-bad-thats-impossible)
 - Framework makes a laptop composed of user-replaceable modules. Each of the ports on the side is also a module that can be swapped and customized. 
 
 ## Footnotes
