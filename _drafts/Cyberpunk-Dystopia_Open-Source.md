@@ -10,7 +10,7 @@ authors: [TheMagicalC, TuckerTwomey]
 ---
 <!-- 
 Editing Passes before completion: 2
-Editing passes after completion:  1
+Editing passes after completion:  2
 -->
 This is post #01 <!-- Edit this AND THE TITLE before posting -->
 in a series about taking real, actionable steps to make real life less
@@ -385,20 +385,14 @@ Decision makers negotiating for massive contracts have the leverage to ask
 manufacturers for more durable and repairable hardware. Even if the manufacturer
 can't improve the hardware for you during this contract cycle, expressing 
 interest shows them they should be prioritizing it for the next cycle.
-<!-- Refrain from making a snarky remark about how most "cost reduction"
-  involves paying people non-livable wages -->
 
 
 ### Buy Repairable Hardware 
-<!-- If you're willing and able, try out new repairable hardware like a 
-  fairphone or a framework laptop. -->
-<!-- If current repairable hardware is not stable enough for you, express 
-  interest in repairable hardware to both companies that do and don't make it. -->
 Experimental hardware becomes mainstream when it's popularized by *enthusiasts*:
 hobbyists with the time to help developers work out the kinks. 
 If you have the time, money, and expertise to try out experimental hardware, 
 please do! 
-<!-- Insert links to fairphone and framework -->
+
 - [Fairphone makes a modular repairable phone.](https://www.fairphone.com/) The entire phone is composed of user-replaceable modules, including the battery. 
 - Fairphone also makes [earbuds with replaceable batteries!](https://shop.fairphone.com/fairbuds) These are especially exciting, because [AirPods are notoriously unrepairable.](https://www.ifixit.com/News/66194/apples-new-airpods-are-telling-users-to-replace-the-batteries-already-too-bad-thats-impossible)
 - Framework makes a laptop composed of user-replaceable modules. Each of the ports on the side is also a module that can be swapped and customized. 
@@ -407,6 +401,8 @@ please do!
 To live in a world that's person-first instead of profits-first, systems that
 lives depend on must be open source in order to provide true accountability
 and prevent quality of life regressions. 
+Open-sourcing these systems also prevents for-profit planned obsolescense of
+life saving equipment, a practice already being paid for in lives.
 These problems are not hypothetical, they're already here, and people are
 already working towards fixing them. 
 
