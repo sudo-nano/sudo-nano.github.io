@@ -2,7 +2,7 @@
 layout: post
 title: "Changes to Law and Intellectual Property Practices - How to Not Live in a Cyberpunk Dystopia #03"
 date: 2024-02-13 16:23:00 -0700
-tags: politics right-to-repair cyberpunk
+tags: politics right-to-repair cyberpunk law
 categories: drafts # Change this before posting
 hidden: true
 --- 
@@ -16,9 +16,15 @@ This post is targeted towards a general audience. No prior knowledge is required
 If something is unclear, please refer to the footnotes or [contact me to ask for 
 clarification.](https://sudo-nano.github.io/about/)
 
+## Introduction
 Intellectual property is a complicated and dense topic, so there will be a lot of covering the basics in this article. 
 
+## Basics of Intellectual Property
+### What is intellectual property? 
 
+### Copyright, Patent, and Trademark
+
+### Trade Secrets
 Outline: 
 - Products that rely on online services must be required to guarantee a minimum time they will maintain their servers 
 - Not using an IP for too long (a few years) should require you to relinquish it 
@@ -29,4 +35,4 @@ Outline:
 	- Companies can and will take any measures that aren't illegal to maximize profits. 
 	- If you think there's something they categorically shouldn't do for profits, it has to be illegal or they'll do it.
 
-Footnotes: 
+## Footnotes
