@@ -105,8 +105,7 @@ tea, so they will not become bitter from longer steep times.
 
 [^2]: Avoiding individually packaged items is always better for the environment. Additionally, teabags are paper, but "sachets" are made of a non-recyclable fine plastic mesh.
 
-[^3]: 87.8C/190F is the ideal steeping temperature for black tea, 76.6C/170F is 
-the ideal temperature for green tea. Bringing milk up to the necessary temperature for tea infusion will cook the milk, changing its taste and texture undesirably. (However, this cooking *is* what you want for chai.)
+[^3]: 87.8C/190F is the ideal steeping temperature for black tea, 76.6C/170F is the ideal temperature for green tea. Bringing milk up to the necessary temperature for tea infusion will cook the milk, changing its taste and texture undesirably. (However, this cooking *is* what you want for chai.)
 
 [^data]: This data was acquired via empirical testing by Tucker R. Twomey.
 
