@@ -16,6 +16,10 @@ This post is targeted towards a general audience. No prior knowledge is required
 If something is unclear, please refer to the footnotes or [contact me to ask for 
 clarification.](https://sudo-nano.github.io/about/)
 
+<!-- Potential references (not checked out yet)
+Video on itch.io takedown: https://youtu.be/A-IJ5QmeXpk
+-->
+
 ## Introduction
 Intellectual property is a complicated and dense topic, so there will be a lot of covering the basics in this article. 
 
