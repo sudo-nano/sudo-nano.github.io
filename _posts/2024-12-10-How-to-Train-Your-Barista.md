@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How To Train Your Barista: A Guide on Making Good Tea, For Cafe Workers Who Don't Give A Shit"
+excerpt: "If someone sent this to you, you probably work in a cafe that makes bad tea, and that's ok. Someone sent this to you because they care enough that they want the cafe to do better."
 date: 2024-12-10 11:41:00 -0700
 tags: tea
 --- 

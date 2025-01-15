@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "State of the Blog (Live Document)"
+excerpt: "2024-11-13: This blog will eventually move to blog.rk800.xyz due to the upcoming deprecation of the .io TLD."
 date: 2024-11-23 01:03:00 -0700
 tags: meta web-development blog
 pin: true
