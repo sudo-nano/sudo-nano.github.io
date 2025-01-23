@@ -203,3 +203,10 @@ feed:
   logo: /assets/oegh_favicon.png
   tags: true 
   excerpt_only: false
+
+plugins:
+  - jekyll-darkvisitors
+
+darkvisitors: 
+  access_token: ${{ secrets.DARK_VISITORS_KEY }}
+  append_existing: true
