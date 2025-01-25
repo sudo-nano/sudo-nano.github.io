@@ -34,7 +34,7 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true # runs 'bundle install' and caches installed gems
-          DARK_VISITORS_KEY: ${{ secrets.DARK_VISITORS_KEY }}
+          DARK_VISITORS_TOKEN: ${{ secrets.DARK_VISITORS_KEY }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
