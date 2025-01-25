@@ -28,12 +28,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      # Ruby setup step stolen from samasaur
+      # Ruby setup by samasaur1
       - name: setup ruby
         uses: ruby/setup-ruby@c04af2bb7258bb6a03df1d3c1865998ac9390972 # v1.194.0
         with:
           ruby-version: '3.1'
           bundler-cache: true # runs 'bundle install' and caches installed gems
+          DARK_VISITORS_KEY: ${{ secrets.DARK_VISITORS_KEY }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
