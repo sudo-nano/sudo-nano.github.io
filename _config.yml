@@ -208,5 +208,5 @@ plugins:
   - jekyll-darkvisitors
 
 darkvisitors: 
-  access_token: ${DARK_VISITORS_TOKEN}
+  access_token: DARK_VISITORS_TOKEN
   append_existing: true
