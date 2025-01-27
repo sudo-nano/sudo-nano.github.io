@@ -39,7 +39,7 @@ jobs:
       - name: GitHub Secrets Test 
         run: echo ${{ secrets.TEST }} | tr et te
       - name: Insert Dark Visitors token into config file
-        run: sed "s/DARK_VISITORS_TOKEN/${{secrets.DARK_VISITORS_TOKEN}}/g" _config.yml
+        run: sed "s/DARK_VISITORS_TOKEN/${{secrets.DARK_VISITORS_TOKEN}}/g" _config.yml > config_with_secret.yml && mv config_with_secret.yml config.yml
       - name: Build with Jekyll
         run:  bundle exec jekyll build
         env:
