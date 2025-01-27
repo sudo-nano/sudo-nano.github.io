@@ -34,11 +34,10 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true # runs 'bundle install' and caches installed gems
-          DARK_VISITORS_TOKEN: ${{ secrets.DARK_VISITORS_KEY }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
-        run: sed "s/DARK_VISITORS_TOKEN/$DARK_VISITORS_TOKEN/g" _config.yml && bundle exec jekyll build
+        run: sed "s/DARK_VISITORS_TOKEN/${{secrets.DARK_VISITORS_TOKEN}}/g" _config.yml && bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
