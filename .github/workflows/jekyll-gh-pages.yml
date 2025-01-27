@@ -36,6 +36,8 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: GitHub Secrets Test 
+        run: echo ${{ secrets.TEST }}
       - name: Insert Dark Visitors token into config file
         run: sed "s/DARK_VISITORS_TOKEN/${{secrets.DARK_VISITORS_TOKEN}}/g" _config.yml
       - name: Build with Jekyll
