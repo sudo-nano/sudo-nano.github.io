@@ -10,6 +10,12 @@ hidden: true
 ## asdf 
 qwerty
 
+## Resistance is already succeeding
+https://newrepublic.com/post/190813/trump-border-czar-homan-immigrants-smarter-ice
+
+## Action Items
+https://itsgoingdown.org/dont-just-do-nothing-20-things-you-can-do-to-counter-fascism/
+
 ## References 
 https://www.tumblr.com/star-anise/768452476292694016?source=share
 https://deadsimpletech.com/blog/not_going_back
