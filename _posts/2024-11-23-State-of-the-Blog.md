@@ -7,6 +7,16 @@ tags: meta web-development blog
 pin: true
 --- 
 
+## 2025-01-27
+### LLM scrapers banned by robots.txt
+This blog's build process now includes fetching an updated list of LLM scraper
+user agents from [Dark Visitors](https://darkvisitors.com) and disallowing them via robots.txt. This is done using the [jekyll-darkvisitors](https://github.com/pettazz/jekyll-darkvisitors)
+plugin. 
+
+I was unable to get the Dark Visitors API token to magically substitute into the
+jekyll config file as the docs for the jekyll plugin seem to suggest, so I had
+to add an extra build step where I use `sed` to substitute the API key into the
+config file from GitHub Secrets. 
 
 ## 2024-11-23
 ### Eventual domain change 
@@ -36,9 +46,11 @@ up being the latter.
 After increasing my intake of other people's wonderful blogs, I'm considering
 altering my blog's style substantially. At present, it's just the Chirpy theme
 for Jekyll, with only some slight tweaks from stock. I'm thinking it needs more
-color and sillier text options. Basically nothing on this front is decided
-yet, so if you have opinions, let me know. 
-<!-- Insert link to the extended markdown format B was talking about -->
+color and sillier text options, such as those from 
+[oatmealine's markdown plus.](https://oat.zone/markdown-plus/) ([Internet Archive link in case the original goes down](https://web.archive.org/web/20241217212935/https://oat.zone/markdown-plus/))
+Basically nothing on this front is decided yet, so if you have opinions, let me 
+know. 
+
 
 I will always prioritize accessibility over fun visual customizations. If there
 are ever fun customizations that impair accessibility, I will provide an option
