@@ -6,9 +6,10 @@ tags: politics hope
 category: drafts
 hidden: true
 --- 
+<!-- Consider alternate title: "Where do we go from here?" -->
 
-## asdf 
-qwerty
+## Where we are, and how we got here
+https://www.nytimes.com/2024/11/08/opinion/republicans-democrats-trump.html
 
 ## Resistance is already succeeding
 https://newrepublic.com/post/190813/trump-border-czar-homan-immigrants-smarter-ice
@@ -16,7 +17,7 @@ https://newrepublic.com/post/190813/trump-border-czar-homan-immigrants-smarter-i
 ## Action Items
 https://itsgoingdown.org/dont-just-do-nothing-20-things-you-can-do-to-counter-fascism/
 
-## References 
+## Additional References 
 https://www.tumblr.com/star-anise/768452476292694016?source=share
 https://deadsimpletech.com/blog/not_going_back
 https://deadsimpletech.com/blog/practical_trans_defence
