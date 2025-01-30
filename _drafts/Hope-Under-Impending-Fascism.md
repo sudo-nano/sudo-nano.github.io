@@ -16,6 +16,7 @@ https://newrepublic.com/post/190813/trump-border-czar-homan-immigrants-smarter-i
 
 ## Action Items
 https://itsgoingdown.org/dont-just-do-nothing-20-things-you-can-do-to-counter-fascism/
+https://www.404media.co/declassified-cia-guide-to-sabotaging-fascism-is-suddenly-viral/
 
 ## Additional References 
 https://www.tumblr.com/star-anise/768452476292694016?source=share
