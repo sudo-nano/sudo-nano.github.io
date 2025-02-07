@@ -4,7 +4,7 @@ title: "My Coping Mechanisms"
 date: 2024-06-18 16:00:00 -0700
 tags: software neurodivergence opinion
 --- 
-<!-- Comment to get GitHub to re-render the site -->
+
 Recently I've become a big fan of the YouTube channel [No Boilerplate](https://youtu.be/XUZ9VATeF_4)
 run by Tris Oaten.
 This is likely because we have similar flavors of Spicy Brain (neurodivergence) and
@@ -81,7 +81,7 @@ important for maintaining morale, so I draw it into my own notebooks by hand.
 
 For me, use of a calendar is the #1 corollary to "declare bankruptcy on your memory."
 I struggle enough with remembering that events exist, even when I'm looking forward to
-them. Trying to remember whether I have an event on given day? Forget it. 
+them. Trying to remember whether I have an event on a given day? Forget it. 
 Anything I need to remember at a specific time goes on my calendar. 
 
 If you work the kind of job where people need to meet with you all the time, there are
