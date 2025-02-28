@@ -43,6 +43,20 @@ Other popular note taking and study programs (Logseq, Obsidian, Anki) integrate
 LaTeX using either KaTeX or MathJax, two popular javascript libraries that
 provide easy and lightweight TeX rendering.
 
+Another thoroughly underdeveloped feature is the search function.
+It allows you to search your notes and the transcripts of transcribed events,
+but it lacks any sort of granularity. 
+There is no way to search only within a folder of events.
+If you have multiple classes that use lots of similar terminology, you'll have
+to trawl through the global search results in order to find what you're looking
+for.
+
+These friction points were immediately obvious to me upon using Glean, and 
+they give me serious doubts about the maturity of their product.
+It's unclear whether these features needed more time in the oven or whether
+they were purposefully limited in order to save development time, but either
+way I'd like to see improvement.
+
 ## Trendy-Startup-itis
 Unfortunately, attempting to search the help database reveals its sparseness.
 Attempting to find useful documentation on what their search function does
