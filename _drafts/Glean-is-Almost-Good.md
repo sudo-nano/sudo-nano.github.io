@@ -2,7 +2,7 @@
 layout: post
 title: "Glean is Almost Good"
 date: 2025-02-26 16:00:00 -0700
-tags: software accessibility
+tags: software accessibility academics
 category: drafts
 hidden: true
 --- 
@@ -27,6 +27,9 @@ prevented me from properly utilizing other audio-based accessibility tools in
 the past.
 They still provide the transcript as a fallback, which makes it a strict
 improvement over other services.
+
+## Good Features
+TODO: Write this part
 
 ## Missing Quality of Life Features
 Glean is, unfortunately, missing quite a lot of fairly obvious quality of life
@@ -92,12 +95,44 @@ the cloud, it gets erased forever.
 The same thing can happen if you clear your site data in regular browsing before
 the upload is finished.
 The fact that the primary feature of this service is so easily screwed up is
-really poor design, and could have been prevented if this was a real app 
-instead of a web app. 
+really poor design. If this was a real app instead of a website, it wouldn't
+be so easy for users to shoot themselves in the foot. 
 
+Glean also claims their service works offline, a claim I find to be dubious at
+best and misleading at worst. 
+[Their own documentation on working offline](https://help.glean.co/article/16-working-online-offline)
+immediately contradicts this claim by saying that you must be online to log in
+(you must load the site using an internet connection before you can start
+a recording without an internet connection), and that several of their features
+don't work offline.
+Some of these make sense. For example, searching the web for images and
+importing definitions from Wikipedia inherently require internet to function.
+However, audio transcription, live captions, quiz me, and *importing powerpoint
+slides* also fail while offline. 
 
+[Quiz Me documentation says it uses AI](https://help.glean.co/article/324-quiz-me),
+and it requires first generating a transcript, meaning it almost certainly
+relies on an <abbr title="Large Language Model">LLM</abbr> for this feature.
+This requires too much compute power to run on most consumer hardware, which is
+why it requires connection to Glean's servers. While this compute requirement
+is reasonable, in my opinion the usage of LLMs is not. They provide a small
+reduction in labor in exchange for the risk of blatant lies and hallucinations,
+all while being built on a foundation of stolen work.
+The fact that they don't disclose what model they use for this feature means
+there are few--if any-- safety guarantees. 
+There are a few parts of this feature that are well done. 
+It'll show you a warning if you ask it about "restricted content", described by
+the help page as "anything that could be seen as sensitive content." 
 
-
-
+Audio transcription and live captions likely also require large amounts of
+computing power to work, but unlike LLMs, this amount is within reach of
+consumer hardware. For example, 
+[OpenAI's Whisper speech recognition machine learning model](https://github.com/openai/whisper)
+has various sizes that require as much as 10GB VRAM down to as little as 1GB. 
+While on-device transcription would no doubt be slower or possibly less accurate
+than cloud transcription, the option should at least be available. 
+Unfortunately, as long as Glean remains in-browser only, it doesn't have access
+to the full computing power of your device. 
+Another reason it should have been a standalone app. 
 
 ## Footnotes
