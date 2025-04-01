@@ -13,6 +13,6 @@ hidden: true
 ## Notable Examples
 - MultiMC / PolyMC
 - Linus Torvalds 
-
+- Bjarne Stroustrup meltdown over C++ memory safety issues
 
 ## Footnotes
