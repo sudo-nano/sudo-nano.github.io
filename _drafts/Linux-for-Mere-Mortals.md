@@ -71,6 +71,9 @@ It's time we do better. We're all in it together, and we should act like it.
 This guide is constructed with existing attitudes in mind, and as an attempt 
 at improving them. 
 
+## Frequently Asked Questions
+### Doesn't Linux produce weird and hard to troubleshoot problems?
+
 Outline: 
 - Less overhead (your computer gets faster for free)
 - Package managers 
