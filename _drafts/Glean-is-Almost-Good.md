@@ -29,7 +29,12 @@ They still provide the transcript as a fallback, which makes it a strict
 improvement over other services.
 
 ## Good Features
-TODO: Write this part
+Glean's core features are decently well implemented. 
+You can import a slide deck, and there's an easy interface for marking where
+slide transitions happen to correlate them with the audio recording.
+The biggest feature is the ability to attach custom notes to different points
+in the recording. It can be a regular bullet point, or it can be a header, 
+"important", or "review". 
 
 ## Missing Quality of Life Features
 Glean is, unfortunately, missing quite a lot of fairly obvious quality of life
@@ -119,7 +124,7 @@ is reasonable, in my opinion the usage of LLMs is not. They provide a small
 reduction in labor in exchange for the risk of blatant lies and hallucinations,
 all while being built on a foundation of stolen work.
 The fact that they don't disclose what model they use for this feature means
-there are few--if any-- safety guarantees. 
+there are few--if any--safety guarantees, and zero accountability.
 There are a few parts of this feature that are well done. 
 It'll show you a warning if you ask it about "restricted content", described by
 the help page as "anything that could be seen as sensitive content." 
