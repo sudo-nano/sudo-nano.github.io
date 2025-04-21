@@ -16,3 +16,7 @@ hidden: true
 - Bjarne Stroustrup meltdown over C++ memory safety issues
 
 ## Footnotes
+
+## References
+https://aria.dog/barks/ethics-in-transgenderism/
+https://www.intomore.com/impact/trans-rules-engagement/
