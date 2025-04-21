@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Online Community Infrastructure: A Response to Product vs Project"
+title: "Online Community and Infrastructure: A Response to Product vs Project"
 date: 2024-04-22 16:00:00 -0700
 tags: politics internet tumblr
 category: drafts
 hidden: true
 --- 
+<!-- Note to self: I think the scope of this response needs to be small.
+I can write all of my big thoughts about community building elsewhere. -->
 
 ## asdf
 This is a response to [Product vs Project](https://friendshipcastle.zip/blog/product-vs-project), 
@@ -29,5 +31,13 @@ Two factors are decreasing the number of volunteer sysadmins:
 1. Finding a well-paying job has been getting harder (in the US, at least), so
 more people with sysadmin skills are doing it professionally since it pays well.
 2. Technological literacy is declining, in part due to [corporations fighting against general purpose computing](https://boingboing.net/2012/08/23/civilwar.html).
+
+However, volunteer sysadmins are only half the equation. 
+In order for there to be demand for them, there must be an organized community.
+Having an organized community is difficult. Understatement of the century.
+There are a few things that make having an organized community difficult.
+- People don't know how to organize (more on this later)
+- Engagement-based algorithms increase polarization
+<!-- TODO: Link to related community building post -->
 
 ## Footnotes
