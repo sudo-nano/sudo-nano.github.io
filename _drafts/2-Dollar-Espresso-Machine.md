@@ -34,7 +34,6 @@ acidic.
 Having failed to make use of the stock portafilter and basket, I set out to
 find an aftermarket one. This machine uses a 51mm portafilter, which is 
 nonstandard. Nobody except DeLonghi uses this size. Most other machines use 54mm.
-<!-- Insert example brands using 54mm portafilters -->
 The only search results were
 [a few](https://www.amazon.com/portafilter-Delonghi-bottomless-Stainless-Replacement/dp/B09W5QY63R)
 [bottomless](https://www.normcorewares.com/products/normcore-naked-bottomless-portafilter)
@@ -67,7 +66,7 @@ We dialed in four coffees, most from local roasteries:
 Ca Phe *Lotus*, while promising for french press, was undrinkably sour no 
 matter what we tried. Doses as high as we could cram in the basket, grinds as
 fine as the grinder went, pull times as long as 30 seconds. I suspect the 
-pressure of this machine is not enough to get good extraction on lighter and
+pressure or temperature of this machine is not enough to get good extraction on lighter and
 more acidic coffees. Unfortunately, we lack the facilities to properly test
 this hypothesis.[1]
 
@@ -79,8 +78,26 @@ roast. This one will remain a household favorite for lattes,
 and we made many fantastic pumpkin spice lattes using 
 [Morgan Eckroth's 2024 pumkpin spice latte recipe](https://morgandrinkscoffee.com/blogs/recipes-1/how-to-make-a-pumpkin-spice-latte).
 
+<!-- TODO: Add section on Puerto Rico coffee from Radiant -->
+
+<!-- TODO: Add section on Trader Joe's coffee. I know it says french roast but we have 
+ethiopia now so we can really write about either. Check notes to see if they're actually
+good enough to write about the dark roast. -->
+
 ## Steaming Milk
-<!-- Insert review of steaming wand here -->
+The milk steaming performance of this machine is mediocre. It comes with a
+panarello steam wand, a typical feature of entry-level machines. This style of
+steam wand makes it easy to incorporate air into your milk. In my opinion, it
+makes it too easy, and it's basically impossible to *stop* adding air. 
+That makes it easy to reach the desired volume, but very difficult to refine
+your milk into the microfoam texture that you want for latte art. 
+The panarello tip comes off easily for cleaning, held on by a twist-lock. 
+Normally I'd recommend steaming milk without the panarello tip, but the wand's
+tip underneath is a friction-fit rubber tip that is easily blown off by the 
+steam. The steaming quality is adequate for entry level, but not suitable for latte art.
+Those pickier about their milk texture may wish to use a microwave and
+a frothing wand, or pick another machine.
+
 
 ## Footnotes
 [^1]: Though portafilters with pressure gauges exist, this machine is a nonstandard basket size. It would likely require custom machining a portafilter for use with a pressure gauge. We would be interested in undertaking this project had we the time or funds. 
