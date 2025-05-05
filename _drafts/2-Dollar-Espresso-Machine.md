@@ -7,9 +7,9 @@ category: drafts
 hidden: true
 --- 
 ## Introduction 
-> This post is targeted at people who understand the general principles of how
-> espresso machines operate. It should probably not be your first foray into
-> coffee, unless you're willing to look up every unfamiliar term.
+> This post is targeted at people who understand the principles and internal
+> operation of espresso machines. It should probably not be your first foray into
+> coffee, unless you're willing to look up lots of unfamiliar terms. 
 {: .prompt-tip}
 
 My partner and I have been considering purchasing an espresso machine for some
@@ -29,8 +29,8 @@ comes with three baskets: a single shot basket, double shot basket, and single
 shot pod basket for use with Easy Serve Espresso pods. All three are 
 pressurized baskets. The machine has internal
 storage for the extra baskets, which the previous owner clearly did not use. 
-The only basket that came with our used machine was the pod basket, which was 
-slotted into the portafilter. Against better judgement, I attempted to pull
+The only basket that came with our used machine was the pod basket. 
+Against better judgement, I attempted to pull
 some single shots with this basket, but all of them turned out undrinkably
 acidic. 
 
@@ -51,8 +51,8 @@ was the only one made in-house. Unfortunately, I only
 realized while writing up this blog post, by which point I had already cut out
 the middleman and purchased a portafilter directly from Aliexpress. While I 
 truly appreciate Normcore's ray of hope amidst the slave labor mass production
-garbage, there are still no *a la carte* precision baskets for 51mm portafilters. 
-The only 
+garbage, there are still no precision baskets or standalone baskets available
+for 51mm portafilters. The only 
 3rd party baskets available are the stock ones that come with these portafilters.
 
 ## Making Espresso
@@ -61,18 +61,16 @@ star anise bottle as an improvised tamper, and an Aliexpress bottomless
 portafilter with its included double shot basket. Not exactly a professional
 setup, but adequate for our purposes.
 
-We dialed in four coffees, most from local roasteries:
+We dialed in three coffees, two from local roasters and one from Trader Joe's.
 - *Lotus* from Ca Phe: medium-light roast
 - *Holy Roller* from Heretic Coffee: medium-light roast, complex, grain notes 
-- *Puerto Rico* from Radiant Coffee Roasters: medium roast 
-- Trader Joe's French Roast: very dark roast
+- Trader Joe's Fair Trade Ethiopian: medium-dark roast
 
 Ca Phe *Lotus*, while fantastic as a pour over, was undrinkably sour no 
 matter what we tried. Doses as high as we could cram in the basket, grinds as
 fine as the grinder went, pull times as long as 30 seconds. I suspect the 
-pressure or temperature of this machine is not enough to get good extraction on lighter and
-more acidic coffees. Unfortunately, we lack the facilities to properly test
-this hypothesis.[1]
+pressure or temperature of this machine is not enough to get good extraction on lighter and more acidic coffees. 
+Unfortunately, we lack the facilities to properly test this hypothesis.[1]
 
 Heretic Coffee's *Holy Roller* provides a nice complex and grain-forward flavor. 
 The Heretic owner explained to us that they had designed the roast to make good
@@ -82,13 +80,17 @@ roast. This one will remain a household favorite for lattes,
 and we made many fantastic pumpkin spice lattes using 
 [Morgan Eckroth's 2024 pumkpin spice latte recipe](https://morgandrinkscoffee.com/blogs/recipes-1/how-to-make-a-pumpkin-spice-latte).
 
-<!-- TODO: Add section on Trader Joe's coffee. I know it says french roast but we have 
-ethiopia now so we can really write about either. Check notes to see if they're actually
-good enough to write about the dark roast. -->
+Trader Joe's Ethiopian makes a solid cappucino. 
+There's not as much aromatic complexity as the other coffees,
+but the unique flavor of the Ethiopian coffee still comes through.
+Our housemates (laypeople, not coffee hobbyists) rated it as a solid 
+latte. Despite the darker roast, there was very little bitterness. 
+Compared to the lighter roasts, espresso made with this coffee was the most
+similar to its pour over counterpart. 
+This is neither a positive or a negative. 
 
 ## Steaming Milk
-The milk steaming performance of this machine is mediocre, which is more than
-what we paid for.
+The milk steaming performance of this machine is just ok.
 It comes with a
 panarello steam wand, a typical feature of entry-level machines. This style of
 steam wand makes it easy to incorporate air into your milk. In my opinion, it
@@ -96,11 +98,22 @@ makes it too easy, and it's basically impossible to *stop* adding air.
 That makes it easy to reach the desired volume, but very difficult to refine
 your milk into the microfoam texture that you want for latte art. 
 The panarello tip comes off easily for cleaning, held on by a twist-lock. 
-Normally I'd recommend steaming milk without the panarello tip, but the wand's
-tip underneath is a friction-fit rubber tip that is easily blown off by the 
+Normally I'd recommend steaming milk without the panarello tip, but
+underneath is a friction-fit rubber tip that's easily blown off by the 
 steam. The steaming quality is adequate for entry level, but not suitable for latte art.
 Those pickier about their milk texture may wish to use a microwave and
 a frothing wand, or pick another machine.
+
+## Conclusion
+This machine is a good starting point for entry level coffee enjoyers.
+It comes with a lot of training wheels, mainly the pressurized baskets and the
+panarello tip steam wand. 
+At MSRP, we struggle to recommend it for intermediate coffee enjoyers, especially
+because of the lack of third party upgrades. 
+If you can acquire one used, it's a great educational experience. 
+It makes decent espresso from medium and darker roasts, but starkly illustrates
+the increased precision and machine quality necessary for pulling lighter roast
+specialty coffees and perfecting your milk texture. 
 
 
 ## Footnotes
