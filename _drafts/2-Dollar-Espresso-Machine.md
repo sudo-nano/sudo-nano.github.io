@@ -7,7 +7,10 @@ category: drafts
 hidden: true
 --- 
 ## Introduction 
-<!-- Insert target audience statement -->
+> This post is targeted at people who understand the general principles of how
+> espresso machines operate. It should probably not be your first foray into
+> coffee, unless you're willing to look up every unfamiliar term.
+{: .prompt-tip}
 
 My partner and I have been considering purchasing an espresso machine for some
 time. We both love coffee, and find its production fascinating. (See my 
@@ -48,7 +51,8 @@ was the only one made in-house. Unfortunately, I only
 realized while writing up this blog post, by which point I had already cut out
 the middleman and purchased a portafilter directly from Aliexpress. While I 
 truly appreciate Normcore's ray of hope amidst the slave labor mass production
-garbage, there are still no precision baskets for 51mm portafilters. The only 
+garbage, there are still no *a la carte* precision baskets for 51mm portafilters. 
+The only 
 3rd party baskets available are the stock ones that come with these portafilters.
 
 ## Making Espresso
@@ -63,7 +67,7 @@ We dialed in four coffees, most from local roasteries:
 - *Puerto Rico* from Radiant Coffee Roasters: medium roast 
 - Trader Joe's French Roast: very dark roast
 
-Ca Phe *Lotus*, while promising for french press, was undrinkably sour no 
+Ca Phe *Lotus*, while fantastic as a pour over, was undrinkably sour no 
 matter what we tried. Doses as high as we could cram in the basket, grinds as
 fine as the grinder went, pull times as long as 30 seconds. I suspect the 
 pressure or temperature of this machine is not enough to get good extraction on lighter and
@@ -78,14 +82,14 @@ roast. This one will remain a household favorite for lattes,
 and we made many fantastic pumpkin spice lattes using 
 [Morgan Eckroth's 2024 pumkpin spice latte recipe](https://morgandrinkscoffee.com/blogs/recipes-1/how-to-make-a-pumpkin-spice-latte).
 
-<!-- TODO: Add section on Puerto Rico coffee from Radiant -->
-
 <!-- TODO: Add section on Trader Joe's coffee. I know it says french roast but we have 
 ethiopia now so we can really write about either. Check notes to see if they're actually
 good enough to write about the dark roast. -->
 
 ## Steaming Milk
-The milk steaming performance of this machine is mediocre. It comes with a
+The milk steaming performance of this machine is mediocre, which is more than
+what we paid for.
+It comes with a
 panarello steam wand, a typical feature of entry-level machines. This style of
 steam wand makes it easy to incorporate air into your milk. In my opinion, it
 makes it too easy, and it's basically impossible to *stop* adding air. 
@@ -100,4 +104,4 @@ a frothing wand, or pick another machine.
 
 
 ## Footnotes
-[^1]: Though portafilters with pressure gauges exist, this machine is a nonstandard basket size. It would likely require custom machining a portafilter for use with a pressure gauge. We would be interested in undertaking this project had we the time or funds. 
+[^1]: Though portafilters with pressure gauges exist, this machine is a nonstandard basket size. It would require machining a custom portafilter for use with a pressure gauge. We would be interested in undertaking this project had we the time or funds. 
