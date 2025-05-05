@@ -60,7 +60,8 @@ they get to view your hand and select a card of their choice. Either way, it
 gets added to their supporters.
 
 This makes fighting the Woodland Alliance annoying and expensive. The 
-alternative, however, is worse. If a clearing has a sympathy token, the Woodland 
+alternative, however, is more expensive. 
+If a clearing has a sympathy token, the Woodland 
 Alliance player can pay two matching supporters to **revolt**, which will: 
 - Destroy all enemy pieces in the clearing
 - Deploy a number of Alliance meeple equal to the number of matching clearings 
@@ -73,8 +74,13 @@ sympathy will increase with the number of sympathy tokens currently placed.
 
 ### How to Sabotage
 **Bases** are what allow the Woodland Alliance to directly deploy units. 
-Removing a base does very bad things to them. 
-<!-- Editor's note: revise above sentence -->
+Most importantly, placing sympathy tokens usually requires spending at least
+one supporter. Once they get meeple on the board, they can take the *organize*
+action to remove a merson and replace them with a sympathy. 
+This is a critical piece of the Woodland engine, because it allows them to make
+a net supporter profit when someone destroys their sympathy.
+
+Removing a base exacts a steep price from them.
 If you destroy a base, they must discard all matching supporters and remove half 
 of their officers (rounded up). They also lose the base as a deployment point 
 for meeple.
