@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Lessons From A Two Dollar Espresso Machine"
-date: 2024-08-19 22:00:00 -0700
+date: 2025-05-25 00:16:00 -0700
 tags: coffee
-category: drafts
-hidden: true
 --- 
 ## Introduction 
 > This post is targeted at people who understand the principles and internal
