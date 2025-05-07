@@ -108,7 +108,7 @@ a frothing wand, or pick another machine.
 This machine is a good starting point for entry level coffee enjoyers.
 It comes with a lot of training wheels, mainly the pressurized baskets and the
 panarello tip steam wand. 
-At MSRP, we struggle to recommend it for intermediate coffee enjoyers, especially
+At the MSRP of $150, we struggle to recommend it for intermediate coffee enjoyers, especially
 because of the lack of third party upgrades. 
 If you can acquire one used, it's a great educational experience. 
 It makes decent espresso from medium and darker roasts, but starkly illustrates
