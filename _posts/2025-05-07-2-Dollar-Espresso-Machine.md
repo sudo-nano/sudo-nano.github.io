@@ -3,6 +3,7 @@ layout: post
 title: "Lessons From A Two Dollar Espresso Machine"
 date: 2025-05-07 00:16:00 -0700
 tags: coffee
+authors: [TheMagicalC, scombrinae]
 --- 
 ## Introduction 
 > This post is targeted at people who understand the principles and internal
