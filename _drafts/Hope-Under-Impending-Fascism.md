@@ -27,7 +27,7 @@ official paperwork.
 Perhaps the more pertinent question is this: How did we get here?
 As far as I can tell, the answer is this: Republicans pretended to have solutions
 to the problems of the average American, while Democrats didn't even acknowledge
-the problems. In some cases, they were even maneuvered into positions where
+the problems. In some cases, Democrats were even maneuvered into positions where
 they appeared to be part of the problem, and did not directly address those
 poor optics. Ben Rhodes, former deputy national security advisor for Barack
 Obama, explains it well in his NY Times guest essay.
@@ -35,6 +35,11 @@ Obama, explains it well in his NY Times guest essay.
 >  I would never claim to have all the answers about what went wrong, but I do worry that Democrats walked into the trap of defending the very institutions — the “establishment” — that most Americans distrust. As a party interested in competent technocracy, we lost touch with the anger people feel at government. ...
 > As a party committed to American leadership of a “rules-based international order,” we defended a national security enterprise that has failed repeatedly in the 21st century, and made ourselves hypocrites through unconditional military support for Israel’s bombardment of civilians in Gaza.
 
+It's a rough time to be an American.[^1] Purchasing power has been eroded continuously
+since Reagan. Banks say that we're not in a recession, but every American is feeling
+the fact that cost of living continues to outpace wages. When everyone can tell something
+is wrong, but democratic politicians are unwilling to admit it, it's no surprise that
+they're hemorrhaging voters. It's especially unsurprising considering that 
 
 https://www.nytimes.com/2024/11/08/opinion/republicans-democrats-trump.html
 
@@ -55,3 +60,4 @@ https://bsky.app/profile/techconnectify.bsky.social/post/3laddaj3pqs2j
 https://www.tumblr.com/the-lemonaut/710271433164668928/thats-why-im-looking-into-solarpunk-and-am
 
 ## Footnotes
+[^1]: I am SO aware of all the privilege that Americans have, but this post isn't about that.
