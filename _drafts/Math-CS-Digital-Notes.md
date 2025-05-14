@@ -24,7 +24,7 @@ Pros:
 - Writing equations is quick
 
 Cons: 
-- Syntax highlighting takes absolutely fucking forever if you do it with colored pens, and is completely nonviable for in-situ note taking
+- Syntax highlighting takes absolutely forever if you do it with colored pens, and is completely nonviable for live note taking
 - Equation legibility gets pretty bad if your handwriting is messy
 - No image insertion
 - Turning in assignments digitally requires scanning
@@ -50,7 +50,18 @@ equation typesetting, and lots of other programs support inline LaTeX for just
 this purpose. 
 
 LaTeX supports language-specific syntax highlighting via a few 
-different libraries. `minted` is the most commonly used. 
+different libraries. `minted` is the most commonly used. One significant drawback
+of `minted` is that it freaks out if you have spaces in your file path.
+That means your file name, and the name of every folder in the path to your file,
+cannot have spaces. This is, in my opinion, a ridiculous problem to still be
+having in 2025. I could have sworn there was a better syntax highlighting
+library, but I was unable to find it for this post. `minted` is the most common,
+and most guides use it. 
+
+LaTeX also supports the `tikz` package for drawing vectorized diagrams.[^1]
+`tikz` is extremely complicated to learm, but rendering high-res diagrams directly
+into your PDFs makes a smoother compiling experience (and smaller file size)
+than importing external bitmap images.
 
 Pros: 
 - Absolute control of formatting 
@@ -63,4 +74,7 @@ Cons:
 - Extremely steep learning curve 
 - Rendering diagrams is very complicated 
 
+## Markdown
+
 ## Footnotes
+[^1]: Vectorized images are mathematically defined using equations, rather than stored as an array of pixels. This means they have practically infinite resolution, and will never suffer from being weirdly blurry from aliasing if you resize them. Regular non-vector images are called bitmap images.
