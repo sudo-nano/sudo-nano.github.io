@@ -42,6 +42,17 @@ While I'm normally a massive proponent of reporting bugs, the anaconda team's
 response time to the last issue I mentioned does not inspire confidence that the
 issue will be responded to within the decade. 
 
+### Puts itself in front of the system python version on the python path
+I've come back on 2025-05-15 to say that `conda` bit me *again.* 
+Yes, I was a fool to install it again after I wrote a whole post complaining
+about it. I hoped it would be better since I used miniforge, and it wasn't.
+`conda` put itself in the system path in front of the system python version.
+This causes problems when you install python programs and libraries using your
+system package manager, because then your `conda` base image can't find them.
+In my case, it broke a previously installed program in a hard to troubleshoot
+way. In particular, it broke [Piper](https://github.com/libratbag/piper), the 
+open source mouse configuration software I use for my Logitech G502.
+
 ## Please use another environment manager 
 ### mamba
 Mamba is just anaconda but rewritten in C++. It's way faster. Please use it
