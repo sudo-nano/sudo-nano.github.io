@@ -37,7 +37,9 @@ Obama, explains it well in his NY Times guest essay.
 
 It's a rough time to be an American.[^1] Purchasing power has been eroded continuously
 since Reagan. Banks say that we're not in a recession, but every American is feeling
-the fact that cost of living continues to outpace wages. When everyone can tell something
+the fact that 
+[cost of living continues to outpace wages](https://www.cbsnews.com/news/cost-of-living-income-quality-of-life/). 
+When everyone can tell something
 is wrong, but democratic politicians are unwilling to admit it, it's no surprise that
 they're hemorrhaging voters. It's especially unsurprising considering that 
 
