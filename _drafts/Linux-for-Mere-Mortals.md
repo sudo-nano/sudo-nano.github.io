@@ -115,4 +115,5 @@ Outline:
 
 ## Footnotes
 [^1]: Your mileage may vary depending on your CPU.
-[^2]: The actual amount of telemetry and ease of configuration depends on your distribution. I use EndeavourOS with the KDE Plasma desktop environment, which gives me a nice labeled slider describing the different levels of telemetry I can allow.
+[^2]: The actual amount of telemetry and ease of configuration depends on your distribution. I use EndeavourOS with the KDE Plasma desktop environment, which gives me a nice labeled slider describing the different levels of telemetry I can allow. 
+<!-- TODO: Move the telemetry footnote to body text and add a screenshot of the slider -->
