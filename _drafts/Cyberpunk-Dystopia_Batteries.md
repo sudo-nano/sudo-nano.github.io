@@ -34,23 +34,58 @@ reach.
 ### How does a battery work? 
 Batteries, at their most basic, perform a chemical reaction to generate 
 electricity. 
-What this reaction is, as well as whether it's reversible, depend on the type of 
-battery. 
-Alkaline batteries, such as AA, AAA, C, and D batteries, are typically non-rechargeable.
-Electronics with built-in rechargeable batteries use either lithium-ion batteries or
-nickel-cadmium (often abbreviated Ni-Cd) batteries.
-Lithium batteries utilize dissolved lithium to perform a reversible reaction to 
-store or release charge. 
-<!-- TODO: Find a citation for how lithium batteries work -->
+The chemicals involved in this reaction, as well as whether it's reversible, 
+depend on the type of battery. 
+In rechargeable batteries, such as nickel-cadmium (often abbreviated Ni-Cd)
+and lithium-ion batteries, this reaction is reversible.[^dislit]
+In non-rechargeable batteries, such as alkaline batteries
+(AA, AAA, C, D, 9V, and most button batteries), the reaction is not reversible.
 
 Lithium batteries are notable for their high power density, meaning smaller 
 batteries can store lots of energy, and high discharge rate, meaning they can 
 release their power quickly. 
-Usually, a battery is optimized for one of the above, not both. 
-Lithium batteries can also be dangerous because their electrolyte, the solution
-in which the metal is dissolved, is flammable. This means damaged lithium 
+The trade off is that their electrolyte, the solution in which the reaction takes
+place, is flammable. This means damaged lithium 
 batteries can catch fire and explode violently, something that other types of 
 batteries (like disposable alkaline AA batteries or lead-acid car batteries) don't do.
+Different types of lithium-ion batteries are optimized for different applications.
+Lithium-polymer batteries, which look like a capri sun and live in devices like your
+phone, are optimized for power density. People often abbreviate these as LiPo.
+
+<!-- Insert image of LiPo -->
+
+There's not a lot of space in your 
+portable electronics, so most of them try to pack as much power in as possible, 
+with the trade off that you can't discharge it all at once unless you want your
+phone to do its best Galaxy Note 7 impression.
+On the other hand, standard size cylindrical cells, such as 18650s and 21700s,
+are optimized for higher *discharge rates.* That means they can let out more
+of their power at once. Consumer devices rarely have you handle individual cells
+directly,
+but most people have handled battery packs with these inside. They power portable 
+devices with higher current demands. Drills, older laptops, and high-end lightsabers
+tend to use 18650s. Even larger devices, like ebikes and electric cars, use hundreds
+of 21700s stuck together into a single massive battery pack.
+
+<!-- Insert image of 18650 -->
+
+### How do batteries age?
+Over time and recharge cycles, batteries degrade. 
+Their capacity and maximum current output decrease as the battery degrades.
+You've probably noticed capacity degradation when your phone or laptop don't
+last as long between charges.
+Decreases in maximum current output are harder to notice, and are
+only obvious on devices that perform mechanical work. For example, you may
+notice that your drill doesn't output as much torque when used with older
+battery packs.
+On your drill, that's not much of a problem. Just go to your local hardware
+store and buy a new battery. 
+When the battery on your phone gets old, you have to take it into the shop
+so someone can peel apart your computer sandwich and insert a new battery.
+You *can* do this at home, but it requires phone-specific repair tools
+and sometimes soldering equipment.
+That sucks! Replacing your car battery at home can be done with some basic
+tools, why not your phone? We'll get to that in the next section.
 
 ## How did we get here? 
 
@@ -126,7 +161,18 @@ Outline of this section:
 - Drill battery incompatibility is bullshit, and they're already using these
 - Hobbyists already use these (flashlights, lightsabers, EVs)
 
+## Appendix: Terminology Pedantry
+Coming from my amateur radio background, I typically make the distinction
+between *portable* and *mobile.* Portable typically means something that can be
+moved and set up in another location, but not used while in transit. 
+Mobile typically means something can be operated while moving, like a transceiver
+in a car. Since this is targeted towards the layperson, and there are very few
+battery powered consumer electronics that cannot be used in transit, I've thrown
+out that distinction to make sure it doesn't fly under the radar and confuse
+new readers.
+
 ## Footnotes
+[^dislit]: There also exist disposable lithium batteries. These are mostly 3V coin cells, but in the past few years disposable lithium AA and AAA batteries have entered the market.
 
 [^1]: **Planned obsolescence** (also called built-in obsolescence or premature obsolescence) is a policy of planning or designing a product with an artificially limited useful life or a purposely frail design, so that it becomes obsolete after a certain pre-determined period of time upon which it decrementally functions or suddenly ceases to function, or might be perceived as unfashionable. ([Wikipedia](https://en.wikipedia.org/wiki/Planned_obsolescence))
 
