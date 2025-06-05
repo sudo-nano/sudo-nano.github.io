@@ -14,7 +14,8 @@ tags: coffee
 Vietnamese coffee is uniquely strong and flavorful, usually moderated with a 
 hefty dose of condensed milk. It's a staple of any Vietnamese restaurant, and 
 for good reason. It's good iced or hot, and has more caffeine than a typical 
-espresso. 
+espresso. Prior to this venture, I had never successfully recreated it at home.
+Several online recipes offered drinks that were similar but never quite there.
 
 ## Use a Phin
 The device used to make Vietnamese coffee is called a *phin*. (Pronounced "feen"). 
