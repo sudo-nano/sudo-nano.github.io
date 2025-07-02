@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux for Mere Mortals"
-date: 2024-01-26 22:00:00 -0700
+date: 2025-06-26 22:00:00 -0700
 tags: linux right-to-repair
 categories: drafts
 hidden: true
@@ -19,7 +19,7 @@ tech spaces in general) have a problem with being elitist. Many competent and
 well meaning people have long since forgotten how hard it was to be a beginner.
 Telling someone who's struggling that what they're doing is "obvious" will only
 make them feel awful.
-It's time we do better. We're all in it together, and we should act like it. 
+It's time we do better. 
 This guide was constructed in an effort to make this tech more accessible
 to the layperson. Everyone should be able to own their devices, and it
 shouldn't take a computer science degree to do that.
@@ -46,6 +46,10 @@ At the maximum Windows telemetry level,
 Linux, on the other hand, is capable of this level of telemetry, but will not 
 enable it without your explicit consent.[^2]
 
+![KDE Plasma Telemetry Slider]({{site.url}}/assets/linux/plasma_telemetry_slider.png)
+*Figure 1: The slider for adjusting the level of telemetry in the KDE Plasma desktop
+environment.*
+
 ### Installing programs is easier
 The most important innovation that Linux brings to consumers is a **package manager**. 
 Software is divided into different **packages**, and a package manager is a program
@@ -67,7 +71,7 @@ extraneous files in order to uninstall something. Your package manager will also
 handle uninstalling for you. Continuing with the `apt` example, uninstalling
 a program is as simple as `apt uninstall program`.
 
-### Control over your computer
+### Complete control over your computer
 <!-- TODO: Research permission levels on linux -->
 <!-- Use example: Candy crush installed with system privileges on Windows -->
 You may have noticed that Windows keeps some things out of reach of even system
@@ -94,23 +98,31 @@ the storage for it.
 
 ## Frequently Asked Questions
 ### Doesn't Linux produce weird and hard to troubleshoot problems?
-The short answer is no, Windows just tries to hide the weird problems from you.
+The short answer is no. Linux doesn't produce weirder problems than other
+operating systems, it's just that other OSes just try to hide the weird problems 
+from you.
 
-Microsoft doesn't want anyone except themselves touching the OS, so they don't
+Microsoft and Apple don't want anyone except themselves touching the OS, so they don't
 tell you how to work on your own system. Linux wants you to fix your own problems,
-so the documentation tells you how to get your hands dirty.
-You can still choose not to work on your own system, but with all the new insights
-into the problems, you may find it hard to resist poking around.
+so the documentation tells you how to get your hands dirty. Every time you would
+normally find yourself in a dead end on the Microsoft or Apple forums going back
+and forth with a useless support representative, you can instead dig into problems
+yourself. (No shade to support reps, they're just not equipped to do what they
+actually need to.)
+You can still choose not to work on your own system, but with all the new insights, 
+you may find it hard to resist poking around.
 
 The long answer is that some distributions, called **rolling release** distributions,
 publish bleeding edge new packages to their package manager.
 These packages are more up to date, but also not as thoroughly tested. Arch
 is an example of a rolling release distribution. I would not recommmend Arch
-or its derivatives for first time Linux users. 
+or its derivatives for first time Linux users, because they're more prone 
+to having rough edges and odd bugs.
+
 **Stable release** distributions, like Debian, Ubuntu, and Mint, thoroughly
 test their software before publishing it. This takes a while, so packages are
 less up to date, but you're spared the weird issues. I would recommend starting
-with a stable release
+with a stable release distribution.
 
 Additionally, you'll find that the available support is more useful, and *usually*
 more friendly. Microsoft's support forums are littered with poor souls whose
@@ -128,12 +140,11 @@ To see only the high priority logs, such as those emitted by crashing
 programs, try `journalctl -p3`.
 
 ### Can I still play video games?
-**Short answer:** Steam has a built-in emulator[^proton] called Proton that will let
-you run the vast majority of Windows games on Linux with the click of a single
-checkbox. Valve claims that proton will work with non-Steam games, but this 
-requires more setup and your mileage may vary. 
+**Short answer:** Nearly all Steam games will run well out of the box.
+Your mileage may vary with non-Steam games.
 
-**Long Answer:** Most Steam games run under Proton without any configuration.
+**Long Answer:** Most Steam games run under Proton, Steam's built-in emulator,
+without any configuration.[^proton]
 There's a wonderful website called [ProtonDB](https://www.protondb.com/)
 where users will review games and rate how well they run under Proton. On the
 rare occasion that they require setting launch options to start properly, 
@@ -142,7 +153,15 @@ paste the suggested options into the text box in Steam.
 [Valve outlines the steps to add launch options here.](https://help.steampowered.com/en/faqs/view/7D01-D2DD-D75E-2955)
 
 
+### What the heck is a distribution?
 
+### What is a desktop environment?
+
+## My Recommendations
+Fedora with KDE is my best rec.
+Debian and its derivatives are acceptable starter distributions, but I have
+[ideological disagreements]({{site.url}}/posts/Btw-I-Use-Arch) with Debian's 
+design philosophy.
 
 ## Appendix: Forum Etiquette
 https://dontasktoask.com/
@@ -160,4 +179,4 @@ Outline:
 [^1]: Your mileage may vary depending on your CPU.
 [^2]: The actual amount of telemetry and ease of configuration depends on your distribution. I use EndeavourOS with the KDE Plasma desktop environment, which gives me a nice labeled slider describing the different levels of telemetry I can allow. 
 [^TPM]: The Trusted Platform Module (TPM for short) is a microcomputer separate from your main system, and it's used to enable security features such as full disk encryption and biometrics like fingerprint or face scanning.
-<!-- TODO: Move the telemetry footnote to body text and add a screenshot of the slider -->
+[^proton]: Proton is technically not an emulator, it's a software translation layer. It doesn't emulate the entire Windows environment, it only translates the program's calls to Windows-specific tasks into Linux-specific tasks.
