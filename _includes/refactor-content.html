@@ -120,8 +120,6 @@
       <!-- add image placeholder -->
       {% assign _left = _left | replace: 'src=', 'data-src=' | replace: ' lqip=', ' data-lqip="true" src=' %}
 
-    {% else %}
-      {% assign _class = _class | append: ' shimmer' %}
     {% endif %}
 
     <!-- lazy-load images -->
@@ -131,11 +129,6 @@
 
     {% if page.layout == 'home' %}
       <!-- create the image wrapper -->
-      {% assign _wrapper_start = '<div class="preview-img ' | append: _class | append: '">' %}
-
-      {% assign _img_content = _img_content | append: _wrapper_start %}
-      {% assign _right = _right | prepend: '></div' %}
-
     {% else %}
       <!-- make sure the `<img>` is wrapped by `<a>` -->
       {% assign _parent = _right | slice: 1, 4 %}

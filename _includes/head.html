@@ -98,9 +98,8 @@
 
   <!-- JavaScript -->
 
-  {% unless site.theme_mode %}
-    {% include mode-toggle.html %}
-  {% endunless %}
+  <!-- Removed "unless" to fix image shimmer bug per https://github.com/cotes2020/jekyll-theme-chirpy/issues/2066-->
+  {% include mode-toggle.html %}
 
   {% include metadata-hook.html %}
 </head>
