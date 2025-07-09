@@ -10,14 +10,14 @@ hidden: true
 dynamic site.url generation thing with liquid -->
 
 ## Introduction
-An implicit assumption in most of the self-help productivity sphere is that
+An implicit assumption in the self-help productivity sphere is that
 anyone can succeed if they just pick the right method and commit to it. 
 This is not true, because some people need adaptable methods. 
 Static methods just don't cut it for some people, including me.
 
 If no method works all the time, how do you tell when and why a method works? 
 That's is the hard part. 
-It's highly personal, so I can't give you answers, I can only outline the
+It's highly personal, so I can't tell you what goes where. I can only outline the
 process by which you might discover those answers for yourself. 
 
 ## The Process
