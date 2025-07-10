@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: TheMagicalC
-  email: example@domain.com # change to your email address
+  email: ibuiltasonic+flashofstupid@protonmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/sudo-nano # change to your github homepage
@@ -74,7 +74,7 @@ theme_mode: dark
 img_cdn: {{ site.url }}
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/oegh_favicon.png 
+avatar: /assets/oegh_favicon.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -198,15 +198,15 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-feed: 
+feed:
   icon: /assets/oegh_favicon.png
   logo: /assets/oegh_favicon.png
-  tags: true 
+  tags: true
   excerpt_only: false
 
 plugins:
   - jekyll-darkvisitors
 
-darkvisitors: 
+darkvisitors:
   access_token: DARK_VISITORS_TOKEN
   append_existing: true
