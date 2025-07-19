@@ -22,8 +22,7 @@ I *will* put you on blast. Don't forget to make your site screen reader
 friendly as well. (I'm currently investigating the screen reader
 friendliness of this blog.)
 
-## 2025-01-27
-### LLM scrapers banned by robots.txt
+## 2025-01-27: LLM scrapers banned by robots.txt
 This blog's build process now includes fetching an updated list of LLM scraper
 user agents from [Dark Visitors](https://darkvisitors.com) and disallowing them via robots.txt. This is done using the [jekyll-darkvisitors](https://github.com/pettazz/jekyll-darkvisitors)
 plugin. 
