@@ -23,7 +23,8 @@ process by which you might discover those answers for yourself.
 ## The Process
 
 ## Paper or Digital Notes?
-Being a person with ADHD on the internet, I've read just about every perspective
+There are a plethora of perspectives on note taking, both in general and for
+neurodivergent people.
 on note taking. Use this note taking program, use this bullet journal format, 
 only use paper notes to avoid digital distractions, et cetera.
 My opinion is this: You can, and in fact should, use multiple note taking
