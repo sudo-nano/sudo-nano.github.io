@@ -7,6 +7,21 @@ tags: meta web-development blog
 pin: true
 --- 
 
+## 2025-07-19: I have buttons now!
+You may have noticed that there are some colored rectangles at the bottom of 
+the blog. I had a fun time hacking these into the template, mostly because I
+wanted the blog to be more personalized. Unfortunately, I don't remember where
+I got the "you're telling me a queer coded this" button, but I'll link it if
+I ever find it. The "make your shit accessible or I'll get you" button was 
+inspired by one of my friends, and I made it in Inkscape in a few minutes.
+It's an SVG, so it'll be crisp at any size. Feel free to use it on your own
+website. However, if you use the accessibility button and your site doesn't
+meet 
+[Web Content Accessibility Guidelines for contrast](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html), 
+I *will* put you on blast. Don't forget to make your site screen reader 
+friendly as well. (I'm currently investigating the screen reader
+friendliness of this blog.)
+
 ## 2025-01-27
 ### LLM scrapers banned by robots.txt
 This blog's build process now includes fetching an updated list of LLM scraper
