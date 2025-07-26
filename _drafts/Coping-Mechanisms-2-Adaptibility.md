@@ -13,14 +13,32 @@ dynamic site.url generation thing with liquid -->
 An implicit assumption in the self-help productivity sphere is that
 anyone can succeed if they just pick the right method and commit to it. 
 This is not true, because some people need adaptable methods. 
-Static methods just don't cut it for some people, including me.
+Static methods just don't cut it for many people.
 
 If no method works all the time, how do you tell when and why a method works? 
 That's is the hard part. 
 It's highly personal, so I can't tell you what goes where. I can only outline the
-process by which you might discover those answers for yourself. 
+process by which you can find those answers yourself.
 
 ## The Process
+
+## Change your environment before changing your behavior
+Pretty much every piece of self-help media emphasizes the importance of building
+good habits. Good habits *are* important, but anyone could have told you that. 
+Lots of them lampshade the fact that building habits is hard, but don't actually
+mention any effective methods. 
+The #1 issue with building habits is that changing your behavior by force of
+will is extremely difficult. Your behavior is based on your brain and your 
+environment, and changing your brain is hard. It's much easier to start out by
+changing your environment, because the change in behavior will naturally follow.
+
+For example, I sometimes have a hard time falling asleep, especially when there
+are lots of thoughts bouncing around my head. I don't want to forget them in
+the morning, but I don't trust myself to remember them. They just keep
+bouncing around until I fall asleep, exhausted, at a later time. Years of 
+thinking "I just need to remember thoughts better in the morning" having not
+worked a single time ever led me to put a whiteboard by my bed. Now, I empty
+my thoughts onto the whiteboard and fall asleep much faster. 
 
 ## Paper or Digital Notes?
 There are a plethora of perspectives on note taking, both in general and for
