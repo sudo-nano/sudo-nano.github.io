@@ -33,6 +33,7 @@ asdf
 - These laws are a huge red flag for fascism and Christian fundamentalism
 - Fascism and Christian fundamentalism rely on picking out people they believe to be "weird" or nonconforming in some way (this is why queer was a slur btw)
 - Porn is something they publicly declare to be weird (never mind the fact that lots of them are pedophiles)
+- This is why it's really important that people learn to be normal about sex
 
 Next Steps for the Fascists: 
 - These laws allow them to collect a list of names that they can start targeting
@@ -49,3 +50,7 @@ asdf
 
 ## Footnotes
 asdf
+
+## References
+https://www.investopedia.com/terms/c/common-carrier.asp
+Petition to identify Visa and Mastercard as common carriers: https://resist.bot/petitions/PWDQEZ
