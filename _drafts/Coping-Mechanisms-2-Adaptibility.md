@@ -52,4 +52,9 @@ Outline for more of this section
 - Digital notes are more powerful but require greater effort to not be distracted
 - Paper notes are less powerful but less distracting, and sometimes the tactility is really nice. 
 
+## Bootstrapping 
+Outline: 
+- When you try to start a task and all the shit goes wrong (like someone else leaving a mess in your kitchen), you may have to "bootstrap" your task rather than doing it in the order you prefer 
+- Example: Having to eat toast in order to have the energy to clean the pans for bacon
+
 ## Footnotes
