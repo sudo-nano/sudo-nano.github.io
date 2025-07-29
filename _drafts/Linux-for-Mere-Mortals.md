@@ -152,10 +152,33 @@ someone on ProtonDB has probably already figured it out. Just copy and
 paste the suggested options into the text box in Steam. 
 [Valve outlines the steps to add launch options here.](https://help.steampowered.com/en/faqs/view/7D01-D2DD-D75E-2955)
 
+### What is a desktop environment?
+The desktop environment (sometimes abbreviated DE) is the graphical part of your operating system, basically
+the system that makes the windows you click on. Desktop environments usually ship
+their own set of basic utilities, such as your file manager and basic text editor.
+If you're coming from Windows, these are equivalent File Explorer and Notepad.
+Coming from MacOS, these would be Finder and TextEdit. The desktop environment
+also controls your taskbar and notifications. 
+
+Desktop environments come in a wide variety. On the light end is something
+like XFCE, which is designed to be performant even on older computers. 
+Some people find stock XFCE to be overly plain, but it can still be customized
+to your liking. 
+
+![A plain XFCE installation]({{site.url}}/assets/linux/xfce_1.jpg)
+*Figure 2: A plain looking XFCE installation*
+
+![A customized XFCE installation]({{site.url}}/assets/linux/xfce_2.jpg)
+*Figure 3: A prettier and more customized XFCE installation with transparent terminal windows*
+
+The lightness of XFCE is one of the things that makes Linux Mint w/ XFCE a great
+choice for breathing life into older computers.
+
+<!-- TODO: Write about Gnome and KDE -->
 
 ### What the heck is a distribution?
 
-### What is a desktop environment?
+
 
 ## My Recommendations
 Fedora with KDE is my best rec.
