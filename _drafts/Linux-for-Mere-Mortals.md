@@ -53,12 +53,12 @@ environment.*
 ### Installing programs is easier
 The most important innovation that Linux brings to consumers is a **package manager**. 
 Software is divided into different **packages**, and a package manager is a program
-that provides a centralized way to install and remove software. While most package
-managers are command line only, and the command line can be scary, package managers
-are uncomplicated. 
+that provides a centralized way to install and remove software. Some package managers
+are command line only, but distributions like Ubuntu and Fedora provide easy to use
+graphical package managers. 
 <!-- Write about how Ubuntu, Fedora, etc provide graphical package managers -->
 
-On Windows, you might download a graphical installer to install a program. 
+On Windows, you might download an installer to install a program. 
 Sometimes, these have boxes you have to uncheck to prevent the installer from 
 installing additional garbage. (Looking at you, McAfee and Norton.)
 On a package manager like `apt`, you might just run the command 
@@ -94,6 +94,15 @@ device must support <abbr title="Trusted Platform Module">TPM</abbr> 2.0.[^TPM]
 Tons of people are throwing out devices that don't support TPM 2.0, but they
 don't have to be e-waste. Linux will let you install it on any device that has
 the storage for it. 
+
+Part of Microsoft's reasoning for requiring a TPM 2.0 is that the TPM stores
+keys for full disk encryption, and stores biometrics for biometric login such
+as facial recognition or fingerprint. Storing biometrics there is a good idea,
+but there are many ways to store disk encryption keys. Sometimes they're stored
+on device but themselves encrypted with a password, sometimes they're stored
+on an external USB drive that's required to decrypt your drive. The long
+and short of it is that if you're not using biometrics, you probably don't
+actually need a TPM. 
 
 
 ## Frequently Asked Questions
@@ -169,7 +178,7 @@ to your liking.
 *Figure 2: A plain looking XFCE installation*
 
 ![A customized XFCE installation]({{site.url}}/assets/linux/xfce_2.jpg)
-*Figure 3: A prettier and more customized XFCE installation with transparent terminal windows*
+*Figure 3: A prettier and more customized XFCE installation with transparent terminal windows, shown inside a virtual machine under Windows*
 
 The lightness of XFCE is one of the things that makes Linux Mint w/ XFCE a great
 choice for breathing life into older computers.
