@@ -20,5 +20,6 @@ hidden: true
 ## References
 https://aria.dog/barks/ethics-in-transgenderism/
 https://www.intomore.com/impact/trans-rules-engagement/
+[Note to the C++ Standards Committee Members - Bjarne Stroustrup](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2025/p3651r0.pdf)
 [I'm Never Going Back to Matrix - Terence Eden](https://shkspr.mobi/blog/2025/07/im-never-going-back-to-matrix/)
 [Unofficial Skyrim Patch | Down the Rabbit Hole - Fredrik Knudsen](https://youtu.be/q6OqJOSmDrY)
