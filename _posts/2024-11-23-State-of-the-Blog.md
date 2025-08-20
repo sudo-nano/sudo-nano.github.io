@@ -10,9 +10,9 @@ pin: true
 ## 2025-07-19: I have buttons now!
 You may have noticed that there are some colored rectangles at the bottom of 
 the blog. I had a fun time hacking these into the template, mostly because I
-wanted the blog to be more personalized. Unfortunately, I don't remember where
-I got the "you're telling me a queer coded this" button, but I'll link it if
-I ever find it. The "make your shit accessible or I'll get you" button was 
+wanted the blog to be more personalized. The "you're telling me a queer coded 
+this" button was obtained from [emery's silly kitty corner.](https://emery.nekoweb.org/)
+The "make your shit accessible or I'll get you" button was 
 inspired by one of my friends, and I made it in Inkscape in a few minutes.
 It's an SVG, so it'll be crisp at any size. Feel free to use it on your own
 website. However, if you use the accessibility button and your site doesn't
