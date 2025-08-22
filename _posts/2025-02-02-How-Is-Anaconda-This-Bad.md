@@ -3,6 +3,7 @@ layout: post
 title: "How is Anaconda This Bad?"
 date: 2025-02-02 21:32:00 -0800
 tags: software python
+category: My Software Stack
 --- 
 > Normally, I try not to complain about things unless I'm also suggesting a solution.
 > This post is literally just for me to complain about anaconda, the python
