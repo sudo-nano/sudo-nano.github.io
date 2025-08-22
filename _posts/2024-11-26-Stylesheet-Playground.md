@@ -19,4 +19,8 @@ finding it, since it's not indexed!
 {: .prompt-warning}
 <p class="horus--subtle">subtle distortion</p>
 
+> Extreme eye strain warning for mousing over the below text!
+{: .prompt-warning}
+<code class="horus">EXTREME DISTORTION</code>
+
 ## Footnotes
