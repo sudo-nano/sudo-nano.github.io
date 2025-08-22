@@ -1,0 +1,95 @@
+// custom.scss
+// snippets of CSS that I borrowed from other sites
+
+// Horus distortion effects from Lancer COMP/CON
+@-webkit-keyframes distort-subtle {
+  25% {
+    text-shadow:none
+  }
+  26% {
+    text-shadow:2px -1px red,-2px 3px #0ff
+  }
+  27% {
+    text-shadow:-2px -3px red,2px 1px #0ff
+  }
+  28% {
+    text-shadow:2px 1px red,-4px 1px #0ff
+  }
+  29% {
+    text-shadow:-4px 1px red,-2px -1px #0ff
+  }
+  30% {
+    text-shadow:none
+  }
+  75% {
+    text-shadow:none
+  }
+  76% {
+    text-shadow:-4px 1px red,-2px -1px #0ff
+  }
+  77% {
+    text-shadow:-2px -3px red,2px 1px #0ff
+  }
+  78% {
+    text-shadow:2px -1px red,-2px 3px #0ff
+  }
+  79% {
+    text-shadow:2px 1px red,-4px 1px #0ff
+  }
+  80% {
+    text-shadow:none
+  }
+}
+
+@keyframes distort {
+  0% {
+    text-shadow:2px 1px #f0f,-2px -3px #0ff;
+    transform:translate(-1px,1px) translate3D(-30px,0,0) rotate(-.1deg);
+    cursor:crosshair
+  }
+  25% {
+    text-shadow:-2px -3px #f0f,2px 1px #0ff;
+    transform:translate(2px,1px) translate3D(-30px,0,0) rotate(-.1deg);
+    cursor:cell
+  }
+  50% {
+    text-shadow:2px -1px #f0f,-4px 1px #0ff;
+    transform:translate(-2px,1px) translate3D(-30px,0,0) rotate(-.1deg);
+    cursor:col-resize
+  }
+  75% {
+    text-shadow:-4px -1px #f0f,-2px -1px #0ff;
+    transform:translate(3px,1px) translate3D(-30px,0,0) rotate(-.1deg);
+    cursor:move
+  }
+  to {
+    text-shadow:-2px 0 #f0f,2px -1px #0ff;
+    transform:translate(-2px) translate3D(-30px,0,0) rotate(-.1deg);
+    cursor:all-scroll
+  }
+}
+
+// Major distortion effect is done as <code class="horus">text here</code>
+code.horus {
+  font-size:1.1em;
+  background-color:rgba(0,0,0,.7)!important;
+  box-shadow:none;
+  color:#fff;
+  font-style:normal;
+  letter-spacing:.05em;
+  border-radius:0
+}
+
+code.horus:hover {
+  background-color:#000!important;
+  -webkit-animation:distort .6s infinite;
+  animation:distort .6s infinite;
+  text-transform:uppercase;
+  font-weight:700
+}
+
+// Subtle distortion effect is done as <p class="horus--subtle">text here</p>
+.horus--subtle {
+  -webkit-animation:distort-subtle 5s infinite;
+  animation:distort-subtle 5s infinite
+}
