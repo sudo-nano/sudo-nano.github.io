@@ -1538,3 +1538,48 @@ search {
     }
   }
 } /* min-width: 1650px */
+
+// Horus distortion effects from Lancer COMP/CON
+@-webkit-keyframes distort-subtle {
+  25% {
+    text-shadow:none
+  }
+  26% {
+    text-shadow:2px -1px red,-2px 3px #0ff
+  }
+  27% {
+    text-shadow:-2px -3px red,2px 1px #0ff
+  }
+  28% {
+    text-shadow:2px 1px red,-4px 1px #0ff
+  }
+  29% {
+    text-shadow:-4px 1px red,-2px -1px #0ff
+  }
+  30% {
+    text-shadow:none
+  }
+  75% {
+    text-shadow:none
+  }
+  76% {
+    text-shadow:-4px 1px red,-2px -1px #0ff
+  }
+  77% {
+    text-shadow:-2px -3px red,2px 1px #0ff
+  }
+  78% {
+    text-shadow:2px -1px red,-2px 3px #0ff
+  }
+  79% {
+    text-shadow:2px 1px red,-4px 1px #0ff
+  }
+  80% {
+    text-shadow:none
+  }
+}
+
+.horus--subtle {
+  -webkit-animation:distort-subtle 5s infinite;
+  animation:distort-subtle 5s infinite
+}

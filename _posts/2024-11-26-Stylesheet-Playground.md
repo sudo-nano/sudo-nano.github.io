@@ -13,4 +13,10 @@ finding it, since it's not indexed!
 
 <abbr title="Problem Exists Between Chair and Keyboard">PEBCAK</abbr>
 
+## Lancer Horus Text Distortion
+> The Horus distortion text is flashy and eye-strainy, so I won't use it outside
+> the testing page until I write an opt-in dialogue for the effects.
+{: .prompt-warning}
+<p class="horus--subtle">subtle distortion</p>
+
 ## Footnotes
