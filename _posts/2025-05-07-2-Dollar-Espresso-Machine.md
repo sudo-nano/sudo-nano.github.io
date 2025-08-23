@@ -69,7 +69,7 @@ Ca Phe *Lotus*, while fantastic as a pour over, was undrinkably sour no
 matter what we tried. Doses as high as we could cram in the basket, grinds as
 fine as the grinder went, pull times as long as 30 seconds. I suspect the 
 pressure or temperature of this machine is not enough to get good extraction on lighter and more acidic coffees. 
-Unfortunately, we lack the facilities to properly test this hypothesis.[1]
+Unfortunately, we lack the facilities to properly test this hypothesis.[^1]
 
 Heretic Coffee's *Holy Roller* provides a nice complex and grain-forward flavor. 
 The Heretic owner explained to us that they had designed the roast to make good
