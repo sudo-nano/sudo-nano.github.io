@@ -198,6 +198,12 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+plugins:
+ - jektex
+
+jektex:
+  ignore: ["*.xml"]
+
 feed: 
   icon: /assets/oegh_favicon.png
   logo: /assets/oegh_favicon.png

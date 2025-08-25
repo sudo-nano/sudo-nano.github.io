@@ -206,6 +206,7 @@ feed:
 
 plugins:
   - jekyll-darkvisitors
+  - jektex
 
 darkvisitors:
   access_token: DARK_VISITORS_TOKEN

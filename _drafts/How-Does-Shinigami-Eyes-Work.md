@@ -46,10 +46,10 @@ relative to the size of the table. As the table fills up, false positives become
 more likely. A larger table can be used to decrease the false positive probability,
 at the cost of reduced space efficiency.
 
-The way bloom filters actually work is that they are an array of $m$ bits, which
-all start set to 0. It has $k$ different hash functions. To add an element to the
+The way bloom filters actually work is that they are an array of \(m\) bits, which
+all start set to 0. It has $$k$$ different hash functions. To add an element to the
 array, you put it through all the hash functions, and each function maps the
-element to a bit in the array. We are, in effect, randomly selecting $k$ bits 
+element to a bit in the array. We are, in effect, randomly selecting \(k\) bits 
 of the array to set to 1 for any given element, in a way that is consistent 
 between every time we input the same element.
 
