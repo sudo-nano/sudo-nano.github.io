@@ -26,4 +26,6 @@ finding it, since it's not indexed!
 ## TeX rendering via KaTeX
 $$y = mx + b$$
 
+$$x = \frac{-b \pm \sqrt{b^2 - 2ac}}{2a}$$
+
 ## Footnotes
