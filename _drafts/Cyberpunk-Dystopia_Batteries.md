@@ -52,7 +52,8 @@ Different types of lithium-ion batteries are optimized for different application
 Lithium-polymer batteries, which look like a capri sun and live in devices like your
 phone, are optimized for power density. People often abbreviate these as LiPo.
 
-<!-- Insert image of LiPo -->
+<img src="{{site.url}}/assets/cyberpunk_dystopia/lipo.jpg" alt="A small rectangular silver battery, with printing that says LiPo battery 3.7V LP401522 100mAh Made in China.">
+*Figure 1: A small 3.7V 100mAh LiPo*
 
 There's not a lot of space in your 
 portable electronics, so most of them try to pack as much power in as possible, 
@@ -67,7 +68,8 @@ devices with higher current demands. Drills, older laptops, and high-end lightsa
 tend to use 18650s. Even larger devices, like ebikes and electric cars, use hundreds
 of 21700s stuck together into a single massive battery pack.
 
-<!-- Insert image of 18650 -->
+<img src="{{site.url}}/assets/cyberpunk_dystopia/18650.jpg" alt="A cylindrical blue 18650 battery with a ">
+*Figure 2: An 18650 battery*
 
 ### How do batteries age?
 Over time and recharge cycles, batteries degrade. 
@@ -104,7 +106,7 @@ it could be unsafe. For example, Apple's airpods are
 products out there. They're glued together, and there's no safe way to open them
 without risking puncturing the battery and starting a fire. 
 iFixit, a website dedicated to teaching users how to repair their own devices,
-[rates them 0/10](https://www.ifixit.com/Device/AirPods) on repairability
+[rates them 0/10](https://www.ifixit.com/Device/AirPods) on repairability.
 This wasteful design is similar in principle to throwing out your car instead of
 changing its oil, because the manufacturer has made it so you must cut into
 your engine to change the oil.
@@ -148,28 +150,40 @@ flagship phones have these days, this problem was solved long ago by Yaesu, a
 company that makes amateur radio equipment. Their VX line of handheld radios 
 are ruggedized
 and fully submersible, while having easily replaceable batteries that can be
-swapped in seconds. These have been around so long that the VX-8 from this line 
-is now discontinued. I have one, and I clipped it to my belt
-so I could play radio while surfing in Hawaii. Companies that manufacture phones,
+swapped in seconds. These have been around so long that two of the 3 models from this 
+line are now discontinued. I have a VX-8DR, and I clipped it to my belt
+so I could play radio while surfing in Hawaii. That's how waterproof it is.
+Companies that manufacture phones,
 who have orders of magnitude more money than Yaesu, can surely figure it out.
-
+They most definitely could have researched thinner waterproof connectors by now
+if they wanted to, so let's say it like it is: they chose not to do it.
 
 ### Standard Sized Lithium Cells for Big Boi Projects
-Outline of this section:
-- 18650s and 21700s are fantastic
-- Manufacturers already know how fantastic they are, and routinely package these inside proprietary packs
-- Drill battery incompatibility is bullshit, and they're already using these
-- Hobbyists already use these (flashlights, lightsabers, EVs)
+
+For devices that draw more current than LiPo batteries can supply, we have standard
+size cylindrical lithium cells. The most common of these are the 18650 and its larger
+sibling the 21700. These are already ubiquitous, but in less consumer facing ways
+than alkaline batteries. 18650s are often used as one or two cells in compact hobbyist
+electronics, such as in high quality toy lightsabers and powerful flashlights.
+21700s are also used in these applications, but more often are spot welded together
+into larger battery packs for high power applications like drill batteries and electric
+vehicles. Electric scooters and electric cars are both poweredby these, but in different
+cell arrangements. Your incompatible drill batteries are all the same on the inside! 
+Drill battery incompatibility has always been bullshit, but power tool companies love
+the brand lock-in.
+
+Hobbyists have been living in a beautiful world of semi-standardized interchangeable
+batteries for some time now, and there's very little reason this can't be the case for
+all electronics. I want to live in that world.
 
 ## Appendix: Terminology Pedantry
 Coming from my amateur radio background, I typically make the distinction
 between *portable* and *mobile.* Portable typically means something that can be
 moved and set up in another location, but not used while in transit. 
 Mobile typically means something can be operated while moving, like a transceiver
-in a car. Since this is targeted towards the layperson, and there are very few
+in a car. Since this post is targeted towards the layperson, and there are very few
 battery powered consumer electronics that cannot be used in transit, I've thrown
-out that distinction to make sure it doesn't fly under the radar and confuse
-new readers.
+out that distinction to ensure it doesn't confuse new readers.
 
 ## Footnotes
 [^dislit]: There also exist disposable lithium batteries. These are mostly 3V coin cells, but in the past few years disposable lithium AA and AAA batteries have entered the market.
@@ -178,4 +192,4 @@ new readers.
 
 [^2]: Perkins, Devin N, Marie-Noel Brune Drisse, Tapiwa Nxele, Peter D. Sly. 2014. "E-Waste: A Global Hazard". *Annals of Global Health*. [https://doi.org/10.1016%2Fj.resconrec.2008.03.002](https://doi.org/10.1016%2Fj.resconrec.2008.03.002) (Citation carried over from Wikipedia blockquote)
 
-[^3]: IP stands for ingress protection. The first number is a dust protection rating. A 5 in dust protection means that a small amount can get in, but not enough to interfere with the function of the device. The second number is a liquid protection rating. A 5 here indicates protection against "water jets", but not immersion. Basically, it can get more than rained on and still walk away.
+[^3]: IP stands for ingress protection. The first number is a dust protection rating. A 5 in dust protection means that a small amount can get in, but not enough to interfere with the function of the device. The second number is a liquid protection rating. A 5 in liquid protection indicates protection against "water jets", but not immersion. Basically, it can get more than rained on and still walk away.
