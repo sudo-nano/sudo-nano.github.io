@@ -68,7 +68,7 @@ devices with higher current demands. Drills, older laptops, and high-end lightsa
 tend to use 18650s. Even larger devices, like ebikes and electric cars, use hundreds
 of 21700s stuck together into a single massive battery pack.
 
-<img src="{{site.url}}/assets/cyberpunk_dystopia/18650.jpg" alt="A cylindrical blue 18650 battery with a ">
+<img src="{{site.url}}/assets/cyberpunk_dystopia/18650.jpg" alt="A cylindrical blue 18650 battery with printing that says "18650 2000mAh 3.7V">
 *Figure 2: An 18650 battery*
 
 ### How do batteries age?
@@ -175,6 +175,8 @@ the brand lock-in.
 Hobbyists have been living in a beautiful world of semi-standardized interchangeable
 batteries for some time now, and there's very little reason this can't be the case for
 all electronics. I want to live in that world.
+
+<!-- TODO: Suggest some actionable solutions -->
 
 ## Appendix: Terminology Pedantry
 Coming from my amateur radio background, I typically make the distinction
