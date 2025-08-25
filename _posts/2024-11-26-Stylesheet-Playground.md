@@ -23,4 +23,7 @@ finding it, since it's not indexed!
 {: .prompt-warning}
 <code class="horus">EXTREME DISTORTION</code>
 
+## TeX rendering via KaTeX
+$$y = mx + b$$
+
 ## Footnotes
