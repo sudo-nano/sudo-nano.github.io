@@ -30,7 +30,7 @@ and I'll be covering the pros and cons of using
 that particular data structure for this task. 
 
 ## What is a bloom filter?
-This section is paraphrased from Wikipedia, with minor edits to
+This section is largely paraphrased from Wikipedia, with minor edits to
 make the explanation more accessible to those unfamiliar with data structures.
 Sections delving deeper into the specifics of hash functions have also been cut
 for beginner accessibility.
@@ -53,7 +53,31 @@ element to a bit in the array. We are, in effect, randomly selecting \(k\) bits
 of the array to set to 1 for any given element, in a way that is consistent 
 between every time we input the same element.
 
+When we want to check whether an item is present in a bloom filter, we put that
+item through the hash functions, and check all of the bits that the hash functions
+point to for that entry. If all of them are 1, then the element is in the bloom
+filter. There's one issue: the more elements there are relative to the size of
+the bloom filter, the higher the probability that other entries will have 
+coincidentally set all the bits for a given element to 1 without that element
+having actually been entered, producing a false positive. Since there is no
+mechanism that sets 1s back to 0, false negatives are impossible.
 
+## Is a bloom filter a good choice?
+The suitability of a bloom filter for this task depends on your goals.
+At the most basic of requirements, whatever you use for this addon must allow
+you to check set membership. A list, binary tree, hash table, and bloom filter all achieve
+this, but they're not equally good at it. Checking set membership in a list 
+of size $$n$$ is $$O(n)$$. Checking using a hash table or bloom filter is $$O(1)$$.
+Using a binary tree of size $$n$$ is $$O(\log n)$$. 
+
+Lists and binary trees allow end users to view the keys (i.e. the usernames in the 
+list), which is a benefit for transparency, but probably a drawback for drama avoidance.[^1]
+Regardless of the transparency benefits, their performance is so outdone by hash tables
+and bloom filters that they're immediately out of the running. While we have no way of
+knowing exactly how many usernames are in the dataset, checking every username on every
+page as it loads requires that the addon work extremely quickly to avoid slowing down the
+page excessively.
+<!-- TODO: Look at what patterns the addon is actually trying to match when it reads pages -->
 
 ## Footnotes
 
