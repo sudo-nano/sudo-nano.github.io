@@ -23,10 +23,9 @@ Portable electronics, because of their newness, exist in a sort of cultural
 limbo: 
 They're completely pervasive in everyday life, yet we have little to no 
 generational knowledge about their care and maintenance. 
-This is in part because they've only existed for about two generations
-(and rechargeable batteries have only been around for one
-but in 
-equal part by the design of manufacturers through planned obsolescence.
+This is in part because they've only existed for about two generations,
+and rechargeable batteries have only been around for one.
+It's also by the design of manufacturers through planned obsolescence.
 In this post, we'll cover how batteries work, which ones are in your devices,
 why we need replaceable batteries, and how getting there is well within our 
 reach.
@@ -36,8 +35,7 @@ reach.
 ### How does a battery work? 
 Batteries, at their most basic, perform a chemical reaction to generate 
 electricity. 
-The chemicals involved in this reaction, as well as whether it's reversible, 
-depend on the type of battery. 
+Each battery chemistry has different chemicals involved in the reaction.
 In rechargeable batteries, such as nickel-cadmium (often abbreviated Ni-Cd)
 and lithium-ion batteries, this reaction is reversible.[^dislit]
 In non-rechargeable batteries, such as alkaline batteries
@@ -51,8 +49,8 @@ place, is flammable. This means damaged lithium
 batteries can catch fire and explode violently, something that other types of 
 batteries (like disposable alkaline AA batteries or lead-acid car batteries) don't do.
 Different types of lithium-ion batteries are optimized for different applications.
-Lithium-polymer batteries, which look like a capri sun and live in devices like your
-phone, are optimized for energy density. People often abbreviate these as LiPo.
+Modern phones and laptops demand the highest energy density, so they use lithium-polymer
+(LiPo) batteries in pouch form. 
 
 <img src="{{site.url}}/assets/cyberpunk_dystopia/lipo.jpg" alt="A small rectangular silver battery, with printing that says LiPo battery 3.7V LP401522 100mAh Made in China.">
 *Figure 1: A small 3.7V 100mAh LiPo*
@@ -115,7 +113,10 @@ your engine to change the oil.
 
 Their incentive to do this is nothing but profit.
 The sooner your device's battery life becomes unreasonably short, the sooner you
-have to buy a new one. 
+have to buy a new one. Disposable vapes take this a step further, and typically
+include a rechargeable battery but no means to recharge it. Though the components
+are not degraded after a single use, the extreme cost cutting measure of removing
+charging features entirely makes them e-waste as soon as the battery runs out.
 
 Besides the obvious detriment of manufacturers 
 wringing more money out of consumers for shorter device lifetimes, e-waste is more 
@@ -185,12 +186,21 @@ in a car. Since this post is targeted towards the layperson, and there are very 
 battery powered consumer electronics that cannot be used in transit, I've thrown
 out that distinction to ensure it doesn't confuse new readers.
 
+Something not touched on in this article, but relevant for further research, is the
+distinction between a battery cell and a battery pack.
+A cell is typically one self-enclosed vessel of battery soup, like an AA battery or
+an 18650. They have one anode and one cathode. A battery pack is assembled from many
+cells, and though it may expose only one anode and one cathode, internally it's 
+composed of many cells with their own terminals. Power tools typically use battery
+packs. Most people don't know, but 9V batteries are actually a pack of six AAAA 
+cells wired in series. 
+
 ## Footnotes
 [^dislit]: There also exist disposable lithium batteries. These are mostly 3V coin cells, but in the past few years disposable lithium AA and AAA batteries have entered the market.
 
 [^drills]: Your incompatible drill batteries are all the same on the inside! 
 Drill battery incompatibility has always been bullshit, but power tool companies love
-the brand lock-in.
+the brand lock-in. If you want to read more about specific batteries, see here: https://www.sevarg.net/tag/toolbatteries
 
 [^1]: **Planned obsolescence** (also called built-in obsolescence or premature obsolescence) is a policy of planning or designing a product with an artificially limited useful life or a purposely frail design, so that it becomes obsolete after a certain pre-determined period of time upon which it decrementally functions or suddenly ceases to function, or might be perceived as unfashionable. ([Wikipedia](https://en.wikipedia.org/wiki/Planned_obsolescence))
 
