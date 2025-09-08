@@ -43,7 +43,7 @@ and lithium-ion batteries, this reaction is reversible.[^dislit]
 In non-rechargeable batteries, such as alkaline batteries
 (AA, AAA, C, D, 9V, and most button batteries), the reaction is not reversible.
 
-Lithium batteries are notable for their high power density, meaning smaller 
+Lithium batteries are notable for their high energy density, meaning smaller 
 batteries can store lots of energy, and high discharge rate, meaning they can 
 release their power quickly. 
 The trade off is that their electrolyte, the solution in which the reaction takes
@@ -52,7 +52,7 @@ batteries can catch fire and explode violently, something that other types of
 batteries (like disposable alkaline AA batteries or lead-acid car batteries) don't do.
 Different types of lithium-ion batteries are optimized for different applications.
 Lithium-polymer batteries, which look like a capri sun and live in devices like your
-phone, are optimized for power density. People often abbreviate these as LiPo.
+phone, are optimized for energy density. People often abbreviate these as LiPo.
 
 <img src="{{site.url}}/assets/cyberpunk_dystopia/lipo.jpg" alt="A small rectangular silver battery, with printing that says LiPo battery 3.7V LP401522 100mAh Made in China.">
 *Figure 1: A small 3.7V 100mAh LiPo*
