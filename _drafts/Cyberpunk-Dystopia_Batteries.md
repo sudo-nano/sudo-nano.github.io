@@ -23,7 +23,9 @@ Portable electronics, because of their newness, exist in a sort of cultural
 limbo: 
 They're completely pervasive in everyday life, yet we have little to no 
 generational knowledge about their care and maintenance. 
-This is in part because they've only existed for about one generation, but in 
+This is in part because they've only existed for about two generations
+(and rechargeable batteries have only been around for one
+but in 
 equal part by the design of manufacturers through planned obsolescence.
 In this post, we'll cover how batteries work, which ones are in your devices,
 why we need replaceable batteries, and how getting there is well within our 
@@ -65,10 +67,10 @@ of their power at once. Consumer devices rarely have you handle individual cells
 directly,
 but most people have handled battery packs with these inside. They power portable 
 devices with higher current demands. Drills, older laptops, and high-end lightsabers
-tend to use 18650s. Even larger devices, like ebikes and electric cars, use hundreds
+tend to use 18650s.[^drills] Even larger devices, like ebikes and electric cars, use hundreds
 of 21700s stuck together into a single massive battery pack.
 
-<img src="{{site.url}}/assets/cyberpunk_dystopia/18650.jpg" alt="A cylindrical blue 18650 battery with printing that says "18650 2000mAh 3.7V">
+<img src="{{site.url}}/assets/cyberpunk_dystopia/18650.jpg" alt="A cylindrical purple 18650 battery with printing that says 18650 2000mAh 3.7V">
 *Figure 2: An 18650 battery*
 
 ### How do batteries age?
@@ -86,7 +88,7 @@ When the battery on your phone gets old, you have to take it into the shop
 so someone can peel apart your computer sandwich and insert a new battery.
 You *can* do this at home, but it requires phone-specific repair tools
 and sometimes soldering equipment.
-That sucks! Replacing your car battery at home can be done with some basic
+That sucks! Replacing a typical lead-acid car battery at home can be done with some basic
 tools, why not your phone? We'll get to that in the next section.
 
 ## How did we get here? 
@@ -152,31 +154,27 @@ are ruggedized
 and fully submersible, while having easily replaceable batteries that can be
 swapped in seconds. These have been around so long that two of the 3 models from this 
 line are now discontinued. I have a VX-8DR, and I clipped it to my belt
-so I could play radio while surfing in Hawaii. That's how waterproof it is.
+so I could play radio while surfing. That's how waterproof it is.
 Companies that manufacture phones,
 who have orders of magnitude more money than Yaesu, can surely figure it out.
 They most definitely could have researched thinner waterproof connectors by now
 if they wanted to, so let's say it like it is: they chose not to do it.
 
-### Standard Sized Lithium Cells for Big Boi Projects
-
-For devices that draw more current than LiPo batteries can supply, we have standard
-size cylindrical lithium cells. The most common of these are the 18650 and its larger
-sibling the 21700. These are already ubiquitous, but in less consumer facing ways
-than alkaline batteries. 18650s are often used as one or two cells in compact hobbyist
-electronics, such as in high quality toy lightsabers and powerful flashlights.
-21700s are also used in these applications, but more often are spot welded together
-into larger battery packs for high power applications like drill batteries and electric
-vehicles. Electric scooters and electric cars are both poweredby these, but in different
-cell arrangements. Your incompatible drill batteries are all the same on the inside! 
-Drill battery incompatibility has always been bullshit, but power tool companies love
-the brand lock-in.
+### What can we do about it?
+As for actionable solutions, I think the best we can do now is pressure legislators to
+enact right to repair and antitrust laws. 
+"Voting with your money" is something that only works when there's actual competition
+to vote for. That competition is developing, with companies like Fairphone, but they're
+not yet mature enough to compete for the average consumer's money. The faster option is
+to force the existing tech giants to spend a rounding error's worth of their profits on
+repairability. The European Union is already getting on this with their 
+[Directive on Common Rules Promoting the Repair of Goods](https://repair.eu/news/analysis-of-the-adopted-directive-on-common-rules-promoting-the-repair-of-goods/)
+(more commonly known as the right to repair directive.) 
 
 Hobbyists have been living in a beautiful world of semi-standardized interchangeable
 batteries for some time now, and there's very little reason this can't be the case for
 all electronics. I want to live in that world.
 
-<!-- TODO: Suggest some actionable solutions -->
 
 ## Appendix: Terminology Pedantry
 Coming from my amateur radio background, I typically make the distinction
@@ -189,6 +187,10 @@ out that distinction to ensure it doesn't confuse new readers.
 
 ## Footnotes
 [^dislit]: There also exist disposable lithium batteries. These are mostly 3V coin cells, but in the past few years disposable lithium AA and AAA batteries have entered the market.
+
+[^drills]: Your incompatible drill batteries are all the same on the inside! 
+Drill battery incompatibility has always been bullshit, but power tool companies love
+the brand lock-in.
 
 [^1]: **Planned obsolescence** (also called built-in obsolescence or premature obsolescence) is a policy of planning or designing a product with an artificially limited useful life or a purposely frail design, so that it becomes obsolete after a certain pre-determined period of time upon which it decrementally functions or suddenly ceases to function, or might be perceived as unfashionable. ([Wikipedia](https://en.wikipedia.org/wiki/Planned_obsolescence))
 
