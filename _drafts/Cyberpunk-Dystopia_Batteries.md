@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Batteries are maintenance items - How to Not Live in a Cyberpunk Dystopia #02"
-date: 2024-01-21 16:00:00 -0700
+date: 2025-09-11 23:35:00 -0700
 tags: politics right-to-repair cyberpunk electronics
-category: drafts
 category: Cyberpunk Dystopia
-hidden: true
---- 
+authors: [TheMagicalC, TuckerTwomey]
+---
 
 This is post #02 in a series about what we can do to make real life less 
 of a cyberpunk dystopia. The first post is 
@@ -93,6 +92,7 @@ tools, why not your phone? We'll get to that in the next section.
 
 ### Planned Obsolescence
 > **planned obsolescence** (noun)
+> 
 > (also called built-in obsolescence or premature obsolescence) a policy of planning or designing a product with an artificially limited useful life or a purposely frail design, so that it becomes obsolete after a certain pre-determined period of time upon which it decrementally functions or suddenly ceases to function, or might be perceived as unfashionable. ([Wikipedia](https://en.wikipedia.org/wiki/Planned_obsolescence))
 
 In contrast to something like cars, where maintenance practices are well-known 
@@ -177,7 +177,8 @@ batteries for some time now, and there's very little reason this can't be the ca
 all electronics. I want to live in that world.
 
 
-## Appendix: Terminology Pedantry
+## Appendices
+### Terminology Pedantry
 Coming from my amateur radio background, I typically make the distinction
 between *portable* and *mobile.* Portable typically means something that can be
 moved and set up in another location, but not used while in transit. 
@@ -195,7 +196,7 @@ composed of many cells with their own terminals. Power tools typically use batte
 packs. Most people don't know, but 9V batteries are actually a pack of six AAAA 
 cells wired in series. 
 
-## Appendix: Battery Management Systems
+### Battery Management Systems
 There was nowhere convenient to insert this information, but I feel this topic is too 
 relevant to leave out. One of the major differences between disposable and rechargeable
 batteries is that rechargeable batteries require a **battery management system (BMS).**
