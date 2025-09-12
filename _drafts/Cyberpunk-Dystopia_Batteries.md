@@ -65,8 +65,8 @@ of their power at once. Consumer devices rarely have you handle individual cells
 directly,
 but most people have handled battery packs with these inside. They power portable 
 devices with higher current demands. Drills, older laptops, and high-end lightsabers
-tend to use 18650s.[^drills] Even larger devices, like ebikes and electric cars, use hundreds
-of 21700s stuck together into a single massive battery pack.
+tend to use 18650s.[^drills] Even larger devices, like ebikes and electric cars, use dozens
+or hundreds of 21700s stuck together into a single massive battery pack.
 
 <img src="{{site.url}}/assets/cyberpunk_dystopia/18650.jpg" alt="A cylindrical purple 18650 battery with printing that says 18650 2000mAh 3.7V">
 *Figure 2: An 18650 battery*
@@ -194,6 +194,19 @@ cells, and though it may expose only one anode and one cathode, internally it's
 composed of many cells with their own terminals. Power tools typically use battery
 packs. Most people don't know, but 9V batteries are actually a pack of six AAAA 
 cells wired in series. 
+
+## Appendix: Battery Management Systems
+There was nowhere convenient to insert this information, but I feel this topic is too 
+relevant to leave out. One of the major differences between disposable and rechargeable
+batteries is that rechargeable batteries require a **battery management system (BMS).**
+This is a circuit that manages the charging and discharging of the battery. Overcharging
+batteries can start fires, and over-discharging a battery can permanently damage it and
+decrease its capacity. In larger battery packs, the BMS is a circuit board built into
+the pack, and is also responsible for keeping charge balanced between the individual
+cells. For devices that use single loose cells, like 18650s, the device will typically
+provide over-discharge protection, or it will tell you to only use protected cells 
+with built-in over-discharge protection. Overcharge protection is typically provided 
+by the battery's charger.
 
 ## Footnotes
 [^dislit]: There also exist disposable lithium batteries. These are mostly 3V coin cells, but in the past few years disposable lithium AA and AAA batteries have entered the market.
