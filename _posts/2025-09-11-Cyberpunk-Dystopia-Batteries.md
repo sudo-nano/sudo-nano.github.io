@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Batteries are maintenance items - How to Not Live in a Cyberpunk Dystopia #02"
+title: "Batteries Are Maintenance Items - How to Not Live in a Cyberpunk Dystopia #02"
 date: 2025-09-11 23:35:00 -0700
 tags: politics right-to-repair cyberpunk electronics
 category: Cyberpunk Dystopia
