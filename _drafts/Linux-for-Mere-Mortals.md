@@ -98,7 +98,12 @@ the storage for it.
 Part of Microsoft's reasoning for requiring a TPM 2.0 is that the TPM stores
 keys for full disk encryption, and stores biometrics for biometric login such
 as facial recognition or fingerprint. Storing biometrics there is a good idea,
-but there are many ways to store disk encryption keys. Sometimes they're stored
+but pushing for 100% biometric support is, in all likelihood, a prerequisite for
+mandatory biometric usage. That would be a grave and unprecedented privacy threat,
+and without alternative operating systems, people would have no choice but to roll
+over.
+There are many ways to store disk encryption keys that don't require a TPM. Sometimes 
+they're stored
 on device but themselves encrypted with a password, sometimes they're stored
 on an external USB drive that's required to decrypt your drive. The long
 and short of it is that if you're not using biometrics, you probably don't
@@ -146,7 +151,10 @@ looking at `journalctl`. If you type this into your terminal, it will show you
 extensive logs from all parts of your operating system. (You can press `Q` to exit.)
 Normal `journalctl` is pretty overwhelming.
 To see only the high priority logs, such as those emitted by crashing
-programs, try `journalctl -p3`.
+programs, try `journalctl -p3`. It will also start you at the beginning of the log,
+which could be months back. You can filter for just logs from the last time you started
+your computer using the `-b` flag, short for "boot." Together, to see only high priority 
+logs from the last boot, you use `journalctl -p3 -b`.
 
 ### Can I still play video games?
 **Short answer:** Nearly all Steam games will run well out of the box.
@@ -160,6 +168,13 @@ rare occasion that they require setting launch options to start properly,
 someone on ProtonDB has probably already figured it out. Just copy and
 paste the suggested options into the text box in Steam. 
 [Valve outlines the steps to add launch options here.](https://help.steampowered.com/en/faqs/view/7D01-D2DD-D75E-2955)
+
+Surprisingly, indie games are more likely to run on Linux. You'd think that large
+studios would have the resources to develop for many operating systems, but most of them
+are stuck in their ways, and use engines without Linux support. This is not necessarily
+an age thing, since older Source engine games like Team Fortess 2 support Linux natively.
+Factorio and Baldur's Gate 3 are popular non-AAA games with native Linux support. 
+Visual novels made with RenPy, including many on itch.io, also support Linux natively.
 
 ### What is a desktop environment?
 The desktop environment (sometimes abbreviated DE) is the graphical part of your operating system, basically
