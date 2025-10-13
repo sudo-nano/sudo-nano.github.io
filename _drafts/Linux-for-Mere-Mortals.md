@@ -7,22 +7,36 @@ categories: drafts
 hidden: true
 --- 
 
-If your technological journey has led you to wondering what the deal is with Linux, 
-but it all seems like a bit too much to take in, this is for you.
-If you're fed up with the alternatives (Windows or MacOS), but not sure where
-to start with leaving them behind, this is also for you.
+With the Windows 10 end-of-life happening on October 14th, and Windows 11 being
+transparently awful for just about everyone, lots of people are wondering what alternative
+there is. Continuing to run Windows 10 puts you at risk, because there will no longer be
+security updates, but inviting in Windows Recall and the rest of Windows 11's spyware 
+is hard to stomach. Switching to Linux is one option, and this guide is about evaluating
+whether it's right for you. 
 
-
-## Foreword on Accessibility
+## Foreword
+### Accessibility Statement
 I won't hesitate to acknowledge that the Linux community (and to be honest, 
 tech spaces in general) have a problem with being elitist. Many competent and
 well meaning people have long since forgotten how hard it was to be a beginner.
-Telling someone who's struggling that what they're doing is "obvious" will only
-make them feel awful.
-It's time we do better. 
+Less well-meaning people view tech competence as superiority, something to lord over
+others rather than a shared goal. People who gatekeep technical spaces are holding back
+the technological literacy of the entire population. 
 This guide was constructed in an effort to make this tech more accessible
 to the layperson. Everyone should be able to own their devices, and it
-shouldn't take a computer science degree to do that.
+shouldn't take a computer science degree to do that. At the same time, the layperson
+still needs more tech literacy than ever, and there's no way around that. The best 
+we can do is welcome and teach newcomers.
+
+### Is Linux right for you? 
+Let me say right out the gate that *this guide is not for me to prosetylize Linux.* 
+Some people are of the opinion that everyone should switch to Linux, and I just don't
+think that's true, no matter how much I wish it were. Whether Linux will work for you 
+depends on what you demand of your computer. If you need Windows-specific sofware
+that won't run under a compatibility tool like Wine or Proton, you're just SOL 
+and have to use Windows. Only you can evaluate for sure whether using Linux will be worth
+the work. 
+
 
 ## What will Linux do for me?
 ### Your computer gets faster for free! 
@@ -206,9 +220,11 @@ choice for breathing life into older computers.
 
 ## My Recommendations
 Fedora with KDE is my best rec.
-Debian and its derivatives are acceptable starter distributions, but I have
+Debian and its derivatives Ubuntu and Mint are acceptable starter distributions, but I 
+have
 [ideological disagreements]({{site.url}}/posts/Btw-I-Use-Arch) with Debian's 
-design philosophy.
+design philosophy. It's not designed for users to install software willy-nilly, but in
+my opinion, empowering users to do what they want is the entire point. 
 
 ## Appendix: Forum Etiquette
 https://dontasktoask.com/
