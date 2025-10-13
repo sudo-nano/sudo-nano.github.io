@@ -146,18 +146,18 @@ so the documentation tells you how to get your hands dirty. Every time you would
 normally find yourself in a dead end on the Microsoft or Apple forums going back
 and forth with a useless support representative, you can instead dig into problems
 yourself. (No shade to support reps, they're just not equipped to do what they
-actually need to.)
+actually need to.) Sometimes this leads you down a rabbit hole. 
 You can still choose not to work on your own system, but with all the new insights, 
 you may find it hard to resist poking around.
 
 The long answer is that some distributions, called **rolling release** distributions,
 publish bleeding edge new packages to their package manager.
 These packages are more up to date, but also not as thoroughly tested. Arch
-is an example of a rolling release distribution. I would not recommmend Arch
-or its derivatives for first time Linux users, because they're more prone 
-to having rough edges and odd bugs.
+is an example of a rolling release distribution, but is also famously difficult to use.
+Not all rolling release distributions are as extreme, but they *are* more likely to
+have rough edges and weird issues. 
 
-**Stable release** distributions, like Debian, Ubuntu, and Mint, thoroughly
+**Stable release** distributions, like Debian, Ubuntu, Mint, and Fedora, thoroughly
 test their software before publishing it. This takes a while, so packages are
 less up to date, but you're spared the weird issues. I would recommend starting
 with a stable release distribution.
@@ -187,28 +187,35 @@ Your mileage may vary with non-Steam games.
 **Long Answer:** Most Steam games run under Proton, Steam's built-in emulator,
 without any configuration.[^proton]
 There's a wonderful website called [ProtonDB](https://www.protondb.com/)
-where users will review games and rate how well they run under Proton. On the
+where users will review games and rate how well they run under Proton. You can check
+the compatibility of your favorite games here, and use that to inform whether you want 
+to make the switch. On the
 rare occasion that they require setting launch options to start properly, 
 someone on ProtonDB has probably already figured it out. Just copy and
 paste the suggested options into the text box in Steam. 
 [Valve outlines the steps to add launch options here.](https://help.steampowered.com/en/faqs/view/7D01-D2DD-D75E-2955)
+You can even filter by hardware to look for performance reviews and troubleshooting tips
+from people running the same hardware as you.
 
 Surprisingly, indie games are more likely to run on Linux. You'd think that large
 studios would have the resources to develop for many operating systems, but most of them
 are stuck in their ways, and use engines without Linux support. This is not necessarily
 an age thing, since older Source engine games like Team Fortess 2 support Linux natively.
 Factorio and Baldur's Gate 3 are popular non-AAA games with native Linux support. 
-Visual novels made with RenPy, including many on itch.io, also support Linux natively.
+Visual novels made with the RenPy toolkit, including many on itch.io, also support Linux 
+natively.
 
 ### What is a desktop environment?
-The desktop environment (sometimes abbreviated DE) is the graphical part of your operating system, basically
-the system that makes the windows you click on. Desktop environments usually ship
+You might have heard Linux users debating the merits of one desktop environment or another.
+The desktop environment (sometimes abbreviated DE) is the graphical part of your operating 
+system. It's
+the program that renders the windows you click on, and controls things like your taskbar
+and window behavior. Desktop environments usually ship
 their own set of basic utilities, such as your file manager and basic text editor.
 If you're coming from Windows, these are equivalent File Explorer and Notepad.
-Coming from MacOS, these would be Finder and TextEdit. The desktop environment
-also controls your taskbar and notifications. 
+Coming from MacOS, these would be Finder and TextEdit.
 
-Desktop environments come in a wide variety. On the light end is something
+DEs come in all shapes and sizes. On the light end is something
 like XFCE, which is designed to be performant even on older computers. 
 Some people find stock XFCE to be overly plain, but it can still be customized
 to your liking. 
@@ -229,7 +236,8 @@ choice for breathing life into older computers.
 
 
 ## My Recommendations
-Fedora with KDE is my best rec.
+If you've made it this far and are considering switching to Linux, my recommendation for 
+a beginner distribution is Fedora with the KDE desktop environment.
 Debian and its derivatives Ubuntu and Mint are acceptable starter distributions, but I 
 have
 [ideological disagreements]({{site.url}}/posts/Btw-I-Use-Arch) with Debian's 
@@ -251,5 +259,5 @@ Outline:
 ## Footnotes
 [^1]: Your mileage may vary depending on your CPU.
 [^2]: The actual amount of telemetry and ease of configuration depends on your distribution. I use EndeavourOS with the KDE Plasma desktop environment, which gives me a nice labeled slider describing the different levels of telemetry I can allow. 
-[^TPM]: The Trusted Platform Module (TPM for short) is a microcomputer separate from your main system, and it's used to enable security features such as full disk encryption and biometrics like fingerprint or face scanning.
-[^proton]: Proton is technically not an emulator, it's a software translation layer. It doesn't emulate the entire Windows environment, it only translates the program's calls to Windows-specific tasks into Linux-specific tasks.
+[^TPM]: The Trusted Platform Module (TPM for short) is a microcomputer separate from your main system, and it's used to store disk encryption keys and biometrics like fingerprint or face scans. Storing them here keeps them out of reach of malware, so your biometrics can't be stolen.
+[^proton]: Proton is technically not an emulator, it's a software translation layer. It doesn't emulate the entire Windows environment, it only translates the program's requests for Windows-specific tasks into Linux-specific tasks.
