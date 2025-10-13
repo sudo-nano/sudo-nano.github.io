@@ -66,14 +66,16 @@ environment.*
 
 ### Installing programs is easier
 The most important innovation that Linux brings to consumers is a **package manager**. 
-Software is divided into different **packages**, and a package manager is a program
+A **package** is a single piece of software, and a package manager is a program
 that provides a centralized way to install and remove software. Some package managers
 are command line only, but distributions like Ubuntu and Fedora provide easy to use
 graphical package managers. 
 <!-- Write about how Ubuntu, Fedora, etc provide graphical package managers -->
 
-On Windows, you might download an installer to install a program. 
-Sometimes, these have boxes you have to uncheck to prevent the installer from 
+On Windows, you might download an installer to install a program. You have to search the 
+internet, avoid malicious pages pretending to be the real download page, and
+even avoid fake download buttons on the real download page. 
+The installer might  have boxes you have to uncheck to prevent it from
 installing additional garbage. (Looking at you, McAfee and Norton.)
 On a package manager like `apt`, you might just run the command 
 `apt install program`, then it installs. Easy as that, no "uncheck this box if you
@@ -101,27 +103,35 @@ You could have it removed in minutes.
 There are no permissions higher than yours, and that's how it should be.
 
 ### No bullshit system requirements
-Windows 10 is reaching its end of life in October 2025, and lots of those
-devices don't meet the Windows 11 system requirements. The two big changes
+One of the big issues with the Windows 10 EoL is that many perfectly functional devices
+don't meet Windows 11 system requirements. The two big changes
 they're making are that you must sign in with a Microsoft account, and your
 device must support <abbr title="Trusted Platform Module">TPM</abbr> 2.0.[^TPM]
 Tons of people are throwing out devices that don't support TPM 2.0, but they
 don't have to be e-waste. Linux will let you install it on any device that has
 the storage for it. 
 
-Part of Microsoft's reasoning for requiring a TPM 2.0 is that the TPM stores
+Part of 
+[Microsoft's reasoning](https://techcommunity.microsoft.com/blog/windows-itpro-blog/tpm-2-0-%E2%80%93-a-necessity-for-a-secure-and-future-proof-windows-11/4339066) 
+for requiring a TPM 2.0 is that the TPM stores
 keys for full disk encryption, and stores biometrics for biometric login such
-as facial recognition or fingerprint. Storing biometrics there is a good idea,
-but pushing for 100% biometric support is, in all likelihood, a prerequisite for
+as facial recognition or fingerprint. The security benefits of using a TPM 2.0 are real, 
+but preventing people from running the OS without one suggests that more is at play. 
+Pushing for 100% biometric support is, in all likelihood, a prerequisite for
 mandatory biometric usage. That would be a grave and unprecedented privacy threat,
 and without alternative operating systems, people would have no choice but to roll
-over.
-There are many ways to store disk encryption keys that don't require a TPM. Sometimes 
-they're stored
+over. Additionally, prematurely turning millions of devices into e-waste is clearly
+generating more profits for their partners, so Microsoft has a 
+[perverse incentive](https://en.wikipedia.org/wiki/Perverse_incentive)
+here. 
+
+There are many ways to store disk encryption keys that don't require a TPM. 
+Sometimes they're stored
 on device but themselves encrypted with a password, sometimes they're stored
 on an external USB drive that's required to decrypt your drive. The long
 and short of it is that if you're not using biometrics, you probably don't
-actually need a TPM. 
+actually need a TPM. Microsoft should not be requiring a TPM to use their operating system,
+only to use the features that utilize one. 
 
 
 ## Frequently Asked Questions
