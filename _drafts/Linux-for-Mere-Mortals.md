@@ -88,8 +88,6 @@ handle uninstalling for you. Continuing with the `apt` example, uninstalling
 a program is as simple as `apt uninstall program`.
 
 ### Complete control over your computer
-<!-- TODO: Research permission levels on linux -->
-<!-- Use example: Candy crush installed with system privileges on Windows -->
 You may have noticed that Windows keeps some things out of reach of even system
 administrators. When I was poking around my Windows 10 install, I found that
 without asking me, Windows had installed Candy Crush with *system privileges*. 
@@ -110,6 +108,9 @@ device must support <abbr title="Trusted Platform Module">TPM</abbr> 2.0.[^TPM]
 Tons of people are throwing out devices that don't support TPM 2.0, but they
 don't have to be e-waste. Linux will let you install it on any device that has
 the storage for it. 
+
+![A meme about system requirements]({{site.url}}/assets/linux/system_requirements_meme.png)
+*Figure 2: A meme about system requirements. A bear peering at the camera labeled Windows 11 says "Must have TPM 2.0, intel 8k or better, Ryzen 3k or better." A deranged wolf looking into the camera labeled "Linux" says "You need a CPU (optional)."*
 
 Part of 
 [Microsoft's reasoning](https://techcommunity.microsoft.com/blog/windows-itpro-blog/tpm-2-0-%E2%80%93-a-necessity-for-a-secure-and-future-proof-windows-11/4339066) 
@@ -221,15 +222,31 @@ Some people find stock XFCE to be overly plain, but it can still be customized
 to your liking. 
 
 ![A plain XFCE installation]({{site.url}}/assets/linux/xfce_1.jpg)
-*Figure 2: A plain looking XFCE installation*
+*Figure 3: A plain looking XFCE installation*
 
 ![A customized XFCE installation]({{site.url}}/assets/linux/xfce_2.jpg)
-*Figure 3: A prettier and more customized XFCE installation with transparent terminal windows, shown inside a virtual machine under Windows*
+*Figure 4: A prettier and more customized XFCE installation with transparent terminal windows, shown inside a virtual machine under Windows*
 
 The lightness of XFCE is one of the things that makes Linux Mint w/ XFCE a great
 choice for breathing life into older computers.
 
-<!-- TODO: Write about Gnome and KDE -->
+GNOME is a desktop environment that comes default on Debian and Ubuntu, and is available
+for Fedora. It's a little prettier than XFCE, and consequently slightly less performant. 
+Notably, GNOME has a 
+[strong commitment to accessibility](https://developer.gnome.org/documentation/guidelines/accessibility.html).
+Its developers maintain compatibility with accessibility software such as the Orca screen 
+reader and the Dasher input method.[^dasher] If you need to use accessibility software,
+you may want to use GNOME. 
+
+<!-- TODO: Insert photo of GNOME -->
+
+[KDE Plasma](https://kde.org/plasma-desktop/) is one of the prettiest and most 
+customizable desktop environments, but some may find 
+the extensive configuration options overwhelming. For example, you can customize the exact
+layout and data sources used for activity monitor (the task manager equivalent). It also
+runs the heaviest out of these options, so it may not be suitable for older devices. 
+
+<!-- TODO: Insert photo of KDE Plasma -->
 
 ### What the heck is a distribution?
 
@@ -244,20 +261,18 @@ have
 design philosophy. It's not designed for users to install software willy-nilly, but in
 my opinion, empowering users to do what they want is the entire point. 
 
+Regardless of your choice, if you want help installing Linux but none of your friends know 
+how to help, the [End of 10 project](https://endof10.org/) has an index of repair cafes 
+and other organizations that will help you install Linux for free. 
+
 ## Appendix: Forum Etiquette
 https://dontasktoask.com/
 https://xyproblem.info
 
-
-Outline: 
-- Less overhead (your computer gets faster for free)
-- Package managers 
-- No bloatware 
-- Escape from capitalism 
-- Your system is yours (no constant UI changes just to make things shiny)\
 
 ## Footnotes
 [^1]: Your mileage may vary depending on your CPU.
 [^2]: The actual amount of telemetry and ease of configuration depends on your distribution. I use EndeavourOS with the KDE Plasma desktop environment, which gives me a nice labeled slider describing the different levels of telemetry I can allow. 
 [^TPM]: The Trusted Platform Module (TPM for short) is a microcomputer separate from your main system, and it's used to store disk encryption keys and biometrics like fingerprint or face scans. Storing them here keeps them out of reach of malware, so your biometrics can't be stolen.
 [^proton]: Proton is technically not an emulator, it's a software translation layer. It doesn't emulate the entire Windows environment, it only translates the program's requests for Windows-specific tasks into Linux-specific tasks.
+[^dasher]: https://en.wikipedia.org/wiki/Dasher_(software)
