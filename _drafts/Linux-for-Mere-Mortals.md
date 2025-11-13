@@ -135,6 +135,90 @@ only to use the features that utilize one.
 
 
 ## Frequently Asked Questions
+### Can I still play video games?
+**Short answer:** Nearly all Steam games will run well out of the box.
+Your mileage may vary with non-Steam games.
+
+**Long Answer:** Most Steam games run under Proton, Steam's built-in emulator,
+without any configuration.[^proton] Some require minor tweaks. 
+There's a wonderful website called [ProtonDB](https://www.protondb.com/)
+where users will review games and rate how well they run under Proton. You can check
+the compatibility of your favorite games here, and use that to inform whether you want 
+to make the switch. On the
+rare occasion that they require setting launch options to start properly, 
+someone on ProtonDB has probably already figured it out. Just copy and
+paste the suggested options into the text box in Steam. 
+[Valve outlines the steps to add launch options here.](https://help.steampowered.com/en/faqs/view/7D01-D2DD-D75E-2955)
+You can even filter by hardware to look for performance reviews and troubleshooting tips
+from people running the same hardware as you.
+
+Surprisingly, indie games are more likely to run on Linux. You'd think that large
+studios would have the resources to develop for many operating systems, but most of them
+are stuck in their ways, and use custom engines or legacy code without Linux support. 
+This is not necessarily
+an age thing, since older Source engine games like Team Fortess 2 support Linux natively.
+Factorio and Baldur's Gate 3 are popular non-AAA games with native Linux support. 
+Visual novels made with the RenPy toolkit, including many on itch.io, also support Linux 
+natively.
+
+### What is a desktop environment?
+You might have heard Linux users debating the merits of one desktop environment or another.
+The desktop environment (sometimes abbreviated DE) is the graphical part of your operating 
+system. It's
+the program that renders the windows you click on, and controls things like your taskbar
+and window behavior. Desktop environments usually ship
+their own set of basic utilities, such as your file manager and basic text editor.
+If you're coming from Windows, these are equivalent File Explorer and Notepad.
+Coming from MacOS, these would be Finder and TextEdit.
+
+DEs come in all shapes and sizes. On the light end is something
+like XFCE, which is designed to be performant even on older computers. 
+Some people find stock XFCE to be overly plain, but it can still be customized
+to your liking. 
+
+![A plain XFCE installation]({{site.url}}/assets/linux/xfce_1.jpg)
+*Figure 3: A plain looking XFCE installation*
+
+![A customized XFCE installation]({{site.url}}/assets/linux/xfce_2.jpg)
+*Figure 4: A prettier and more customized XFCE installation with transparent terminal windows, shown inside a virtual machine under Windows*
+
+The lightness of XFCE is one of the things that makes Linux Mint w/ XFCE a great
+choice for breathing life into older computers.
+
+GNOME is a desktop environment that comes default on Debian and Ubuntu, and is available
+for Fedora. It's a little prettier than XFCE, and consequently a little less performant. 
+Notably, GNOME has a 
+[strong commitment to accessibility](https://developer.gnome.org/documentation/guidelines/accessibility.html).
+Its developers maintain compatibility with accessibility software such as the Orca screen 
+reader and the Dasher input method.[^dasher] If you need to use accessibility software,
+you may want to use GNOME. 
+
+<!-- TODO: Insert photo of GNOME -->
+
+[KDE Plasma](https://kde.org/plasma-desktop/) is one of the prettiest and most 
+customizable desktop environments, but some may find 
+the extensive configuration options overwhelming. For example, you can customize the exact
+layout and data sources used for activity monitor (the task manager equivalent). It also
+runs the heaviest out of these options, so it's less suitable for older devices. 
+This is what I use, so here's a picture of my desktop. It's pretty close to stock, 
+and you can "rice" (customize) your desktop to be much fancier than this. 
+
+![My desktop]({{site.url}}/assets/linux/my_desktop.png)
+*Figure 5: My desktop, a relatively plain KDE Plasma installation with a HTTYD wallpaper.*
+
+### What the heck is a distribution?
+A distribution (or distro for short) is a set of software chosen to run your operating system. 
+The most significant things that your distribution determines are your package manager
+and your desktop environment. For example, Debian and its derivatives use the `apt`
+package manager. Any time you see a tutorial suggesting something like `apt install program`,
+you know they're using a Debian-based distribution. Some popular Debian-based distros are
+Ubuntu, Raspberry Pi OS, Mint, Lubuntu, and Kubuntu. The last three are all derivatives of 
+Ubuntu. Lots of distros come with multiple choices for a desktop environment. You can
+even install desktop environments that don't come default, so you're not locked into
+the graphical choices of your distribution.[^liquidglass] Switching desktop environments
+manually is an advanced task, but very possible and less scary if you have a technical
+friend to help you.
+
 ### Doesn't Linux produce weird and hard to troubleshoot problems?
 The short answer is no. Linux doesn't produce weirder problems than other
 operating systems, it's just that other OSes just try to hide the weird problems 
@@ -180,89 +264,6 @@ which could be months back. You can filter for just logs from the last time you 
 your computer using the `-b` flag, short for "boot." Together, to see only high priority 
 logs from the last boot, you use `journalctl -p3 -b`.
 
-### Can I still play video games?
-**Short answer:** Nearly all Steam games will run well out of the box.
-Your mileage may vary with non-Steam games.
-
-**Long Answer:** Most Steam games run under Proton, Steam's built-in emulator,
-without any configuration.[^proton]
-There's a wonderful website called [ProtonDB](https://www.protondb.com/)
-where users will review games and rate how well they run under Proton. You can check
-the compatibility of your favorite games here, and use that to inform whether you want 
-to make the switch. On the
-rare occasion that they require setting launch options to start properly, 
-someone on ProtonDB has probably already figured it out. Just copy and
-paste the suggested options into the text box in Steam. 
-[Valve outlines the steps to add launch options here.](https://help.steampowered.com/en/faqs/view/7D01-D2DD-D75E-2955)
-You can even filter by hardware to look for performance reviews and troubleshooting tips
-from people running the same hardware as you.
-
-Surprisingly, indie games are more likely to run on Linux. You'd think that large
-studios would have the resources to develop for many operating systems, but most of them
-are stuck in their ways, and use engines without Linux support. This is not necessarily
-an age thing, since older Source engine games like Team Fortess 2 support Linux natively.
-Factorio and Baldur's Gate 3 are popular non-AAA games with native Linux support. 
-Visual novels made with the RenPy toolkit, including many on itch.io, also support Linux 
-natively.
-
-### What is a desktop environment?
-You might have heard Linux users debating the merits of one desktop environment or another.
-The desktop environment (sometimes abbreviated DE) is the graphical part of your operating 
-system. It's
-the program that renders the windows you click on, and controls things like your taskbar
-and window behavior. Desktop environments usually ship
-their own set of basic utilities, such as your file manager and basic text editor.
-If you're coming from Windows, these are equivalent File Explorer and Notepad.
-Coming from MacOS, these would be Finder and TextEdit.
-
-DEs come in all shapes and sizes. On the light end is something
-like XFCE, which is designed to be performant even on older computers. 
-Some people find stock XFCE to be overly plain, but it can still be customized
-to your liking. 
-
-![A plain XFCE installation]({{site.url}}/assets/linux/xfce_1.jpg)
-*Figure 3: A plain looking XFCE installation*
-
-![A customized XFCE installation]({{site.url}}/assets/linux/xfce_2.jpg)
-*Figure 4: A prettier and more customized XFCE installation with transparent terminal windows, shown inside a virtual machine under Windows*
-
-The lightness of XFCE is one of the things that makes Linux Mint w/ XFCE a great
-choice for breathing life into older computers.
-
-GNOME is a desktop environment that comes default on Debian and Ubuntu, and is available
-for Fedora. It's a little prettier than XFCE, and consequently slightly less performant. 
-Notably, GNOME has a 
-[strong commitment to accessibility](https://developer.gnome.org/documentation/guidelines/accessibility.html).
-Its developers maintain compatibility with accessibility software such as the Orca screen 
-reader and the Dasher input method.[^dasher] If you need to use accessibility software,
-you may want to use GNOME. 
-
-<!-- TODO: Insert photo of GNOME -->
-
-[KDE Plasma](https://kde.org/plasma-desktop/) is one of the prettiest and most 
-customizable desktop environments, but some may find 
-the extensive configuration options overwhelming. For example, you can customize the exact
-layout and data sources used for activity monitor (the task manager equivalent). It also
-runs the heaviest out of these options, so it's less suitable for older devices. 
-This is what I use, so here's a picture of my desktop. It's pretty close to stock, 
-and you can "rice" (customize) your desktop to be much fancier than this. 
-
-![My desktop]({{site.url}}/assets/linux/my_desktop.png)
-*Figure 5: My desktop, a relatively plain KDE Plasma installation with a HTTYD wallpaper.*
-
-### What the heck is a distribution?
-A distribution (or distro for short) is a set of software chosen to run your operating system. 
-The most significant things that your distribution determines are your package manager
-and your desktop environment. For example, Debian and its derivatives use the `apt`
-package manager. Any time you see a tutorial suggesting something like `apt install program`,
-you know they're using a Debian-based distribution. Some popular Debian-based distros are
-Ubuntu, Raspberry Pi OS, Mint, Lubuntu, and Kubuntu. The last three are all derivatives of 
-Ubuntu. Lots of distros come with multiple choices for a desktop environment. You can
-even install desktop environments that don't come default, so you're not locked into
-the graphical choices of your distribution.[^liquidglass] Switching desktop environments
-manually is an advanced task, but very possible and less scary if you have a technical
-friend to help you.
-
 ## My Recommendations
 If you've made it this far and are considering switching to Linux, my recommendation for 
 a beginner distribution is Fedora with the KDE desktop environment.
@@ -277,9 +278,28 @@ how to help, the [End of 10 project](https://endof10.org/) has an index of repai
 and other organizations that will help you install Linux for free. 
 
 ## Appendix: Forum Etiquette
-https://dontasktoask.com/
-https://xyproblem.info
+Most linux distributions have an extremely limited number of paid staff, especially
+compared to Apple or Microsoft. That means support will come from forums. Even official
+forums are mostly run by volunteers, with possibly a few paid moderators or community
+managers in larger forums. This is mostly a plus, since everyone on the forum is happy
+to be there, but you must abide by forum etiquette and remember that you're not entitled
+to their time.
+Most places will treat you right if you follow a few rules: 
 
+1. Make sure you're in the right forum for your issue. If the issue involves your OS in some way, then your distribution's forum is a good place to start. (Another distribution's forum is not!)
+2. Read the individual forum's rules before posting. 
+3. Be polite. 
+4. You are not entitled to any individual's time, effort, or timely response. Act accordingly.
+5. When troubleshooting, describe the symptoms of your problem, not your guess at what the root problem is. (See also: https://xyproblem.info)
+6. [Don't ask to ask.](https://dontasktoask.com/) 
+
+For a much more thorough explanation of the etiquette of technical forums, I highly recommend 
+[How to Ask Questions The Smart Way](http://catb.org/~esr/faqs/smart-questions.html.)
+
+Finally, if you have absolutely done your homework on an issue, followed all the rules, and asked
+an informative and concise question, and someone on the forum insists on being a dickwad, 
+it's quite reasonable to sic a moderator on them. If a moderator is unwilling to step in, 
+find another forum.
 
 ## Footnotes
 [^1]: Your mileage may vary depending on your CPU.
