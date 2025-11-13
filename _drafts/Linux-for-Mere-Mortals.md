@@ -70,7 +70,6 @@ A **package** is a single piece of software, and a package manager is a program
 that provides a centralized way to install and remove software. Some package managers
 are command line only, but distributions like Ubuntu and Fedora provide easy to use
 graphical package managers. 
-<!-- Write about how Ubuntu, Fedora, etc provide graphical package managers -->
 
 On Windows, you might download an installer to install a program. You have to search the 
 internet, avoid malicious pages pretending to be the real download page, and
@@ -244,13 +243,25 @@ you may want to use GNOME.
 customizable desktop environments, but some may find 
 the extensive configuration options overwhelming. For example, you can customize the exact
 layout and data sources used for activity monitor (the task manager equivalent). It also
-runs the heaviest out of these options, so it may not be suitable for older devices. 
+runs the heaviest out of these options, so it's less suitable for older devices. 
+This is what I use, so here's a picture of my desktop. It's pretty close to stock, 
+and you can "rice" (customize) your desktop to be much fancier than this. 
 
-<!-- TODO: Insert photo of KDE Plasma -->
+![My desktop]({{site.url}}/assets/linux/my_desktop.png)
+*Figure 5: My desktop, a relatively plain KDE Plasma installation with a HTTYD wallpaper.*
 
 ### What the heck is a distribution?
-
-
+A distribution (or distro for short) is a set of software chosen to run your operating system. 
+The most significant things that your distribution determines are your package manager
+and your desktop environment. For example, Debian and its derivatives use the `apt`
+package manager. Any time you see a tutorial suggesting something like `apt install program`,
+you know they're using a Debian-based distribution. Some popular Debian-based distros are
+Ubuntu, Raspberry Pi OS, Mint, Lubuntu, and Kubuntu. The last three are all derivatives of 
+Ubuntu. Lots of distros come with multiple choices for a desktop environment. You can
+even install desktop environments that don't come default, so you're not locked into
+the graphical choices of your distribution.[^liquidglass] Switching desktop environments
+manually is an advanced task, but very possible and less scary if you have a technical
+friend to help you.
 
 ## My Recommendations
 If you've made it this far and are considering switching to Linux, my recommendation for 
@@ -276,3 +287,4 @@ https://xyproblem.info
 [^TPM]: The Trusted Platform Module (TPM for short) is a microcomputer separate from your main system, and it's used to store disk encryption keys and biometrics like fingerprint or face scans. Storing them here keeps them out of reach of malware, so your biometrics can't be stolen.
 [^proton]: Proton is technically not an emulator, it's a software translation layer. It doesn't emulate the entire Windows environment, it only translates the program's requests for Windows-specific tasks into Linux-specific tasks.
 [^dasher]: https://en.wikipedia.org/wiki/Dasher_(software)
+[^liquidglass]: Apple's horrendous liquid glass UI is guaranteeing that I won't update my laptop to Mac OS Tahoe, and in fact I'll be switching to Asahi linux as soon as I'm done with my undergraduate thesis.
