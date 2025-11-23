@@ -180,7 +180,7 @@ to your liking.
 *Figure 3: A plain looking XFCE installation*
 
 ![A customized XFCE installation]({{site.url}}/assets/linux/xfce_2.jpg)
-*Figure 4: A prettier and more customized XFCE installation with transparent terminal windows, shown inside a virtual machine under Windows*
+*Figure 4: A prettier and more customized XFCE installation with transparent terminal windows*
 
 The lightness of XFCE is one of the things that makes Linux Mint w/ XFCE a great
 choice for breathing life into older computers.
@@ -191,9 +191,18 @@ Notably, GNOME has a
 [strong commitment to accessibility](https://developer.gnome.org/documentation/guidelines/accessibility.html).
 Its developers maintain compatibility with accessibility software such as the Orca screen 
 reader and the Dasher input method.[^dasher] If you need to use accessibility software,
-you may want to use GNOME. 
+you may want to use GNOME. Below are screenshots of a stock GNOME installation, and one 
+that's customized to show more performance values in the top bar. 
 
-<!-- TODO: Insert photo of GNOME -->
+<!-- I regret that neither of these screenshots show window decorations, but this post
+needs to be done more than it needs to have perfect GNOME screenshots. If they want
+better advertising, they can pay me. --> 
+![A stock GNOME installation]({{site.url}}/assets/linux/gnome_stock.png)
+*Figure 5: A stock GNOME installation*
+
+![A customized GNOME installation]({{site.url}}/assets/linux/gnome_customized.png)
+*Figure 6: A customized GNOME installation*
+
 
 [KDE Plasma](https://kde.org/plasma-desktop/) is one of the prettiest and most 
 customizable desktop environments, but some may find 
