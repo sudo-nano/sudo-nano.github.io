@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "Linux for Mere Mortals"
-date: 2025-06-26 22:00:00 -0700
+date: 2025-11-22 20:52:00 -0700
 tags: linux right-to-repair
-categories: drafts
-hidden: true
 --- 
 
 With the Windows 10 end-of-life happening on October 14th, and Windows 11 being
