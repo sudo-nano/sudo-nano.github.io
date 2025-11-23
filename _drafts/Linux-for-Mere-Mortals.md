@@ -286,6 +286,13 @@ Regardless of your choice, if you want help installing Linux but none of your fr
 how to help, the [End of 10 project](https://endof10.org/) has an index of repair cafes 
 and other organizations that will help you install Linux for free. 
 
+> Thanks for reading. I'd hoped to publish this post before the Windows 10 end-of-life
+> date, but writing my undergraduate thesis is taking more time than I expected. 
+> Consequently, posting will be pretty slow through May 2025. Post-thesis, I want
+> to do a major redesign, including comments if it's not too much work to fend off
+> spammers. 
+{: .prompt-info }
+
 ## Appendix: Forum Etiquette
 Most linux distributions have an extremely limited number of paid staff, especially
 compared to Apple or Microsoft. That means support will come from forums. Even official
@@ -308,7 +315,8 @@ For a much more thorough explanation of the etiquette of technical forums, I hig
 Finally, if you have absolutely done your homework on an issue, followed all the rules, and asked
 an informative and concise question, and someone on the forum insists on being a dickwad, 
 it's quite reasonable to sic a moderator on them. If a moderator is unwilling to step in, 
-find another forum.
+find another forum. Places that force you to spend half your time fending off bad-faith
+jerks are not worth your time. 
 
 ## Footnotes
 [^1]: Your mileage may vary depending on your CPU.
