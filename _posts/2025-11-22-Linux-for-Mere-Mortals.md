@@ -196,10 +196,10 @@ that's customized to show more performance values in the top bar.
 needs to be done more than it needs to have perfect GNOME screenshots. If they want
 better advertising, they can pay me. --> 
 ![A stock GNOME installation]({{site.url}}/assets/linux/gnome_stock.png)
-*Figure 5: A stock GNOME installation*
+*Figure 5: A stock GNOME installation. Photo credit tristan-f-r on GitHub.*
 
 ![A customized GNOME installation]({{site.url}}/assets/linux/gnome_customized.png)
-*Figure 6: A customized GNOME installation*
+*Figure 6: A customized GNOME installation. Photo credit jackattack9999 on Discord.*
 
 
 [KDE Plasma](https://kde.org/plasma-desktop/) is one of the prettiest and most 
