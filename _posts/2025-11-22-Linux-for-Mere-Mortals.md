@@ -58,7 +58,7 @@ At the maximum Windows telemetry level,
 Linux, on the other hand, is capable of this level of telemetry, but will not 
 enable it without your explicit consent.[^2]
 
-![KDE Plasma Telemetry Slider]({{site.url}}/assets/linux/plasma_telemetry_slider.png)
+![A dark gray dialogue box titled "User Feedback." The text says "You can help KDE improve Plasma by contributing information on how you use it, so we can focus on things that matter to you. Contributing this information is optional and entirely anonymous. We never collect your personal data, files you ues, websites you visit, or information that could identify you. You can read about our privacy policy here." There is a link to the privacy policy. Below it is a slider for adjusting the telemetry level, with five positions. The slider is at the leftmost position, which is labeled "Disabled."]({{site.url}}/assets/linux/plasma_telemetry_slider.png)
 *Figure 1: The slider for adjusting the level of telemetry in the KDE Plasma desktop
 environment.*
 
@@ -106,8 +106,8 @@ Tons of people are throwing out devices that don't support TPM 2.0, but they
 don't have to be e-waste. Linux will let you install it on any device that has
 the storage for it. 
 
-![A meme about system requirements]({{site.url}}/assets/linux/system_requirements_meme.png)
-*Figure 2: A meme about system requirements. A bear peering at the camera labeled Windows 11 says "Must have TPM 2.0, intel 8k or better, Ryzen 3k or better." A deranged wolf looking into the camera labeled "Linux" says "You need a CPU (optional)."*
+![A meme about system requirements. A bear peering at the camera labeled Windows 11 says "Must have TPM 2.0, intel 8k or better, Ryzen 3k or better." A deranged wolf looking into the camera labeled "Linux" says "You need a CPU (optional)."]({{site.url}}/assets/linux/system_requirements_meme.png)
+*Figure 2: A meme about system requirements.*
 
 Part of 
 [Microsoft's reasoning](https://techcommunity.microsoft.com/blog/windows-itpro-blog/tpm-2-0-%E2%80%93-a-necessity-for-a-secure-and-future-proof-windows-11/4339066) 
