@@ -1,5 +1,5 @@
 ## Site Content
-Copyright 2022 - 2024, TheMagicalC. All rights reserved.
+Copyright 2025, TheMagicalC. All rights reserved.
 
 ## Jekyll Chirpy Theme
 The Chirpy theme for the Jekyll static site generator is licensed under the MIT License (MIT).
