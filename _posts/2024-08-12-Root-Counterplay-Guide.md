@@ -24,6 +24,9 @@ in the change log. Contributions are welcome, and can be made by [submitting a
 pull request here.](https://github.com/sudo-nano/sudo-nano.github.io)
 
 ## Change Log
+### 2025-11-29
+- **Correction to Woodland Alliance section:** Erroneously stated that if a player didn't have a card matching the suit of a destroyed sympathy, the Alliance player would get to take a card from their hand. They actually get to view the hand and take a card from the deck. 
+
 ### 2024-08-12
 - Created Underground Duchy section
 - Created Woodland Alliance section 
@@ -56,7 +59,7 @@ deploy very few meeple, but mainly ramp up by accumulating followers and placing
 though they're placed undefended, you're incentivized not to destroy them. Each 
 token you destroy requires you to select a card from your hand matching the suit 
 of the clearing, and give it to the Alliance. If you have no matching cards, 
-they get to view your hand and select a card of their choice. Either way, it 
+they get to view your hand and then draw a card from the deck. Either way, it 
 gets added to their supporters.
 
 This makes fighting the Woodland Alliance annoying and expensive. The 
@@ -214,4 +217,4 @@ destroy the fewest possible meeple in battle.
 
 [^3]: I'm a big fan of the "Maginot Line" strategy, where the Crows and the Toasts collaborate to make clearings with **sympathy** and **snare plots** to render the area difficult to pass. It requires players passing through to pay a card tax to the Toasts, then destroy the snare. 
 
-[^4]: The moles are included in this description, because they can deploy on the same turn they place a burrow. 
+[^4]: The moles are included in this description, because they can deploy on the same turn they place a burrow.
