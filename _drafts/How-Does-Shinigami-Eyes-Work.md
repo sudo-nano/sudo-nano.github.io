@@ -34,10 +34,10 @@ This section is largely paraphrased from Wikipedia, with minor edits to
 make the explanation more accessible to those unfamiliar with data structures.
 Sections delving deeper into the specifics of hash functions have also been cut
 for beginner accessibility.
-The original version is quite good, and you are encouraged to read it. 
+The original version is quite good, and I encourage you to read it.
 
 A bloom filter is a data structure for maintaining **set membership**, basically
-tracking whether a certain item is in a group or not. It functions similarly
+tracking whether a certain item is in a set of items or not. It functions similarly
 to a **hash table**, but trades away the perfect (or near perfect) accuracy
 of a hash table for massive space savings. In particular, false positives are
 possible with a bloom filter, but false negatives are not. The false positive
