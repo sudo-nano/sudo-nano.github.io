@@ -185,7 +185,7 @@ Snares.*
 
 #### Addendum: Opinions on Game Design
 The Lord of Hundreds has the unique effect of changing the objective of the 
-other players. Not within the rules, but informally. If the Lord is
+other players. Not literally, as the goal is still VP, but informally. If the Lord is
 present, and the other players don't cooperate to handicap them, it will prove
 an easy victory for the Lord. 
 
