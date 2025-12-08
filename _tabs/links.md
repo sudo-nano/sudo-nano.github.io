@@ -10,6 +10,12 @@ Here's some stuff on the internet that I think is fun.
 - [The Cursed Computer Iceberg](https://suricrasia.online/iceberg/)
 - [Falsehoods programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
 
+## Cool Computer Things 
+- [Are we decentralized yet?](https://arewedecentralizedyet.online/)
+  - Rates the centralization of Bluesky, Fediverse, web hosting, git forges, and more. 
+- [This Page is Designed to Last - A manifesto for preserving content on the web](https://jeffhuang.com/designed_to_last/)
+  - A webpage built to survive digital infrastructure decay and link rot, with instructions on how to make your own pages more resilient.
+
 ## Readings for All Beings[^1]
 - [Empowering Business Leaders to be Savable Victims: Drawing Incident Response Insights from Rescue Scuba Diving](https://discernibleinc.com/blog/empowering-business-leaders-to-be-savable-victims-drawing-incident-response-insights-from-rescue-scuba-diving) 
   - Everyone ends up in a crisis at some point. Be the kind of person that can be saved when it happens.
