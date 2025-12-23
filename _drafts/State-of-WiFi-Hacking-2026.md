@@ -2,7 +2,7 @@
 layout: post
 title: "The State of WiFi Hacking in 2026"
 date: 2024-08-03 16:00:00 -0700
-tags: hacking radio-frequency software 
+tags: hacking radio-frequency software wifi
 category: drafts
 hidden: true
 --- 
@@ -34,5 +34,10 @@ channel hopping, leaving Kismet the only fully functional WiFi hacking tool for 
 
 ### Hash Files 
 <!-- Cover old hashcat 2500, 16800, new 22000 -->
+
+## Encryption Statistics
+
+## New Threats
+<!-- Talk about Flock, [REDACTED] -->
 
 ## Footnotes
