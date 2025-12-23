@@ -25,7 +25,7 @@ Things to keep in mind:
 - At every step, outline options to do with and without a support system. 
   - With and without a lawyer 
 
-## Why you need to know your rights
+## Know your rights
 First and foremost, it's extremely important that you know your rights. Other
 people will not exercise them for you. Public knowledge on this topic is 
 downright abysmal, even in places like educational institutions where it's 
@@ -33,7 +33,6 @@ literally their job to know this. Worse, sometimes people will try to dissuade
 you from exercising your rights, simply because it's more convenient or 
 profitable for them. 
 
-## What are your rights? 
 <!--
 Relevant Legislation: 
 - Section 504 of the Rehabilitation Act of 1973
@@ -42,7 +41,22 @@ Relevant Legislation:
 
 
 ## How to apply for accommodations at your school
+Every school has at least one person responsible for approving and coordinating
+accommodations. The process usually involves submitting documentation for a disability, 
+and then having an intake meeting where you discuss your needs. After the meeting, 
+they decide which accommodations to grant you. This decision is usually made by one
+person, and the reasonability of the decision varies widely. I had no trouble acquiring
+my own accommodations at all schools except one, and we'll get to that later. If the
+accommodations you've been granted are not to your liking, every school is required to
+have some kind of appeals process. If you go through the appeals process and the outcome
+is *still* not satisfactory, as sometimes happens, your only remedy may be a complaint to
+the Department of Education Office of Civil Rights (DoE OCR). 
 
+### Primary Education
+If you're in primary education, that is, elementary, middle, or high school, you are
+eligible to have a 504 plan or an Individualized Education Plan (IEP). A 504 plan is
+the more moderate of these options, and more closely reflects the kind of accommodations
+you see in secondary or postsecondary education. 
 
 
 ## What to do if teachers refuse to provide your accommodations
