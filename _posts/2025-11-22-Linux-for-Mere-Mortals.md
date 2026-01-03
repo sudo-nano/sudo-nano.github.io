@@ -308,7 +308,7 @@ Most places will treat you right if you follow a few rules:
 6. [Don't ask to ask.](https://dontasktoask.com/) 
 
 For a much more thorough explanation of the etiquette of technical forums, I highly recommend 
-[How to Ask Questions The Smart Way](http://catb.org/~esr/faqs/smart-questions.html.)
+[How to Ask Questions The Smart Way](http://catb.org/~esr/faqs/smart-questions.html)
 
 Finally, if you have absolutely done your homework on an issue, followed all the rules, and asked
 an informative and concise question, and someone on the forum insists on being a dickwad, 
