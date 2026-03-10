@@ -39,7 +39,23 @@ intricate texture. This looked great, but I failed to account for how labor
 intensive it was. Final texturing went late into the night on the day before
 Rose City Comic Con 2024.
 Polymer clay is normally baked in the oven, but this stick was way too big for that.
-Instead, I used a heat gun to heat up the clay in sections until it baked. 
+Instead, I used a heat gun to heat up the clay in sections until it baked. That
+immediately revealed a new, entirely foreseeable problem: fully baked polymer clay is
+brittle. I tried to remedy this by partially baking the remaining sections, but it
+ultimately remained crumbly. I would later leave a trail of polymer clay crumbs as my
+staff disintegrated throughout the con.
 
+I wanted to emulate the glow that the middle of the staff has in the movie, so I used
+electroluminescent wire (EL wire) pressed into the cracks of the clay after baking.
+It was secured with a few dabs of superglue, and powered by two AAA batteries. Since I
+was, and still am, of the opinion that disposable batteries should be obsolete by now, 
+I used two rechargeable AAA batteries. Unfortunately, the nickel metal hydride (NiMH)
+chemistry used in rechargeable replacements for alkaline batteries has pretty awful
+capacity. A pair of AAAs lasted me about 2 hours, so I brought six with me to the con.
+<abbr title="electroluminescent wire">EL wire</abbr> has one other drawback: it must be
+driven by relatively high voltage AC. It has an inverter that turns the DC coming from the
+batteries into AC, but the this cheap inverter produces an audible whine. It's hard to
+hear unless you're either holding the prop or posing next to someone holding it, but
+that was something I wanted to fix in later iterations.
 
 ## Footnotes
