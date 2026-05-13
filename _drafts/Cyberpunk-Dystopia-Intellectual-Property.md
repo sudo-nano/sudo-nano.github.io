@@ -41,4 +41,21 @@ Outline:
 	- If you think there's something they categorically shouldn't do for profits, it has to be illegal or they'll do it.
 	- Some countries have moral/societal responsibility for corporations, discuss this? 
 
+## Abuse of Intellectual Property 
+- Apple using trademark to seize secondhand genuine Apple parts coming through customs in order to prevent repair 
+- Bad faith DMCA takedowns 
+  - YouTube's entire system 
+  - No penalty for bad faith takedowns
+- You'll own nothing and be happy
+  - Always-online services
+  - Multiplayer games
+  - Ubisoft execs being clowns
+- John Deere preventing repair 
+  - Mention settlement with farmers
+- The entire "bypassing a copy protection measure" section of the DMCA being awful for right to repair and also preventing people from ripping their legally purchased physical media
+  - Companies are not required to maintain a way for you to legally watch your physical media
+  - Tie in to how lots of IP is predicated on entitlement to profits regardless of whether they'll actually happen
+  - For example, presumably you are supposed to buy another DVD if your current one gets too damaged, but the IP holder may not even be selling it anymore.
+  - Disproportionate penalties compared to actual "damages" (discuss that one guy who is legally a slave to Nintendo)
+- Discuss abandonware
 ## Footnotes
