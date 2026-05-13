@@ -27,6 +27,7 @@ Intellectual property is a complicated and dense topic, so there will be a lot o
 ### What is intellectual property? 
 
 ### Copyright, Patent, and Trademark
+People love confusing these. Be clear about the defining traits of each type of IP.
 
 ### Trade Secrets
 Outline: 
@@ -38,5 +39,6 @@ Outline:
 	- Fiduciary duty is a good thing in some cases, such as your financial advisor having a fiduciary duty to you. 
 	- Companies can and will take any measures that aren't illegal to maximize profits. 
 	- If you think there's something they categorically shouldn't do for profits, it has to be illegal or they'll do it.
+	- Some countries have moral/societal responsibility for corporations, discuss this? 
 
 ## Footnotes
