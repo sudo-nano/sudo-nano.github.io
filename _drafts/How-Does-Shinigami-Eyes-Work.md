@@ -104,6 +104,14 @@ While we have no way of knowing exactly how many usernames are in the dataset, i
 <!-- TODO: Look at what patterns the addon is actually trying to match when it reads pages -->
 
 <!-- TODO: Look up whether the bloom filter binary blob has ever increased in size. If it has, then we know the Shinigami Eyes developer is storing the plaintext master list to allow resizing of the filter. -->
+We can see from [this commit](https://github.com/shinigami-eyes/shinigami-eyes/commit/784b20f2591b0c6298b488b30f45808e1fec02ef)
+that the bloom filter has at some point been increased in size. It's impossible to
+extend an existing bloom filter, since there is no way to predict which of the
+new bits should be filled in without using the original list.
+Adding more empty bits would cause false negatives
+for many of the existing items in the filter. Thus, expanding the bloom
+filter requires computing a new one from scratch using the original list, so the addon
+maintainer must be retaining the original plaintext lists for each filter.  
 
 ## References
 
