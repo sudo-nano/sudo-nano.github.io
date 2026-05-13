@@ -39,8 +39,8 @@ The original version is quite good, and I encourage you to read it.
 
 A bloom filter is a data structure for maintaining **set membership**, basically
 tracking whether a certain item is in a set of items or not. It functions similarly
-to a **hash table**, but trades away the perfect (or near perfect) accuracy
-of a hash table for massive space savings. In particular, false positives are
+to a **hash table**, but trades away the near perfect accuracy
+of a hash table for massive space savings.[^collisions] In particular, false positives are
 possible with a bloom filter, but false negatives are not. The false positive
 probability and the exact space savings are dependent on the number of elements
 relative to the size of the table. As the table fills up, false positives become
@@ -74,11 +74,11 @@ Using a binary tree of size $$n$$ is $$O(\log n)$$.
 
 Lists and binary trees allow end users to view the keys (i.e. the usernames in the 
 list), which is a benefit for transparency, but probably a drawback for drama avoidance.[^1]
-Regardless of the transparency benefits, the performance of lists is so outdone by hash 
+Regardless of the transparency benefits, the performance of lists is so outdone by 
 the other options that they're immediately out of the running. They take about the same
 amount of space as a binary tree or hash table, while having worse performance for
 searching the entire structure. The primary benefit of a list is the ability to easily
-integer index into the middle of it, which we just don't need here.
+integer index into the middle of it, which we don't need here.
 
 Both a binary tree and hash table require about $$O(n)$$ space, <!-- CITATION NEEDED -->
 but a binary tree has $$O(\log n)$$ access time compared to a hash table's $$O(1)$$. 
@@ -86,18 +86,19 @@ Unless you value being able to read the data structure's keys more than the redu
 in access time, this is a clear win for the hash table. Based on the fact that the 
 developer of Shinigami Eyes used an opaque data structure, they must have either 
 considered the transparency trade-off worth it for the improved performance, or not had 
-a desire for transparency. While I personally advocate for transparency where possible,
+a desire for transparency. While I personally prefer transparency,
 the author's potential desire for an opaque data structure here is completely
 understandable. Unfortunately, there are people on the internet whose primary hobby is
 dredging up minor perceived slights in order to drum up harassment campaigns against
-trans people. Being able to point and say "Look! You're a known transphobe!" would
-probably have catapulted this addon into the radioactive drama mill faster than it 
-already was. 
+trans people. If these people were able to automatically check a list of their friends'
+names against the list of known transphobes, this addon probably would have become
+engulfed in radioactive drama even faster than it already was.
 
 Now we get to the interesting part: comparing hash tables and bloom filters. To summarize
 the earlier discussion of what a bloom filter does, it's essentially a version of a
-hash table that trades away perfect accuracy for massive space savings. It introduces 
-the possibility of a false positive, but not a false negative. The chance of a false 
+hash table that exchanges very high accuracy for massive space savings. It increases 
+the possibility of a false positive, but false negatives remain impossible.
+The chance of a false 
 positive depends on the number of entries in the bloom filter relative to its size. 
 While we have no way of knowing exactly how many usernames are in the dataset, it's possible to estimate it based on the number of bits set. 
 <!-- TODO: Look at what patterns the addon is actually trying to match when it reads pages -->
@@ -108,3 +109,5 @@ While we have no way of knowing exactly how many usernames are in the dataset, i
 
 ## Footnotes
 [^1]: Anyone with a moderate amount of technical skill can still check whether a given username is in a bloom filter, but unlike a list, they can't read off unknown usernames. This prevents them from using the data structure to dredge up the social media accounts of every person labeled as transphobic in an attempt to stir up drama. If they want to do that with a bloom filter, they must perform a brute force search.
+
+[^collisions]: Hash tables can occasionally have false positives if their hash function experiences a *collision.* This is when two inputs produce the same output, and is a necessary consequence of hash functions having many more potential inputs than potential outputs. The probability of a collision happening by chance is very very small. However, security researchers have demonstrated that adversarial input to certain hash functions can intentionally cause hash collisions.
