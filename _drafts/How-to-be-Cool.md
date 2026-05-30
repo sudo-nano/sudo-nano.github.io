@@ -31,7 +31,8 @@ young, queer, neurodivergent, mixed Asian and white, and in a lot of tech spaces
 ## Confidence
 Coolness is subjective, but one of the most common traits that people consider to be cool is being confident and self-assured. Knowing what you want, who you want to be. 
 Here we happen upon an interesting distinction: projecting confidence is relatively 
-easy, but to truly *be* confident, you must make yourself in the image that you desire.
+easy, but to truly *be* confident, you must be comfortable with who you are. In many
+cases, this involves making yourself in the image that you desire.
 Without acting upon your self-determination, confidence becomes a facade rather than a
 characteristic. 
 
