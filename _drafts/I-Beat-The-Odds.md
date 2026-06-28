@@ -129,7 +129,31 @@ their contact info on file.
 
 At minimum, familiarize yourself with the legal processes of last resort. In the US,
 that's a complaint to the Department of Education. They typically will not hear your case
-until
+unless you've gone through your institution's grievance process, so it's best to do
+that first. After you file a complaint with them, notify your school. If your case
+has merit (which it probably does), they'll probably try to settle with you. 
+
+When I
+had my case, I went in wondering why anyone would ever settle when you could see the
+case to its conclusion and really stick it to the people who discriminated against
+you. The reason you settle is that legal proceedings take fucking forever. It took
+several months for the DoE to even respond to me, and frankly my settlement deal
+was decent. I got a tuition refund, they changed their policies and training
+so that things like that would never happen again, and they retroactively graded a major assignment that had been refused due to my accommodations taking too long to hammer
+out. That transmuted my failing grade into a passing one, albeit too late for it to be
+any use to me. I had been hoping to use that class as a prerequisite for another, so
+the damage to my academic schedule was already done. I even got something that I would
+call a letter of apology, even if it was carefully worded so as to avoid officially
+admitting fault. The fact that never admitting fault was part of the settlement agreement
+rankles, but ultimately that's the only thing most institutions *get* out of settling,
+so it's unlikely for them to drop that clause. The key is to force as much positive
+change as you can in exchange for that. 
+
+If you wish to see your proceedings through to their end rather than settle, absolutely
+go for it, just know that it will take more than a year. It may take multiple years.
+Worse, the Department of Education is currently gutted, thanks to orange man and his
+cronies, so it's unlikely that cases will actually be seen through until he's ousted.
+It's rough out there. 
 <!-- TODO: Figure out a recommendation for people who can't afford to retain counsel -->
 
 ## Footnotes
