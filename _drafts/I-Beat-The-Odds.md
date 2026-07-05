@@ -115,7 +115,7 @@ effects, and everyone reacts to different meds differently. Lots of people are f
 Ritalin or Vyvanse forever, but personally I was tweaking on Ritalin and Vyvanse deleted
 my appetite entirely. Strattera/atomoxetine is working well for me, and is conveniently
 not a stimulant or controlled substance, so getting my meds isn't as much of a pain.[^3]
-Without medication, doing the dishes is an arm-in-woodchipper task. <!-- insert inline link to tumblr post here -->
+Without medication, doing the dishes is an [arm-in-woodchipper task](https://www.tumblr.com/homunculus-argument/752575618896527360/the-thing-about-adhd-is-that-the-lack-of-reward).
 With medication, it's a mild annoyance. It's just another task. Having that mental
 barrier gone is such a massive weight off your shoulders.
 
@@ -131,7 +131,7 @@ At minimum, familiarize yourself with the legal processes of last resort. In the
 that's a complaint to the Department of Education. They typically will not hear your case
 unless you've gone through your institution's grievance process, so it's best to do
 that first. After you file a complaint with them, notify your school. If your case
-has merit (which it probably does), they'll probably try to settle with you. 
+has merit (which it probably does), they'll probably try to settle with you.
 
 When I
 had my case, I went in wondering why anyone would ever settle when you could see the
@@ -147,18 +147,18 @@ call a letter of apology, even if it was carefully worded so as to avoid officia
 admitting fault. The fact that never admitting fault was part of the settlement agreement
 rankles, but ultimately that's the only thing most institutions *get* out of settling,
 so it's unlikely for them to drop that clause. The key is to force as much positive
-change as you can in exchange for that. 
+change as you can in exchange for that.
 
 If you wish to see your proceedings through to their end rather than settle, absolutely
 go for it, just know that it will take more than a year. It may take multiple years.
 Worse, the Department of Education is currently gutted, thanks to orange man and his
 cronies, so it's unlikely that cases will actually be seen through until he's ousted.
-It's rough out there. 
+It's rough out there.
 <!-- TODO: Figure out a recommendation for people who can't afford to retain counsel -->
 
 ## Footnotes
 [^1]: Müller, Vanessa, and Bettina Pikó. 2026. “The Combined ADHD Profile Faces the Greatest Risk of Delay, Depletion and Disengagement in University Students.” Scientific Reports, February. https://doi.org/10.1038/s41598-026-41256-1.
 
-[^2]: Unfortunately, I should note that depending on your country and medical system, it may be undesirable to pursue certain diagnoses if you don't need specific accommodations that require them. As an extreme example, a British hacker who leaked information about GTA 6 was [sentenced to life in a psychiatric hospital](https://www.bbc.com/news/technology-67663128) for hacking while autistic.
+[^2]: Unfortunately, I should note that depending on your country and medical system, it may be undesirable to pursue certain diagnoses if you don't need specific accommodations that require them. As an extreme example, a British hacker who leaked information about GTA 6 was [sentenced to life in a psychiatric hospital](https://www.bbc.com/news/technology-67663128) for hacking while autistic. Rockstar helped make that happen. Don't buy GTA 6.
 
 [^3]: The mechanism of atomoxetine is actually really cool. Instead of directly stimulating release of neurotransmitters, the way stimulants do, it inhibits the norepinephrine transporter protein, which is what cleans neurotransmitters out of the synaptic cleft after a neuron fires. It has the same net effect of an increased number of neurotransmitters, but it achieves it by blocking reabsorption rather than stimulating release.
