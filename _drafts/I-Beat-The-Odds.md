@@ -120,6 +120,44 @@ With medication, it's a mild annoyance. It's just another task. Having that ment
 barrier gone is such a massive weight off your shoulders.
 
 ### Take No Shit (but take notes)
+At this point, I hope it's clear that you are more likely than not to face some kind
+of disability discrimination. That's pretty awful, but I do want to be real with you.
+The thing is, you don't have to just sit there and take it. In case anyone hasn't
+told you yet, when people are giving you shit, you should be getting all of that in
+writing for later. Every time someone asks you to do something unreasonable, or is rude
+to you in a way that you think is potentially related to your disability, get it in
+writing, and save copies to an account not controlled by your school. If you end up
+using your institution's grievance process (which I highly recommend you do), you'll
+need written records for it to be anything other than your word against theirs.
+Unfortunately, if it comes down to your word against a tenured professor or staff member,
+they'll probably win unless you can get other students to testify about similar behavior.
+
+If they refuse, or if it's something that would be weird to ask for in writing, at
+least make a note to yourself somewhere you'll find it later, and put a date on it.
+In legal speak, this is called a **contemporaneous note**, and it holds more weight
+than a verbal recollection of past events. It will be useful, and prevents the ravages
+of time from warping your memory.
+
+If you intend to make use of your institution's grievance process, you probably want
+to report discrimination to your 504 coordinator, the staff member responsible for
+handling the school's responsibilities under Section 504 of the Americans with
+Disabilities act. These processes take a long time, sometimes months. That means you
+should get them started ASAP, and gather what friends you need for moral support.
+If the end result of the school's grievance process is unsatisfactory to you, that's
+when you file a complaint with the Department of Education.
+
+Even if you don't intend to make use of the grievance process, you should write to the
+504 coordinator or other staff at your school. Many will accept anonymous reports,
+even if they're not able to do very much with them. The reason why you do this is to
+help build the case against that person. You don't want whoever comes next to be the
+first person to report this professor, because that all but guarantees that absolutely
+nothing will be done. If you want to wait until graduation before putting your name
+on something like that, by all means, do it. It is *not* unreasonable or cowardly to
+want to wait. The harsh truth is that, while retaliation is highly illegal, the amount
+required to knock you off your path can still be plausibly deniable. It takes equal
+parts bravery and executive function headroom to file that sort of complaint while
+still in school, which is not something everyone has, especially if you're working
+to support yourself.
 
 ### Get Legal Representation
 If you can afford it, get legal representation. Find a lawyer who would be willing to
