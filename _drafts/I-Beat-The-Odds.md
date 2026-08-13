@@ -16,12 +16,19 @@ I had supportive parents, one of whom was a lawyer (now retired) who gave me pro
 legal representation. I didn't have to work to support myself, my time was 100% devoted
 to my studies. I have one of the easiest disabilities to accommmodate. I was dealt the
 best possible hand and still barely fucking survived.
-I also want to be clear that going to college has been the best experience of my life
-so far.
+Even still, going to college has been the best experience of my life so far.
 
-First and foremost, I have left college with a host of wonderfully weird and queer and
+First and foremost, I left college with a host of wonderfully weird and queer and
 disabled friends, and a perspective broadened in a way I could scarcely have imagined
-in 2021. But last month, I read my friend's thesis, which is dedicated
+in 2021. I went from holding onto the few people I considered sane in my high school, to
+having more friends than I can possibly see weekly. Having grown as a person and been
+supported by friends in ways that I could scarcely imagine, I can now do things I never
+would have thought myself capable of five years ago. I do *not* want to dissuade students
+with disabilities from pursuing higher education, but I want to be absolutely and
+completely honest with you about what it takes to make it out here. This is a survival 
+guide. 
+
+In June, I read my friend's thesis, which is dedicated
 "to those who perished on the climb." I sat down and cried, for there have been many.
 Fortunately, none of my friends have actually passed away, but a great many had their
 education strangled in its crib by institutional ableism. Some dropped out, or rather
@@ -30,20 +37,25 @@ on as they navigate the trauma of their early education. I unexpectedly needed f
 instead of four. I made it out, but not unscathed. Academia is not kind to students with
 learning differences, and computer science is doubly so. Each is filled with crusty
 old white men in bulletproof tenure positions who believe their job is to extract their
-pound of flesh from every student. They think those who don't survive are "the wrong sort of
+pound of flesh from every student. They think those who don't survive are "the wrong
+sort of
 person" who probably "couldn't hack it" and are best kept out of academia. This is,
 in a sense, institutionalized hazing under the guise of "academic rigor." Academic rigor
 is real, but it involves fact checking, scrutiny of ideas old and new, and healthy
 good-faith discourse.
 
-Subjecting students to some minimum required quantity of suffering is not by
-any means furthering academic rigor, despite the delusion that some people have about
-this. They are slowly being supplanted by more progressive professors that understand
-accessible course design and alternative grading structures. I even had the privilege
-of one such professor advising my thesis. But let me be clear about the state of things:
+The idea that student suffering is an indicator of academic rigor is one of those
+nasty antiquated ideas that pervades academia and constructs its reputation as an ivory
+tower. It has no basis in fact, yet persists because of professors who are unwilling
+to change. They are, slowly yet surely, being supplanted by more progressive professors that understand
+accessible course design and alternative grading structures. My thesis advisor was
+one such professor, a privilege even at my unusually progressive college. Still,
+let me be clear about the state of things:
 I've had an ADHD diagnosis and a 504 plan since elementary school, and it took until
-college for anyone employed by a school I was attending to even say that a school ought
-to do better than bare minimum legal compliance.
+college for any education administrator to even *say* that a school ought
+to do better than bare minimum legal compliance. Hearing the 504 coordinator say that
+to my face during a meeting brought me to tears. That's how goddamn low the bar is.
+Actually doing better than the bare minimum is something I hope to see within my lifetime.
 
 It wasn't an easy ride to even get to college. This has been happening my entire life.
 In eighth grade, I was removed from the gifted and talented program field trip because
@@ -57,32 +69,38 @@ about cheating that in order to study for revisions, we were only permitted to t
 copies of the test she had redacted with a sharpie. We were allowed 10 minutes after class
 to review unredacted copies. This type of treatment is why, when it came time for
 college applications, I applied only to ones from the Princeton Review's list of best
-colleges for students with learning differences. I made it into one of the best ones,
+colleges for students with learning differences. I knew that minimizing bullshit would
+be key to surviving the rest of my academics. I made it into one of the best ones,
 both in terms of academic prestige and accessibility, and found out that the bar
 is in hell.
 
-One of my accommodations is that I get
-a copy of the professor's slide deck to view at my desk, since I have a minor eye issue
-that can make it difficult to copy text from a projector. One professor had digitally
-handwritten illegible slides that I couldn't make out even from my own computer. Another
+I have a minor eye issue that can make it difficult to copy text from a projector. One
+of my accommodations accounts for this, stating that I must receive a copy of the
+lecturer's slide deck to view at my desk. One professor had digitally
+handwritten slides that were completely illegible. I couldn't even make out the words
+from my own computer. Another
 wrote on the blackboard and "taught out of the book," yet when I asked, he wouldn't tell
-me what chapters he was supposedly referencing for each lesson. That same professor
+me what chapters he was supposedly referencing for each lesson. He instructed me to
+consult the schedule on the course website, which described what topics would be covered
+on which days. It was consistently 2-3 days behind, and when I asked him to keep it up
+to date, he gave a noncommittal "I'll try" and never improved it. That same professor
 made it clear to me that he found my testing accommodations onerous. When I was scheduled
 to finish the final exam at 22:00 in another building, he insisted that the exam be in
 his office at 22:00. When I reminded him that it would take me a few minutes to clean up
-my materials and walk over, he said "fine, 22:01." That same professor regarded many
-types of accommodations primarily as ways to test with less oversight, and scrutinized
+my materials and walk over, he said "fine, 22:01." He regarded many
+accommodations as ways to test with less oversight, and scrutinized
 disabled students as if he expected them to cheat given the opportunity. Most professors
 were not this bad, but he was the only one that taught a particular class I was required
-to take. One of the drawbacks of a small college.
+to take. He was also the department head. One of the drawbacks of a small college.
 
 I also had the opportunity to take linear algebra with one of the best professors I've
 ever had. (Rest assured, she knows who she is.) She had immaculate $$\LaTeX$$ slides,
 a class structured around students helping each other learn, and was crystal clear about
 learning objectives and skills we were expected to learn. We had regular meetings where
 we discussed the accommodations I was getting, how they were working for me, and even
-suggesting new things I could try that might help me. She herself is disabled, though not
-in the same way. Discussing the struggles of navigating academia while disabled with
+suggesting new things I could try that might help me. That's what doing more than the
+bare minimum looks like. She herself is disabled, though not
+in the same way as me. Discussing the struggles of navigating academia while disabled with
 a professor who understood was life-changing. When you find people like that, hold onto
 them, because their support is how you survive.
 
@@ -135,11 +153,11 @@ they'll probably win unless you can get other students to testify about similar 
 If they refuse, or if it's something that would be weird to ask for in writing, at
 least make a note to yourself somewhere you'll find it later, and put a date on it.
 In legal speak, this is called a **contemporaneous note**, and it holds more weight
-than a verbal recollection of past events. It will be useful, and prevents the ravages
-of time from warping your memory.
+than a verbal recollection of past events. It will be useful, and prevents time from 
+warping your memory.
 
 If you intend to make use of your institution's grievance process, you probably want
-to report discrimination to your 504 coordinator, the staff member responsible for
+to report discrimination to your 504 coordinator, the administrator responsible for
 handling the school's responsibilities under Section 504 of the Americans with
 Disabilities act. These processes take a long time, sometimes months. That means you
 should get them started ASAP, and gather what friends you need for moral support.
@@ -169,9 +187,10 @@ At minimum, familiarize yourself with the legal processes of last resort. In the
 that's a complaint to the Department of Education. They typically will not hear your case
 unless you've gone through your institution's grievance process, so it's best to do
 that first. After you file a complaint with them, notify your school. If your case
-has merit (which it probably does), they'll probably try to settle with you.
+has merit (which it almost certainly does), the school will likely try to settle with you.
 
-When I
+I ended up filing a DoE complaint against a California university where I was planning
+to take two summer classes and transfer them to my primary institution. When I
 had my case, I went in wondering why anyone would ever settle when you could see the
 case to its conclusion and really stick it to the people who discriminated against
 you. The reason you settle is that legal proceedings take fucking forever. It took
@@ -188,7 +207,9 @@ so it's unlikely for them to drop that clause. The key is to force as much posit
 change as you can in exchange for that.
 
 If you wish to see your proceedings through to their end rather than settle, absolutely
-go for it, just know that it will take more than a year. It may take multiple years.
+go for it, just know that it will take a very long time. The time from my complaint to
+settlement was approximately a calendar year. Seeing a complaint through to the end of 
+the DoE processes may take multiple years.
 Worse, the Department of Education is currently gutted, thanks to orange man and his
 cronies, so it's unlikely that cases will actually be seen through until he's ousted.
 It's rough out there.
