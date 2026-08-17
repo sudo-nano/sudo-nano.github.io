@@ -121,9 +121,22 @@ colleges are *much* more accepting of requests for accommodations if you can dem
 that you have previously received them. If they deny your accommodations request, proof
 of previously receiving these accommodations makes it immediately obvious that they're
 being unreasonable. Many of my friends and peers seeking accommodations for the first
-time in college said they were constantly asked if they *really* needed them, and why
+time in college were constantly questioned. The very people doing their accommodations
+intake asked if they *really* needed them, and why
 they haven't had them before. Apparently, "I have a disability that impacts my life and I
-would like to be on an even playing field with my peers" is not sufficient justification.
+would like to approach an even playing field with my peers" is not sufficient 
+justification.
+
+Most disability intake systems in college operate under the assumption that their job
+is to prevent students from "cheating" at academics by acquiring accommodations they
+"don't deserve." I have never, *ever* seen an instance of this
+hypothetical student trying to acquire accommodations despite not having a disability,
+and I *have* seen this extreme level of scrutiny harm a great number of disabled students.
+Sometimes, it even prevents disabled students from getting accommodations at all, 
+especially when the student can't afford enough testing to meet the arbitrary criteria
+of the accommodations intake staff. Also, if there *is* some accommodation that
+would help any student (and not just level the playing field for a disabled student),
+*maybe* we should consider just adding it to the regular curriculum. 
 
 ### Get Medicated (where applicable)
 If you have ADHD, you should try getting medicated. Everyone who can afford it and doesn't
@@ -136,6 +149,16 @@ not a stimulant or controlled substance, so getting my meds isn't as much of a p
 Without medication, doing the dishes is an [arm-in-woodchipper task](https://www.tumblr.com/homunculus-argument/752575618896527360/the-thing-about-adhd-is-that-the-lack-of-reward).
 With medication, it's a mild annoyance. It's just another task. Having that mental
 barrier gone is such a massive weight off your shoulders.
+
+Of course, this section wouldn't be complete without mentioning the stigma surrounding
+medication and drugs. Some people view getting a diagnosis, or getting medicated, as
+if they're accepting being "broken," and that somehow refusing either of these will
+magically make the issues they're already experiencing go away. This will not happen. 
+One might also view medication as "cheating" at... being an adult? Academics? Look,
+perfectly abled people are typically not helped by medication because they don't need it.
+Even if you're *functional* without medication, you deserve to live your best life. 
+My friend Tommy has [an entire essay](https://tommyschacht.substack.com/p/is-drug-use-cheating) 
+about this on her Substack. 
 
 ### Take No Shit (but take notes)
 At this point, I hope it's clear that you are more likely than not to face some kind
@@ -211,8 +234,10 @@ go for it, just know that it will take a very long time. The time from my compla
 settlement was approximately a calendar year. Seeing a complaint through to the end of 
 the DoE processes may take multiple years.
 Worse, the Department of Education is currently gutted, thanks to orange man and his
-cronies, so it's unlikely that cases will actually be seen through until he's ousted.
-It's rough out there.
+cronies, so [it's unlikely that cases will actually be seen through until he's ousted.](https://19thnews.org/2026/02/student-civil-rights-cases-dismissed-trump-education-department/)
+Still, even the threat of a complaint with merit is typically enough to convince schools
+to settle, so aiming for that might be the move right now. 
+I hope I'll have a more cheerful update for you all soon. 
 <!-- TODO: Figure out a recommendation for people who can't afford to retain counsel -->
 
 ## Footnotes
