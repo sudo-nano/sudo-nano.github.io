@@ -205,9 +205,4 @@ feed:
   excerpt_only: false
 
 plugins:
-  - jekyll-darkvisitors
   - jektex
-
-darkvisitors:
-  access_token: DARK_VISITORS_TOKEN
-  append_existing: true
