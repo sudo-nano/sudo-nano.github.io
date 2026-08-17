@@ -12,3 +12,4 @@ If you like my blog, you might like those of my friends.
 - [B Smith](https://www.enby.land/) does coding, hardware hacking, music, prototyping, fire spinning, and other forms of creative making.
 - [Izzy](https://the-story-pile.neocities.org/) writes fantasy stories, collects recipes, and writes about fiction. 
 - [Xenia](https://critter.dog/about/) makes music, does album reviews, and does visual arts like photography and lino printing.
+- [Tommy Schact](https://tommyschacht.substack.com/) writes Malaisey Days, a blog about her experience with chronic illness.
