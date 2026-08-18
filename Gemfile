@@ -33,6 +33,5 @@ gem "base64"
 gem "bigdecimal"
 
 group :jekyll_plugins do 
-  gem "jekyll-darkvisitors"
   gem "jektex"
 end
