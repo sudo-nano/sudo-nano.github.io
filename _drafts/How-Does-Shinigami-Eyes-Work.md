@@ -15,9 +15,8 @@ hidden: true
 
 > This post is intended for audiences familiar with [asymptotic notation](https://en.wikipedia.org/wiki/Big_O_notation),
 > otherwise known as "Big O" notation. Readers should also know the concepts of keys and values
-> in programming, and the general concepts of hash functions. 
+> in programming, and the general concepts of [hash functions](https://en.wikipedia.org/wiki/Hash_function). 
 {: .prompt-tip}
-<!-- TODO: Add wikipedia link for hash functions-->
 
 ## Introduction
 Shinigami Eyes is a browser plugin for Firefox and Chrome that highlights 
@@ -96,24 +95,39 @@ engulfed in radioactive drama even faster than it already was.
 
 Now we get to the interesting part: comparing hash tables and bloom filters. To summarize
 the earlier discussion of what a bloom filter does, it's essentially a version of a
-hash table that exchanges very high accuracy for massive space savings. It increases 
+hash table that trades away some accuracy for massive space savings. It increases 
 the possibility of a false positive, but false negatives remain impossible.
 The chance of a false 
 positive depends on the number of entries in the bloom filter relative to its size. 
-While we have no way of knowing exactly how many usernames are in the dataset, it's possible to estimate it based on the number of bits set. 
+While we have no way of knowing exactly how many usernames are in the dataset, it's 
+possible to estimate it based on the number of bits set. 
 <!-- TODO: Look at what patterns the addon is actually trying to match when it reads pages -->
 
-<!-- TODO: Look up whether the bloom filter binary blob has ever increased in size. If it has, then we know the Shinigami Eyes developer is storing the plaintext master list to allow resizing of the filter. -->
 We can see from [this commit](https://github.com/shinigami-eyes/shinigami-eyes/commit/784b20f2591b0c6298b488b30f45808e1fec02ef)
 that the bloom filter has at some point been increased in size. It's impossible to
 extend an existing bloom filter, since there is no way to predict which of the
-new bits should be filled in without using the original list.
+new bits should be filled in based on previous entries without using the original list.
 Adding more empty bits would cause false negatives
-for many of the existing items in the filter. Thus, expanding the bloom
+for most of the existing items in the filter. Thus, expanding the bloom
 filter requires computing a new one from scratch using the original list, so the addon
-maintainer must be retaining the original plaintext lists for each filter.  
+maintainer must be retaining the original plaintext lists for each filter. 
 
-## References
+## What information does this addon actually provide? 
+A common misconception I've seen people repeating on the internet is that the dataset
+for this addon is "community vetted." To me, that implies some level of community
+discussion being involved in the process of marking someone as transphobic or
+trans-friendly, when that is simply not true. What's actually happening here is
+crowdsourced reporting, and approval at the sole discretion of the maintainer. That's
+not to say this information is worthless, just that it's ultimately a reflection of
+one person's opinions. This process is by design not transparent, because maintaining
+transparency while fending off bad actors is a job for a nonprofit, not for a single
+unpaid open source maintainer. Ultimately, I don't think this addon should be used as
+an instant determination of any person's character, the same way I wouldn't take any other
+random internet person's opinion as gospel. Instead, I think a person being labeled
+red is a reason to more closely scrutinize their profile and posts to determine *why*
+they are marked red. This addon is useful, of that I have no doubt. However, I worry that 
+its design accidentally encourages less productive us-vs-them behavior among the queer
+community, because of the lack of context for its determinations.
 
 ## Footnotes
 [^1]: Anyone with a moderate amount of technical skill can still check whether a given username is in a bloom filter, but unlike a list, they can't read off unknown usernames. This prevents them from using the data structure to dredge up the social media accounts of every person labeled as transphobic in an attempt to stir up drama. If they want to do that with a bloom filter, they must perform a brute force search.
