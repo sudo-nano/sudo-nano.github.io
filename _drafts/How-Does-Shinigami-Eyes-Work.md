@@ -79,7 +79,8 @@ amount of space as a binary tree or hash table, while having worse performance f
 searching the entire structure. The primary benefit of a list is the ability to easily
 integer index into the middle of it, which we don't need here.
 
-Both a binary tree and hash table require about $$O(n)$$ space, <!-- CITATION NEEDED -->
+Both a binary tree and hash table require about $$O(n)$$ space, 
+<!-- CITATION NEEDED -->
 but a binary tree has $$O(\log n)$$ access time compared to a hash table's $$O(1)$$. 
 Unless you value being able to read the data structure's keys more than the reduction
 in access time, this is a clear win for the hash table. Based on the fact that the 
