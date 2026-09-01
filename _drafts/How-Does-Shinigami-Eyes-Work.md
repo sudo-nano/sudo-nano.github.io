@@ -103,6 +103,12 @@ positive depends on the number of entries in the bloom filter relative to its si
 While we have no way of knowing exactly how many usernames are in the dataset, it's 
 possible to estimate it based on the number of bits set. 
 <!-- TODO: Look at what patterns the addon is actually trying to match when it reads pages -->
+<!-- 
+size is 1419972 bytes according to 
+https://github.com/shinigami-eyes/shinigami-eyes/blob/07d8c4f65a00dfe113f7bb7fa0c7092985f829bf/extension/background.ts#L571 
+
+Bloom filter blobs: https://github.com/shinigami-eyes/dynamic-filters/tree/main/bloomfilters
+-->
 
 We can see from [this commit](https://github.com/shinigami-eyes/shinigami-eyes/commit/784b20f2591b0c6298b488b30f45808e1fec02ef)
 that the bloom filter has at some point been increased in size. It's impossible to
