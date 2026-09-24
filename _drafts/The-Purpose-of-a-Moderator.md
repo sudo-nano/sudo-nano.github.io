@@ -29,13 +29,8 @@ person in any community I'm part of. To be fair to Bluesky, it
 appears they took the post down. What's more interesting than the original post is Aaron's
 response. 
 
-<!-- Consider replacing this embed with a screenshot for archival or style reasons -->
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:ksjfbda7262bbqmuoly54lww/app.bsky.feed.post/3mvobdemx6v25" data-bluesky-cid="bafyreibb4lhddpqbdkwxdwxo3tqbywh4un54nwbykudqvbrypbmssiyboi" data-bluesky-embed-color-mode="system"><p lang="en">Let&#x27;s address a couple of questions here:
-1) is this user toxic?
-2) are they making a threat sending trans people to camps?
-3) how do you address harassment?
-4) how does toxicity currently work? How will it work?
-Apologies, this should be a blog.<br><br><a href="https://bsky.app/profile/did:plc:ksjfbda7262bbqmuoly54lww/post/3mvobdemx6v25?ref_src=embed">[image or embed]</a></p>&mdash; Aaron Rodericks (<a href="https://bsky.app/profile/did:plc:ksjfbda7262bbqmuoly54lww?ref_src=embed">@aaron.bsky.team</a>) <a href="https://bsky.app/profile/did:plc:ksjfbda7262bbqmuoly54lww/post/3mvobdemx6v25?ref_src=embed">September 16, 2026 at 4:14 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+<!-- This is a screenshot instead of an embedded post for archival reasons. -->
+<img src="{{site.url}}/assets/purpose_of_a_moderator/aaron_rodericks_questions.png" alt="A bluesky post by @aaron.bsky.team. It says 'Let's address a couple of questions here. 1) Is this user toxic? 2) are they making a threat sending trans people to camps? 3) how do you address harassment? 4) how does toxicity currently work? How will it work? Apologies, this should be a blog.' The post is quote replying to a post from @jane.inurhead.lol, which says '@aaron.bsky.team hi Aaron, sorry to bother you but can you explain why it's not against ToS/Community Guidelines for cis people to threaten trans people with concentration camps? People have been actioned for less than this - why is this not also considered toxic discourse?">
 
 ## Footnotes
 
