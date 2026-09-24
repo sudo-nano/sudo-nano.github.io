@@ -21,12 +21,13 @@ hidden: true
 ## Some context
 In [this thread](https://app.wafrn.net/fediverse/post/01a0ac80-e914-762a-92b5-5789fb1e8455)[^1],
 a user asks Bluesky team member Aaron Rodericks whether someone threatening trans people
-with concentration camps isn't against community guidelines. (The person in question was
+with concentration camps isn't against community guidelines. The person in question was
 not actually saying that, but were saying something similarly unpleasant: that they think
 hypothetical trans people who voted republican are getting what they deserve with respect
-to the current administration. This is still bigoted, and to be fair to Bluesky, it
-appears they took the post down.) The original bigoted post, to me, is not as interesting 
-as Aaron's response. 
+to the current administration. This is still bigoted. I certainly wouldn't want that
+person in any community I'm part of. To be fair to Bluesky, it
+appears they took the post down. What's more interesting than the original post is Aaron's
+response. 
 
 <!-- Consider replacing this embed with a screenshot for archival or style reasons -->
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:ksjfbda7262bbqmuoly54lww/app.bsky.feed.post/3mvobdemx6v25" data-bluesky-cid="bafyreibb4lhddpqbdkwxdwxo3tqbywh4un54nwbykudqvbrypbmssiyboi" data-bluesky-embed-color-mode="system"><p lang="en">Let&#x27;s address a couple of questions here:
