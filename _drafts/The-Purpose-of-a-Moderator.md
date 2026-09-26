@@ -119,8 +119,8 @@ one way to fix that, and it's to FUCKING TALK TO PEOPLE!
 <!-- Note for later: make this text vibrate on mouse over, after implementing opt-in for silly effects -->
 And I mean *dialogue.* Come to the conversation prepared to change your mind, not shout them down.
 
-When it comes down to it, communities are by people and for people. We all ought to act
-like it.
+When it comes down to it, communities are by people and for people. Moderators are here 
+to exercise their judgement and their communication skills with the community.
 
 ## References
 [^1]: I'm providing a Wafrn link instead of a Bluesky link, even though this thread originally too, place on Bluesky, because that's the platform I use. Also because they don't do age verification, and Bluesky does.
