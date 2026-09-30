@@ -41,7 +41,8 @@ accursed age verification to your region, you can instead view it
 
 ## Aaron's Approach
 Aaron basically says that harassment is hard to moderate, because: 
-> It's a combination of behaviour + content, and the second you publish the details of the rules, people change their behaviour to avoid enforcement. 
+> It's a combination of behaviour + content, and the second you publish the details of 
+> the rules, people change their behaviour to avoid enforcement. 
 
 Basically, people will rules-lawyer to continue the harassment while not crossing any of
 Bluesky's stated hard lines. On its face, it might sound reasonable, but there's an
@@ -75,10 +76,11 @@ harassment scoring is somehow not. While machine learning toxicity classificatio
 [actually pretty good](https://github.com/unitaryai/detoxify), 
 it has the same issue as Aaron's described approach to
 harassment: It relies on users meeting rigid criteria before a moderator action can be 
-justified. The converse of this statement is that users not meeting the rigid criteria
+justified. It follows that that users not meeting the rigid criteria
 will never recieve a moderation action, regardless of whether their behavior is actually 
-harmful. (and that's not even getting into the accuracy and opacity of the automated
-toxicity assessment.)
+harmful. (And that's not even getting into the accuracy and opacity of the automated
+toxicity assessment. The current LLM craze is showing me that the average person knows
+diddly squat about how machine learning replicates the biases present in its data set.)
 
 I can already hear people clamoring: "What? Are you suggesting that moderators
 bend the rules? That's mod abuse!"
@@ -115,9 +117,11 @@ rules, they disagree with your judgement. Your actions have undermined their tru
 in you, and it doesn't matter if you thought they were justified at the time. Regardless 
 of who was "right" (and it's almost *never* that simple), there was a mismatch of
 expectations that led to a disagreement on the correct course of action. There's only
-one way to fix that, and it's to FUCKING TALK TO PEOPLE! 
+one way to fix that, and it's *fucking talking to people!* Talking is not optional![^3]  
 <!-- Note for later: make this text vibrate on mouse over, after implementing opt-in for silly effects -->
-And I mean *dialogue.* Come to the conversation prepared to change your mind, not shout them down.
+And I mean *dialogue.* Come to the conversation prepared to change your mind, not 
+shout them down. The conversation might get heated, but any conversation where people
+care deeply runs that risk. 
 
 When it comes down to it, communities are by people and for people. Moderators are here 
 to exercise their judgement and their communication skills with the community.
@@ -126,3 +130,5 @@ to exercise their judgement and their communication skills with the community.
 [^1]: I'm providing a Wafrn link instead of a Bluesky link, even though this thread originally too, place on Bluesky, because that's the platform I use. Also because they don't do age verification, and Bluesky does.
 
 [^2]: In Mario Kart 8, text chat in the lobby is restricted to a number of pre-set phrases. One of these is "I'm using tilt controls!" Since players consider tilt controls to be inferior and less precise, they would spam this pre-set phrase as a means of deriding another player's skill. ([KnowYourMeme](https://knowyourmeme.com/memes/im-using-tilt-controls))
+
+[^3]: I emphasize this so strongly because I've met lots of well-meaning leftists, moderators, etc. who will do absolutely anything except learn how to do interpersonal conflict resolution. Many people who don't know how to resolve conflicts will instead resort to declaring the other person unreasonable, and trying to excommunicate them. Individuals who act that way [are not safe for marginalized people.](https://thenewinquiry.com/hot-allostatic-load/)
