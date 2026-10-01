@@ -18,6 +18,7 @@ hidden: true
   - Having a process for dealing with mod abuse is good. Assuming no trust in your mods by default means you need new mods. 
 - Nobody is entitled to your platform
 - Rather than have a policy that they point to in order to justify their decisions, places that have been around the block will just ban users who harass mods based on disagreements of discretion. If someone doesn't know how to agree to disagree, you probably don't want them in your community anyway. 
+- Rules lawyering/using rules to go after people you don't like: rhetorical strategy similar to mott & baileyt
 -->
 ## Some context
 In [this thread](https://app.wafrn.net/fediverse/post/01a0ac80-e914-762a-92b5-5789fb1e8455)[^1],
@@ -66,7 +67,10 @@ road ahead of you if you want to fix it. I don't know that I've ever seen anyone
 Usually, the community just dies (or worse, persists as a 
 [nazi bar](https://en.wiktionary.org/wiki/Nazi_bar)), and people find a home elsewhere.
 
-Aaron also says that automated toxicity scores will help with moderating harassment: 
+Also worthy of discussion is how to identify bad faith actors. Defining or detecting bad faith actors is tough, but not impossible. I am categorically not a fan of [I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it), and believe it to be a failure of the writer to articulate the matter at hand. Generally, I would say that bad faith actors are those whose intent is to harm the community or someone in it, but intent is often impossible to know. More practically, if there is no good-faith explanation for an individual's actions, I consider them a bad faith actor. People who have been warned their behavior is unacceptable, and go right back to it, should also be ejected posthaste. 
+<!-- TODO: Finish this section and delete footnote 2 -->
+
+Aaron says that automated toxicity scores will help with moderating harassment: 
 > The goal of toxicity scores is to cut down on having to make those calls, and reduce 
 > exposure for the average user by default. Putting toxic replies below the fold made 
 > anti-social reports drop by 80%! Imagine the impact when applied to our most toxic users!
