@@ -52,7 +52,7 @@ hard to swallow, because they've internalized the idea that others are entitled 
 space in their platform or community. This is simply not true. Those wishing to grow
 their community might worry that banning too many people will make their community
 unattractive. To that, I ask, unattractive to whom? Further, who will you scare off by
-*failing* to ban bad faith actors? 
+*failing* to ban bad faith actors?[^2]
 
 Unfortunately, this is a story I've witnessed firsthand. If you let assholes stick around,
 they'll tell their friends that this is a place that tolerates assholes. It doesn't matter
@@ -90,7 +90,7 @@ bend the rules? That's mod abuse!"
 ## They're community *guidelines* for a reason
 Somewhere along the line, we started calling a platform's definition of acceptable conduct
 the "community guidelines" rather than rules. People recognize that language is infinitely 
-evolving,[^2] and context complicates assessment of acceptable behavior. A set of rigid rules that
+evolving,[^3] and context complicates assessment of acceptable behavior. A set of rigid rules that
 defines appropriate behavior is not possible to create, because rules don't live in a
 vacuum. Rules and the actions they govern are surrounded by an intractable web of context:
 the immediate conversation, the identities of the people talking, the venue of the
@@ -117,7 +117,7 @@ rules, they disagree with your judgement. Your actions have undermined their tru
 in you, and it doesn't matter if you thought they were justified at the time. Regardless 
 of who was "right" (and it's almost *never* that simple), there was a mismatch of
 expectations that led to a disagreement on the correct course of action. There's only
-one way to fix that, and it's *fucking talking to people!* Talking is not optional![^3]  
+one way to fix that, and it's *fucking talking to people!* Talking is not optional![^4]  
 <!-- Note for later: make this text vibrate on mouse over, after implementing opt-in for silly effects -->
 And I mean *dialogue.* Come to the conversation prepared to change your mind, not 
 shout them down. The conversation might get heated, but any conversation where people
@@ -129,6 +129,8 @@ to exercise their judgement and their communication skills with the community.
 ## References
 [^1]: I'm providing a Wafrn link instead of a Bluesky link, even though this thread originally too, place on Bluesky, because that's the platform I use. Also because they don't do age verification, and Bluesky does.
 
-[^2]: In Mario Kart 8, text chat in the lobby is restricted to a number of pre-set phrases. One of these is "I'm using tilt controls!" Since players consider tilt controls to be inferior and less precise, they would spam this pre-set phrase as a means of deriding another player's skill. ([KnowYourMeme](https://knowyourmeme.com/memes/im-using-tilt-controls))
+[^2]: Defining or detecting bad faith actors is tough, but not impossible. I am categorically not a fan of [I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it), and believe it to be a failure of the writer to articulate the matter at hand. Generally, I would say that bad faith actors are those whose intent is to harm the community or someone in it, but intent is often impossible to know. More practically, if there is no good-faith explanation for an individual's actions, I consider them a bad faith actor. People who have been warned their behavior is unacceptable, and go right back to it, should also be ejected posthaste. 
 
-[^3]: I emphasize this so strongly because I've met lots of well-meaning leftists, moderators, etc. who will do absolutely anything except learn how to do interpersonal conflict resolution. Many people who don't know how to resolve conflicts will instead resort to declaring the other person unreasonable, and trying to excommunicate them. Individuals who act that way are not safe for marginalized people, which I'll say more about in a later post.
+[^3]: In Mario Kart 8, text chat in the lobby is restricted to a number of pre-set phrases. One of these is "I'm using tilt controls!" Since players consider tilt controls to be inferior and less precise, they would spam this pre-set phrase as a means of deriding another player's skill. ([KnowYourMeme](https://knowyourmeme.com/memes/im-using-tilt-controls))
+
+[^4]: I emphasize this so strongly because I've met lots of well-meaning leftists, moderators, etc. who will do absolutely anything except learn how to do interpersonal conflict resolution. Many people who don't know how to resolve conflicts will instead resort to declaring the other person unreasonable, and trying to excommunicate them. Individuals who act that way are not safe for marginalized people, which I'll say more about in a later post.
