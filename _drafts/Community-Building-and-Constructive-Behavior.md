@@ -6,7 +6,9 @@ tags: politics right-to-repair cyberpunk electronics
 category: drafts
 hidden: true
 --- 
+<!-- Insert content warning -->
 <!-- Insert audience statement -->
+<!-- TODO: Insert link to this post in The Purpose of a Moderator after this post is published -->
 ## Non-Constructive Behaviors
 ### Emotionally Loaded Language
 <!-- Talk about that thing that happened to Alex on Bluesky-->
