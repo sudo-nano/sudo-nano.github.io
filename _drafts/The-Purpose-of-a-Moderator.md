@@ -67,7 +67,26 @@ road ahead of you if you want to fix it. I don't know that I've ever seen anyone
 Usually, the community just dies (or worse, persists as a 
 [nazi bar](https://en.wiktionary.org/wiki/Nazi_bar)), and people find a home elsewhere.
 
-Also worthy of discussion is how to identify bad faith actors. Defining or detecting bad faith actors is tough, but not impossible. I am categorically not a fan of [I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it), and believe it to be a failure of the writer to articulate the matter at hand. Generally, I would say that bad faith actors are those whose intent is to harm the community or someone in it, but intent is often impossible to know. More practically, if there is no good-faith explanation for an individual's actions, I consider them a bad faith actor. People who have been warned their behavior is unacceptable, and go right back to it, should also be ejected posthaste. 
+Also worthy of discussion is how to identify bad faith actors. Defining or detecting bad 
+faith actors is tough, but not impossible. I am categorically not a fan of 
+[I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it). 
+That statement is a failure of the writer to articulate the matter at hand. Generally, 
+I would say that bad faith actors are those whose intent is to harm the community or 
+someone in it, but intent is often impossible to know. More practically, if there is 
+no good-faith explanation for an individual's actions, I consider them a bad faith actor. 
+People who have been warned their behavior is unacceptable, and go right back to it, 
+should also be ejected posthaste. There are a few other common moves that bad faith
+actors make, like trying to frame people who disagree with them as rule-breakers,
+advocating for disproportionate punishments against their targets in cases where they
+*have* broken rules, and rhetoric suggesting that one person's breaking of rules is
+indicative of their entire demographic being undesirables. Recognizing these behaviors is
+critical for detecting harassment that avoids violating typical rule sets. Moderators
+who are *completely* unaware of these behaviors may even accidentally participate in
+harassment campaigns if they're careless about verifying the facts of a situation.
+Identifying bad faith actors ultimately does require an exercise of moderator discretion. 
+Otherwise, who's to say what punishment is proportional, whether a person's behavior 
+is a one-off or truly reflects a pattern, or whether something not rule breaking is
+still harmful?[^2]
 <!-- TODO: Finish this section and delete footnote 2 -->
 
 Aaron says that automated toxicity scores will help with moderating harassment: 
@@ -133,7 +152,7 @@ to exercise their judgement and their communication skills with the community.
 ## References
 [^1]: I'm providing a Wafrn link instead of a Bluesky link, even though this thread originally too, place on Bluesky, because that's the platform I use. Also because they don't do age verification, and Bluesky does.
 
-[^2]: Defining or detecting bad faith actors is tough, but not impossible. I am categorically not a fan of [I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it), and believe it to be a failure of the writer to articulate the matter at hand. Generally, I would say that bad faith actors are those whose intent is to harm the community or someone in it, but intent is often impossible to know. More practically, if there is no good-faith explanation for an individual's actions, I consider them a bad faith actor. People who have been warned their behavior is unacceptable, and go right back to it, should also be ejected posthaste. 
+[^2]: The discussion of what actually constitutes harm, though it may seem important, typically devolves into some sort of tar pit. 
 
 [^3]: In Mario Kart 8, text chat in the lobby is restricted to a number of pre-set phrases. One of these is "I'm using tilt controls!" Since players consider tilt controls to be inferior and less precise, they would spam this pre-set phrase as a means of deriding another player's skill. ([KnowYourMeme](https://knowyourmeme.com/memes/im-using-tilt-controls))
 
