@@ -70,7 +70,8 @@ Usually, the community just dies (or worse, persists as a
 Also worthy of discussion is how to identify bad faith actors. Defining or detecting bad 
 faith actors is tough, but not impossible. I am categorically not a fan of 
 [I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it). 
-That statement is a failure of the writer to articulate the matter at hand. Generally, 
+That statement is a failure of the writer to articulate the matter at hand, and more 
+importantly, fails to separate disgust from harm. Generally, 
 I would say that bad faith actors are those whose intent is to harm the community or 
 someone in it, but intent is often impossible to know. More practically, if there is 
 no good-faith explanation for an individual's actions, I consider them a bad faith actor. 
