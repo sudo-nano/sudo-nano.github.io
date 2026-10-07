@@ -87,7 +87,6 @@ Identifying bad faith actors ultimately does require an exercise of moderator di
 Otherwise, who's to say what punishment is proportional, whether a person's behavior 
 is a one-off or truly reflects a pattern, or whether something not rule breaking is
 still harmful?[^2]
-<!-- TODO: Finish this section and delete footnote 2 -->
 
 Aaron says that automated toxicity scores will help with moderating harassment: 
 > The goal of toxicity scores is to cut down on having to make those calls, and reduce 
@@ -156,4 +155,4 @@ to exercise their judgement and their communication skills with the community.
 
 [^3]: In Mario Kart 8, text chat in the lobby is restricted to a number of pre-set phrases. One of these is "I'm using tilt controls!" Since players consider tilt controls to be inferior and less precise, they would spam this pre-set phrase as a means of deriding another player's skill. ([KnowYourMeme](https://knowyourmeme.com/memes/im-using-tilt-controls))
 
-[^4]: I emphasize this so strongly because I've met lots of well-meaning leftists, moderators, etc. who will do absolutely anything except learn how to do interpersonal conflict resolution. Many people who don't know how to resolve conflicts will instead resort to declaring the other person unreasonable, and trying to excommunicate them. Individuals who act that way are not safe for marginalized people, which I'll say more about in a later post.
+[^4]: I emphasize this so strongly because I've met lots of well-meaning leftists, moderators, etc. who will do absolutely anything except learn how to do interpersonal conflict resolution. Many people who don't know how to resolve conflicts will instead resort to declaring the other person unreasonable, and trying to excommunicate them. Individuals who act that way make spaces unsafe for marginalized people, which I'll say more about in a later post.
