@@ -21,7 +21,12 @@ Sharpening your knife on a whetstone removes material to grind a new edge on you
   - A sharpening stone should be used to remove the burr of a blade before you move on to stropping.
 
 ### Personal Notes on Technique
-The method recommended by professionals is moving the blade forward and backwards along the stone, slowly working your way along the edge, and applying downwards pressure only on the edge-trailing stroke.
+The method recommended by professionals is moving the blade forward and backwards along 
+the stone, slowly working your way along the edge, and applying downwards pressure only 
+on the edge-trailing stroke. For beginners, I recommend picking your blade up from the
+stone or strop on the return stroke, because otherwise it's easy for your knife to
+accidentally bite into the stone or the strop. For whetstones, this can damage your
+blade, and for strops, this can damage the strop. 
 
 - Maintaining correct angle and pressure during all parts of this process is very difficult, especially at the high speeds used by professional knife sharpeners such as the guy in Joshua Weissman's professional sharpening video. 
 - Additionally, there's a [science of sharp blog post](https://scienceofsharp.com/2015/10/20/sharpening-with-the-king-1k6k-combination-stone/) examining a particular sharpening technique on the King 1000/6000 whetstone (the stone recommended in Joshua Weissman's beginner tutorial), and it concludes that edge-trailing strokes are better than edge-leading strokes on this particular stone.
@@ -41,6 +46,7 @@ The method recommended by professionals is moving the blade forward and backward
 ## Stropping
 - After sharpening on a whetstone, you should strop your knife.
 	- Stropping further refines the edge by using a fine abrasive compound usually applied to a leather surface.
+	- The last level of stropping should be done with no compound at all. 
 
 ### Types of Stropping Compound
 - Chromium Oxide
@@ -57,8 +63,10 @@ The method recommended by professionals is moving the blade forward and backward
 ## Honing Rods
 - Honing rods are steel (sometimes ceramic) rods that are used to straighten the burr on a knife.
 	- With the exception of honing rods coated in some sort of abrasive, they don't remove material from the knife, and thus will not put a new edge on a severely dulled knife.
-- Knives that are correctly sharpened will have the burr removed, so they're not actually that useful.
+- Not as useful for freshly sharpened knives where the burr has been removed 
+- More useful for maintaining knife sharpness between sharpenings
 - Common misconceptions are that honing rods sharpen knives or unbend rolled edges, but [they don't actually do either of these things.](https://youtu.be/Y4ReQ83CZOQ)
+- Not sure whether honing or stropping is better for regular maintenance
 
 ## Rolling Knife Sharpeners
 > Horl is the original brand of rolling knife sharpener. Other brands, such as Tumbler, are allegedly knock-offs of lower quality. 
@@ -81,7 +89,7 @@ The method recommended by professionals is moving the blade forward and backward
 - [What does stropping do? - Science of Sharp](https://scienceofsharp.com/2014/08/13/what-does-stropping-do/)
 	- This article discusses stropping *without compound*
 - [Proper Burr Identification and Removal - Outdoors55 - YouTube](https://youtu.be/DX_39JMVUkk)
-- 
+
 ### Cleaning your strop
 - [How to Clean a STROP Like a Pro - Outdoors55 - YouTube](https://youtu.be/VRT5DqTjak4)
 - [Removing Compound From A Leather Strop - Carving is Fun - YouTube](https://youtu.be/you_LtIR3Vc)
