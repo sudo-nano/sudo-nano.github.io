@@ -37,10 +37,16 @@ blade, and for strops, this can damage the strop.
 	- [Recommended by Joshua Weissman](#tutorial1)
 	- This is available on Amazon, but no Amazon links are recommended due to ethical concerns.
 	- [Amazon comments](https://www.amazon.com/gp/customer-reviews/RZCNNZT9VDCRH/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B00M8P96QE) suggest that this is a "home use" stone that's softer than King's professional line. It will struggle to sharpen very high hardness knives, such as some extremely high carbon Japanese knives.
+
+- For restoring severely damaged knives, the [Sharpal 220/600 grit diamond stone](https://sharpal.com/products/163n-double-sided-diamond-sharpening-stone-whetstone-knife-sharpener-extra-coarse-220-fine-600-grit) works great.
+  - This is pretty much only for removing chips or grinding a new bevel. 
+  - Don't use this regularly, it takes off a lot of material. Regular maintenance with a 1000/6000 stone should prevent you from needing this unless you chip your knife. 
+  - High quality case that doubles as a holder when you're using the stone
+  - Comes with an angle guide
 	
 - **Anti-Recommendation:** [Sharp Pebble 1000/6000 Grit Whetstone](https://sharppebble.com/products/sharpening-stone-grit-1000-6000)
-- This one is an alibaba dropshipping scam. [They're sold for $3.50 on alibaba.](https://www.alibaba.com/product-detail/Premium-Quality-Whetstone-Knife-Sharpening-Stone_1601282618119.html?spm=a2700.galleryofferlist.p_offer.d_title.4a7613a08Gr0Di&s=p)
-- [Allegedly](https://youtu.be/V5shv-7m5Ic), they're aluminum oxide (cheaper and less durable) compared to the usual ceramic material used for quality non-diamond whetstones.
+  - This one is an alibaba dropshipping scam. [They're sold for $3.50 on alibaba.](https://www.alibaba.com/product-detail/Premium-Quality-Whetstone-Knife-Sharpening-Stone_1601282618119.html?spm=a2700.galleryofferlist.p_offer.d_title.4a7613a08Gr0Di&s=p)
+  - [Allegedly](https://youtu.be/V5shv-7m5Ic), they're aluminum oxide (cheaper and less durable) compared to the usual ceramic material used for quality non-diamond whetstones.
 	- This is unsubstantiated so far and alleged by Outdoors55, but he *is* the guy I cite most on this page.
 
 ## Stropping
