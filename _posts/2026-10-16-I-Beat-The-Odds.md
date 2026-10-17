@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "I Beat The Odds"
-date: 2026-06-16 16:00:00 -0700
+date: 2026-10-16 16:00:00 -0700
 tags: education accessibility disability
-category: drafts
-hidden: true
 ---
 
 ## I Survived
