@@ -286,7 +286,7 @@ and other organizations that will help you install Linux for free.
 
 > Thanks for reading. I'd hoped to publish this post before the Windows 10 end-of-life
 > date, but writing my undergraduate thesis is taking more time than I expected. 
-> Consequently, posting will be pretty slow through May 2025. Post-thesis, I want
+> Consequently, posting will be pretty slow through May 2026. Post-thesis, I want
 > to do a major redesign, including comments if it's not too much work to fend off
 > spammers. 
 {: .prompt-info }
