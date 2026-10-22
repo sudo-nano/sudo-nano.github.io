@@ -21,7 +21,12 @@ Sharpening your knife on a whetstone removes material to grind a new edge on you
   - A sharpening stone should be used to remove the burr of a blade before you move on to stropping.
 
 ### Personal Notes on Technique
-The method recommended by professionals is moving the blade forward and backwards along the stone, slowly working your way along the edge, and applying downwards pressure only on the edge-trailing stroke.
+The method recommended by professionals is moving the blade forward and backwards along 
+the stone, slowly working your way along the edge, and applying downwards pressure only 
+on the edge-trailing stroke. For beginners, I recommend picking your blade up from the
+stone or strop on the return stroke, because otherwise it's easy for your knife to
+accidentally bite into the stone or the strop. For whetstones, this can damage your
+blade, and for strops, this can damage the strop. 
 
 - Maintaining correct angle and pressure during all parts of this process is very difficult, especially at the high speeds used by professional knife sharpeners such as the guy in Joshua Weissman's professional sharpening video. 
 - Additionally, there's a [science of sharp blog post](https://scienceofsharp.com/2015/10/20/sharpening-with-the-king-1k6k-combination-stone/) examining a particular sharpening technique on the King 1000/6000 whetstone (the stone recommended in Joshua Weissman's beginner tutorial), and it concludes that edge-trailing strokes are better than edge-leading strokes on this particular stone.
@@ -32,15 +37,22 @@ The method recommended by professionals is moving the blade forward and backward
 	- [Recommended by Joshua Weissman](#tutorial1)
 	- This is available on Amazon, but no Amazon links are recommended due to ethical concerns.
 	- [Amazon comments](https://www.amazon.com/gp/customer-reviews/RZCNNZT9VDCRH/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B00M8P96QE) suggest that this is a "home use" stone that's softer than King's professional line. It will struggle to sharpen very high hardness knives, such as some extremely high carbon Japanese knives.
+
+- For restoring severely damaged knives, the [Sharpal 220/600 grit diamond stone](https://sharpal.com/products/163n-double-sided-diamond-sharpening-stone-whetstone-knife-sharpener-extra-coarse-220-fine-600-grit) works great.
+  - This is pretty much only for removing chips or grinding a new bevel. 
+  - Don't use this regularly, it takes off a lot of material. Regular maintenance with a 1000/6000 stone should prevent you from needing this unless you chip your knife. 
+  - High quality case that doubles as a holder when you're using the stone
+  - Comes with an angle guide
 	
 - **Anti-Recommendation:** [Sharp Pebble 1000/6000 Grit Whetstone](https://sharppebble.com/products/sharpening-stone-grit-1000-6000)
-- This one is an alibaba dropshipping scam. [They're sold for $3.50 on alibaba.](https://www.alibaba.com/product-detail/Premium-Quality-Whetstone-Knife-Sharpening-Stone_1601282618119.html?spm=a2700.galleryofferlist.p_offer.d_title.4a7613a08Gr0Di&s=p)
-- [Allegedly](https://youtu.be/V5shv-7m5Ic), they're aluminum oxide (cheaper and less durable) compared to the usual ceramic material used for quality non-diamond whetstones.
+  - This one is an alibaba dropshipping scam. [They're sold for $3.50 on alibaba.](https://www.alibaba.com/product-detail/Premium-Quality-Whetstone-Knife-Sharpening-Stone_1601282618119.html?spm=a2700.galleryofferlist.p_offer.d_title.4a7613a08Gr0Di&s=p)
+  - [Allegedly](https://youtu.be/V5shv-7m5Ic), they're aluminum oxide (cheaper and less durable) compared to the usual ceramic material used for quality non-diamond whetstones.
 	- This is unsubstantiated so far and alleged by Outdoors55, but he *is* the guy I cite most on this page.
 
 ## Stropping
 - After sharpening on a whetstone, you should strop your knife.
 	- Stropping further refines the edge by using a fine abrasive compound usually applied to a leather surface.
+	- The last level of stropping should be done with no compound at all. 
 
 ### Types of Stropping Compound
 - Chromium Oxide
@@ -57,8 +69,10 @@ The method recommended by professionals is moving the blade forward and backward
 ## Honing Rods
 - Honing rods are steel (sometimes ceramic) rods that are used to straighten the burr on a knife.
 	- With the exception of honing rods coated in some sort of abrasive, they don't remove material from the knife, and thus will not put a new edge on a severely dulled knife.
-- Knives that are correctly sharpened will have the burr removed, so they're not actually that useful.
+- Not as useful for freshly sharpened knives where the burr has been removed 
+- More useful for maintaining knife sharpness between sharpenings
 - Common misconceptions are that honing rods sharpen knives or unbend rolled edges, but [they don't actually do either of these things.](https://youtu.be/Y4ReQ83CZOQ)
+- Not sure whether honing or stropping is better for regular maintenance
 
 ## Rolling Knife Sharpeners
 > Horl is the original brand of rolling knife sharpener. Other brands, such as Tumbler, are allegedly knock-offs of lower quality. 
@@ -81,7 +95,7 @@ The method recommended by professionals is moving the blade forward and backward
 - [What does stropping do? - Science of Sharp](https://scienceofsharp.com/2014/08/13/what-does-stropping-do/)
 	- This article discusses stropping *without compound*
 - [Proper Burr Identification and Removal - Outdoors55 - YouTube](https://youtu.be/DX_39JMVUkk)
-- 
+
 ### Cleaning your strop
 - [How to Clean a STROP Like a Pro - Outdoors55 - YouTube](https://youtu.be/VRT5DqTjak4)
 - [Removing Compound From A Leather Strop - Carving is Fun - YouTube](https://youtu.be/you_LtIR3Vc)

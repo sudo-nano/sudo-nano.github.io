@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "I Beat The Odds"
-date: 2026-06-16 16:00:00 -0700
+date: 2026-10-16 16:00:00 -0700
 tags: education accessibility disability
-category: drafts
-hidden: true
 ---
 
 ## I Survived
@@ -54,8 +52,9 @@ let me be clear about the state of things:
 I've had an ADHD diagnosis and a 504 plan since elementary school, and it took until
 college for any education administrator to even *say* that a school ought
 to do better than bare minimum legal compliance. Hearing the 504 coordinator say that
-to my face during a meeting brought me to tears. That's how goddamn low the bar is.
-Actually doing better than the bare minimum is something I hope to see within my lifetime.
+to my face during a meeting brought me to tears (in a positive way). That's how goddamn 
+low the bar is. Actually doing better than the bare minimum is something I hope 
+to see within my lifetime.
 
 It wasn't an easy ride to even get to college. This has been happening my entire life.
 In eighth grade, I was removed from the gifted and talented program field trip because
@@ -236,7 +235,10 @@ the DoE processes may take multiple years.
 Worse, the Department of Education is currently gutted, thanks to orange man and his
 cronies, so [it's unlikely that cases will actually be seen through until he's ousted.](https://19thnews.org/2026/02/student-civil-rights-cases-dismissed-trump-education-department/)
 Still, even the threat of a complaint with merit is typically enough to convince schools
-to settle, so aiming for that might be the move right now. 
+to settle, so aiming for that might be the move right now. If you can't afford to retain
+counsel, check out [this list of disability advocacy organizations.](https://www.sralab.org/lifecenter/resources/listing-advocacy-groups-people-disabilities)
+One of them might be able to get you *pro bono* representation. You can also reach out 
+to your city or state disability department.
 I hope I'll have a more cheerful update for you all soon. 
 <!-- TODO: Figure out a recommendation for people who can't afford to retain counsel -->
 
