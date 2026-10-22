@@ -69,14 +69,20 @@ Usually, the community just dies (or worse, persists as a
 
 Also worthy of discussion is how to identify bad faith actors. Defining or detecting bad 
 faith actors is tough, but not impossible. I am categorically not a fan of 
-[I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it). 
+["I know it when I see it"](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it). 
 That statement is a failure of the writer to articulate the matter at hand, and more 
-importantly, fails to separate disgust from harm. Generally, 
+importantly, often fails to separate disgust from harm. (When applied to rules, the
+lack of clear definition makes it hard for users to know what is allowed and what isn't.
+It will feel unfair to them, and decrease their trust in you.)
+Generally, 
 I would say that bad faith actors are those whose intent is to harm the community or 
-someone in it, but intent is often impossible to know. More practically, if there is 
-no good-faith explanation for an individual's actions, I consider them a bad faith actor. 
+someone in it, but intent is often impossible to know. More practically, if someone's
+actions are indistinguishable from that of a bad faith actor, their stated intent doesn't
+really matter as much as the harm they're doing.
 People who have been warned their behavior is unacceptable, and go right back to it, 
-should also be ejected posthaste. There are a few other common moves that bad faith
+should also be ejected posthaste. 
+
+There are a few other common moves that bad faith
 actors make, like trying to frame people who disagree with them as rule-breakers,
 advocating for disproportionate punishments against their targets in cases where they
 *have* broken rules, and rhetoric suggesting that one person's breaking of rules is
@@ -152,7 +158,7 @@ to exercise their judgement and their communication skills with the community.
 ## Footnotes
 [^1]: I'm providing a Wafrn link instead of a Bluesky link, even though this thread originally too, place on Bluesky, because that's the platform I use. Also because they don't do age verification, and Bluesky does.
 
-[^2]: The discussion of what actually constitutes harm, though it may seem important, typically devolves into some sort of tar pit. 
+[^2]: The discussion of what actually constitutes harm, though it may seem important, typically devolves into some sort of tar pit. On the matter, I will only say that disgust should not be equated with harm, and doing so is the basis of actual oppression of queer people and sex workers. Further, claimed harm is often weaponized against marginalized groups, and moderators ought to act on what they can observe rather than what they are told.
 
 [^3]: In Mario Kart 8, text chat in the lobby is restricted to a number of pre-set phrases. One of these is "I'm using tilt controls!" Since players consider tilt controls to be inferior and less precise, they would spam this pre-set phrase as a means of deriding another player's skill. ([KnowYourMeme](https://knowyourmeme.com/memes/im-using-tilt-controls))
 
