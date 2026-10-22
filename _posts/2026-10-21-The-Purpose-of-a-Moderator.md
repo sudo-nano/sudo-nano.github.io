@@ -3,8 +3,6 @@ layout: post
 title: "The Purpose of a Moderator is to Make Decisions"
 date: 2026-9-22 16:00:00 -0700
 tags: community moderation politics bluesky
-category: drafts
-hidden: true
 --- 
 <!-- Insert audience statement -->
 <!--
