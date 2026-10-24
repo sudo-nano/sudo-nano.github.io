@@ -153,6 +153,9 @@ care deeply runs that risk.
 When it comes down to it, communities are by people and for people. Moderators are here 
 to exercise their judgement and their communication skills with the community.
 
+Thank you to [Tucker R. Twomey](https://tucker.the-twomeys.com/blog/), scombrinae, and 
+[Galactinide](https://github.com/Galactinide) for editing help.
+
 ## Footnotes
 [^1]: I'm providing a Wafrn link instead of a Bluesky link, even though this thread originally too, place on Bluesky, because that's the platform I use. Also because they don't do age verification, and Bluesky does.
 
